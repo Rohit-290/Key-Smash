@@ -18,19 +18,20 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap:20px;
 }
 
 
 .box{
     height: 20vmin;
     width: 20vmin;
-    font-size: 1 rem;
-    border-radius: 50%;
-    border: none;
+    font-size: 120px;
+    margin-left: 30px;
+    
     outline: none;
     background-color: aqua;
     color: black;
-    text-align: center;
+
 }
 
 .btn{

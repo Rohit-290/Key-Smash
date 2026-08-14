@@ -7,8 +7,8 @@ const btn = document.querySelector(".btn");
 
 
 box.forEach((box)=>{
-box.addEventListener("keydown",(e)=>{
-    box.innerText = e.key;
+document.addEventListener("keydown",(e)=>{
+    box.innerText = e.key.toUpperCase();
     box.style.visibility = true;
 });
 });
