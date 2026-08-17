@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     border: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -10,28 +10,29 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #C8E6C9;
 }
 
 .pbox{
     height: 1000px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 100px;
     align-items: center;
     justify-content: center;
-    gap:20px;
+    gap: 30px;
 }
 
 
 .box{
-    height: 20vmin;
-    width: 20vmin;
-    font-size: 120px;
-    margin-left: 30px;
-    
+    height: 40vmin;
+    width: 30vmin;
+    font-size: 400px;
+    padding-left: 90px;
+    font-family: "Bangers";
     outline: none;
-    background-color: aqua;
-    color: black;
-
+    background-color: #C8E6C9;
+    color: #4A4A4A;
 }
 
 .btn{
@@ -44,8 +45,13 @@ body{
 
 .h{
     display: flex;
-    width: 500px;
-    position: relative;
-    left: 600px;
-    top: 40px;
+    font-family:"Rock Salt";
+    color: #154c79;
+    width: 800px;
+    height: 100px;
+    position: fixed;
+    left: 780px;
+    top: 0px;
+    font-weight: 700;
+    font-size: 60px;
 }
