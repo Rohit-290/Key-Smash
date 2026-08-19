@@ -1,15 +1,25 @@
-const box = document.querySelectorAll(".box");
 const btn = document.querySelector(".btn");
 const aud = document.querySelector(".aud");
-let counter = 0; 
+const aud1 = document.querySelector(".aud1");
+const anime = document.querySelector(".anime");
+let counter = 1; 
+// aud1.play();
+
+ 
+// anime.style.transform = translate(100 , 100);
+
+
+
+
+
 
 document.addEventListener("keydown",(e)=>{
-    let num = `b${random(8)}`;
-    const gen = document.getElementById(`${num}`);
+    const gen = document.getElementById("b1");
     let col = `rgb(${random(255)} ${random(255)} ${random(255)})` ;
     if(gen.innerText = e.key.toUpperCase()){
         const con = document.querySelector(".c2");
-        con.innerText = counter++ ;
+        con.innerText = counter ++ ;
+        gen.style.transform = `translate(${random(1200)}px , ${random(500)}px)`;
     };
     gen.style.color = col ;
     aud.play();
@@ -25,4 +35,5 @@ const cleandiv = () => {
 
  function random(number){
     return Math.floor(Math.random()*number)+1;
- }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+ }                      
+ 
