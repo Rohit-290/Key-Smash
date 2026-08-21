@@ -18,7 +18,19 @@ const playBgm = () => {
 })
 }
 
-// anime.style.transform = translate(100 , 100);
+
+const playBtn = () =>{
+    return new Promise((res,rej) => {
+    let p1 = aud.play();
+    p1.then((res)=>{
+        console.log("success");
+     });
+    p1.catch((rej)=>{
+        console.log("Unable to fetch music for button press due to some reasons");
+    });  
+    })
+}
+
 
 
 
@@ -33,7 +45,7 @@ document.addEventListener("keydown",(e)=>{
         gen.style.transform = `translate(${random(1200)}px , ${random(500)}px)`;
     };
     gen.style.color = col ;
-    aud.play()
+    playBtn();
     setTimeout(() => {
         gen.innerText = "";
         }, 3000);

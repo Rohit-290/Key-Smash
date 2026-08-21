@@ -10,8 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #d18a66;
-    background: linear-gradient(90deg, rgba(209, 138, 102, 1) 19%, rgba(214, 41, 67, 1) 100%, rgba(252, 176, 69, 1) 79%);
+    background: linear-gradient(180deg, rgba(46, 42, 61,1) 0%, rgba(74, 51, 88,1) 100%, rgba(26, 23, 37,1) 79%);
 }
 
 .pbox{
@@ -31,14 +30,14 @@ body{
     font-size: 300px;
     font-family: "Bangers";
     outline: none;
-    background: #d18a66;
-    background: linear-gradient(90deg, rgba(209, 138, 102, 0) 19%, rgba(214, 41, 67, 0) 100%, rgba(252, 176, 69, 0) 79%);
+    /* background: #d18a66;
+    background: linear-gradient(90deg, rgba(209, 138, 102, 0) 19%, rgba(214, 41, 67, 0) 100%, rgba(252, 176, 69, 0) 79%); */
 }
 
 .h{
     display: flex;
     font-family:"Rock Salt";
-    color: #154c79;
+    color: #FDF6EC;
     width: 800px;
     height: 100px;
     position: fixed;
@@ -70,6 +69,7 @@ body{
     height: 40px;
     width: 30px;
     display: flex;
+    color:#8B7D93;
     font-size: 1.5rem;
     align-items: center;
     font-family:"Rock Salt";
@@ -87,398 +87,68 @@ body{
 .anime{
     height: 100px;
     width: 100px;
-    background-color: black;
-    border-top-left-radius: 80%;
-    border-top-right-radius: 90%;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 80%;
     border-bottom-left-radius: 90%;
-    border-bottom-right-radius: 10%;
-    transform: rotate(45deg);
+    border-bottom-right-radius: 20%;
+    rotate: 45deg;
     animation-name: "myanime";
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
+}
+
+.ball1{
+ position: relative;
+ top: 300px;
+ left: 800px;
+ background-color: #E8C468;
+}
+
+.ball2{
+ position: relative;
+ top: 200px;
+ right: 300px;
+ background-color: #E8A0BF;
+}
+
+.ball3{
+ position: relative;
+ top: 400px;
+ left: 500px;
+ background-color: #B39DDB;
+}
+
+.ball4{
+ position: relative;
+ top: 300px;
+ right: 550px;
+ background-color: #5FA8A0;
+}
+
+.ball5{
+ position: relative;
+ top: 700px;
+ left: 400px;
+ background-color: #E88A6E;
+}
+
+.ball6{
+ position: relative;
+ top: 600px;
+ right: 400px;
+ background-color: #8C9EDE;
 }
 
 @keyframes myanime{
     from{ 
-        transform: translate(0px,0px) ;
+        transform: translate(0px,0px);
        
     }to{
-        transform: translate(100px,100px);
+        transform: translate(-600px,-600px) ;
        
     }
 }
 
-.hurray{
-    height: 20px;
-    width: 12px;
-    position: absolute;
-    bottom: 0px;
-}
-.party1{
-    background-color: blue;
-    animation-name: "myparty1";
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
 
-.party2{
-    background-color: red;
-    animation-name: "myparty2";
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.party3{
-    background-color: rgb(106, 200, 43);
-    animation-name: "myparty3";
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.party4{
-    background-color: rgb(39, 2, 124);
-    animation-name: "myparty4";
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.party5{
-    background-color: rgb(241, 39, 66);
-    animation-name: "myparty5";
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.party6{
-    background-color: rgb(0, 213, 255);
-    animation-name: "myparty6";
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.party7{
-    background-color: rgb(219, 212, 36);
-    animation-name: "myparty7";
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.party8{
-    background-color: rgb(238, 0, 255);
-    animation-name: "myparty8";
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.party9{
-    background-color: rgb(0, 3, 100);
-    animation-name: "myparty9";
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.party10{
-    background-color: rgb(9, 255, 0);
-    animation-name: "myparty10";
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-
-
-@keyframes myparty1{
-     0%{ 
-        transform: skew(0deg,0deg) translate(0px,0px) rotate(0deg);
-    }10%{
-        transform: skew(-1deg,-4deg) translate(0px,-200px) rotate(40deg);
-    }30%{
-        transform: skew(-2deg,-8deg) translate(0px,-400px) rotate(80deg);
-    }40%{
-        transform: skew(-3deg,-12deg) translate(0px,-800px) rotate(120deg);
-    }50%{
-        transform: skew(-4deg,-16deg) translate(0px,-1000px) rotate(160deg);
-    }60%{
-        transform: skew(-5deg,-20deg) translate(0px,-800px) rotate(200deg);
-    }70%{
-        transform: skew(-4deg,-16deg) translate(0px,-600px) rotate(240deg);
-    }80%{
-        transform: skew(-3deg,-12deg) translate(0px,-400px) rotate(280deg);
-    }90%{
-        transform: skew(-2deg,-8deg) translate(0px,-200px) rotate(320deg);
-    }100%{
-        transform: skew(-1deg,-0deg) translate(0px,0px) rotate(360deg);
-    }
-}
-
-@keyframes myparty2{
-     0%{ 
-        transform: skew(0deg,0deg) translate(0px,0px) rotate(0deg);
-    }10%{
-        transform: skew(-1deg,-4deg) translate(20px,-5px) rotate(40deg);
-    }30%{
-        transform: skew(-2deg,-8deg) translate(40px,-10px) rotate(80deg);
-    }40%{
-        transform: skew(-3deg,-12deg) translate(60px,-15px) rotate(120deg);
-    }50%{
-        transform: skew(-4deg,-16deg) translate(80px,-20px) rotate(160deg);
-    }60%{
-        transform: skew(-5deg,-20deg) translate(100px,-25px) rotate(200deg);
-    }70%{
-        transform: skew(-4deg,-16deg) translate(120px,-30px) rotate(240deg);
-    }80%{
-        transform: skew(-3deg,-12deg) translate(140px,-35px) rotate(280deg);
-    }90%{
-        transform: skew(-2deg,-8deg) translate(160px,-40px) rotate(320deg);
-    }100%{
-        transform: skew(-1deg,-0deg) translate(200px,450px) rotate(360deg);
-    }
-}
-
-@keyframes myparty3{
-     0%{ 
-        transform: skew(0deg,0deg) translate(0px,0px) rotate(0deg);
-    }5%{
-        transform: skew(-1deg,-2deg) translate(20px,-30px) rotate(40deg);
-    }10%{
-        transform: skew(-1.5deg,-4deg) translate(40px,-60px) rotate(80deg);
-    }15%{
-        transform: skew(-1deg,-6deg) translate(60px,-90px) rotate(120deg);
-    }20%{
-        transform: skew(-2.5deg,-8deg) translate(80px,-120px) rotate(160deg);
-    }25%{
-        transform: skew(-3deg,-10deg) translate(100px,-150px) rotate(200deg);
-    }30%{
-        transform: skew(-3.5deg,-12deg) translate(120px,-180px) rotate(240deg);
-    }35%{
-        transform: skew(-4deg,-14deg) translate(140px,-210px) rotate(280deg);
-    }40%{
-        transform: skew(-4.5deg,-16deg) translate(160px,-224px) rotate(320deg);
-    }45%{
-        transform: skew(-5deg,-18deg) translate(180px,-220px) rotate(360deg);
-    }50%{
-        transform: skew(-5.5deg,-20deg) translate(200px,-200px) rotate(400deg);
-    }55%{
-        transform: skew(-5deg,-18deg) translate(220px,-195px) rotate(440deg);
-    }60%{
-        transform: skew(-4.5deg,-16deg) translate(240px,-185px) rotate(480deg);
-    }65%{
-        transform: skew(-4deg,-14deg) translate(260px,-165px) rotate(520deg);
-    }70%{
-        transform: skew(-3.5deg,-12deg) translate(270px,-145px) rotate(560deg);
-    }75%{
-        transform: skew(-3deg,-10deg) translate(280px,-125px) rotate(600deg);
-    }80%{
-        transform: skew(-2.5deg,-8deg) translate(290px,-100px) rotate(640deg);
-    }85%{
-        transform: skew(-2deg,-6deg) translate(295px,-80px) rotate(680deg);
-    }90%{
-        transform: skew(-1.5deg,-4deg) translate(300px,-60px) rotate(720deg);
-    }95%{
-        transform: skew(-1deg,-2deg) translate(302px,-30px) rotate(760deg);
-    }100%{
-        transform: skew(-0deg,-0deg) translate(308px,0px) rotate(780deg);
-}
-}
-
-
-@keyframes  myparty4{
- 0%{ 
-        transform: skew(0deg,0deg) translate(0px,0px) rotateY(0deg)
-    }5%{
-        transform: skew(-1deg,-2deg) translate(2px,-30px) rotateY(40deg);
-    }10%{
-        transform: skew(-1.5deg,-4deg) translate(4px,-60px) rotateY(80deg);
-    }15%{
-        transform: skew(-1deg,-6deg) translate(6px,-90px) rotateY(120deg);
-    }20%{
-        transform: skew(-2.5deg,-8deg) translate(8px,-120px) rotateY(160deg);
-    }25%{
-        transform: skew(-3deg,-10deg) translate(10px,-150px) rotateY(200deg);
-    }30%{
-        transform: skew(-3.5deg,-12deg) translate(12px,-180px) rotateY(240deg);
-    }35%{
-        transform: skew(-4deg,-14deg) translate(14px,-210px) rotateY(280deg);
-    }40%{
-        transform: skew(-4.5deg,-16deg) translate(16px,-224px) rotateY(320deg);
-    }45%{
-        transform: skew(-5deg,-18deg) translate(18px,-220px) rotateY(360deg);
-    }50%{
-        transform: skew(-5.5deg,-20deg) translate(20px,-200px) rotateX(400deg);
-    }55%{
-        transform: skew(-5deg,-18deg) translate(22px,-195px) rotateX(440deg);
-    }60%{
-        transform: skew(-4.5deg,-16deg) translate(24px,-185px) rotateY(480deg);
-    }65%{
-        transform: skew(-4deg,-14deg) translate(26px,-165px) rotateY(520deg);
-    }70%{
-        transform: skew(-3.5deg,-12deg) translate(27px,-145px) rotateY(560deg);
-    }75%{
-        transform: skew(-3deg,-10deg) translate(28px,-125px) rotateY(600deg);
-    }80%{
-        transform: skew(-2.5deg,-8deg) translate(29px,-100px) rotateY(640deg);
-    }85%{
-        transform: skew(-2deg,-6deg) translate(29px,-80px) rotateY(680deg);
-    }90%{
-        transform: skew(-1.5deg,-4deg) translate(30px,-60px) rotateY(720deg);
-    }95%{
-        transform: skew(-1deg,-2deg) translate(30px,-30px) rotateY(760deg);
-    }100%{
-        transform: skew(-0deg,-0deg) translate(30px,0px) rotateY(780deg);
-}
-}
-
-@keyframes myparty5{
-     0%{ 
-        transform: skew(0deg,0deg) translate(0px,0px) rotate(0deg);
-    }10%{
-        transform: skew(-1deg,-4deg) translate(20px,-5px) rotate(40deg);
-    }30%{
-        transform: skew(-2deg,-8deg) translate(40px,-10px) rotate(80deg);
-    }40%{
-        transform: skew(-3deg,-12deg) translate(60px,-15px) rotate(120deg);
-    }50%{
-        transform: skew(-4deg,-16deg) translate(80px,-20px) rotate(160deg);
-    }60%{
-        transform: skew(-5deg,-20deg) translate(100px,-25px) rotate(200deg);
-    }70%{
-        transform: skew(-4deg,-16deg) translate(120px,-30px) rotate(240deg);
-    }80%{
-        transform: skew(-3deg,-12deg) translate(140px,-35px) rotate(280deg);
-    }90%{
-        transform: skew(-2deg,-8deg) translate(160px,-40px) rotate(320deg);
-    }100%{
-        transform: skew(-1deg,-0deg) translate(200px,450px) rotate(360deg);
-    }
-}
-
-@keyframes myparty6{
-     0%{ 
-        transform: skew(0deg,0deg) translate(0px,0px) rotate(0deg);
-    }10%{
-        transform: skew(-1deg,-4deg) translate(20px,-5px) rotate(40deg);
-    }30%{
-        transform: skew(-2deg,-8deg) translate(40px,-10px) rotate(80deg);
-    }40%{
-        transform: skew(-3deg,-12deg) translate(60px,-15px) rotate(120deg);
-    }50%{
-        transform: skew(-4deg,-16deg) translate(80px,-20px) rotate(160deg);
-    }60%{
-        transform: skew(-5deg,-20deg) translate(100px,-25px) rotate(200deg);
-    }70%{
-        transform: skew(-4deg,-16deg) translate(120px,-30px) rotate(240deg);
-    }80%{
-        transform: skew(-3deg,-12deg) translate(140px,-35px) rotate(280deg);
-    }90%{
-        transform: skew(-2deg,-8deg) translate(160px,-40px) rotate(320deg);
-    }100%{
-        transform: skew(-1deg,-0deg) translate(200px,450px) rotate(360deg);
-    }
-}
-
-@keyframes myparty7{
-     0%{ 
-        transform: skew(0deg,0deg) translate(0px,0px) rotate(0deg);
-    }10%{
-        transform: skew(-1deg,-4deg) translate(20px,-5px) rotate(40deg);
-    }30%{
-        transform: skew(-2deg,-8deg) translate(40px,-10px) rotate(80deg);
-    }40%{
-        transform: skew(-3deg,-12deg) translate(60px,-15px) rotate(120deg);
-    }50%{
-        transform: skew(-4deg,-16deg) translate(80px,-20px) rotate(160deg);
-    }60%{
-        transform: skew(-5deg,-20deg) translate(100px,-25px) rotate(200deg);
-    }70%{
-        transform: skew(-4deg,-16deg) translate(120px,-30px) rotate(240deg);
-    }80%{
-        transform: skew(-3deg,-12deg) translate(140px,-35px) rotate(280deg);
-    }90%{
-        transform: skew(-2deg,-8deg) translate(160px,-40px) rotate(320deg);
-    }100%{
-        transform: skew(-1deg,-0deg) translate(200px,450px) rotate(360deg);
-    }
-}
-
-@keyframes myparty8{
-     0%{ 
-        transform: skew(0deg,0deg) translate(0px,0px) rotate(0deg);
-    }10%{
-        transform: skew(-1deg,-4deg) translate(20px,-5px) rotate(40deg);
-    }30%{
-        transform: skew(-2deg,-8deg) translate(40px,-10px) rotate(80deg);
-    }40%{
-        transform: skew(-3deg,-12deg) translate(60px,-15px) rotate(120deg);
-    }50%{
-        transform: skew(-4deg,-16deg) translate(80px,-20px) rotate(160deg);
-    }60%{
-        transform: skew(-5deg,-20deg) translate(100px,-25px) rotate(200deg);
-    }70%{
-        transform: skew(-4deg,-16deg) translate(120px,-30px) rotate(240deg);
-    }80%{
-        transform: skew(-3deg,-12deg) translate(140px,-35px) rotate(280deg);
-    }90%{
-        transform: skew(-2deg,-8deg) translate(160px,-40px) rotate(320deg);
-    }100%{
-        transform: skew(-1deg,-0deg) translate(200px,450px) rotate(360deg);
-    }
-}
-
-@keyframes myparty9{
-     0%{ 
-        transform: skew(0deg,0deg) translate(0px,0px) rotate(0deg);
-    }10%{
-        transform: skew(-1deg,-4deg) translate(20px,-5px) rotate(40deg);
-    }30%{
-        transform: skew(-2deg,-8deg) translate(40px,-10px) rotate(80deg);
-    }40%{
-        transform: skew(-3deg,-12deg) translate(60px,-15px) rotate(120deg);
-    }50%{
-        transform: skew(-4deg,-16deg) translate(80px,-20px) rotate(160deg);
-    }60%{
-        transform: skew(-5deg,-20deg) translate(100px,-25px) rotate(200deg);
-    }70%{
-        transform: skew(-4deg,-16deg) translate(120px,-30px) rotate(240deg);
-    }80%{
-        transform: skew(-3deg,-12deg) translate(140px,-35px) rotate(280deg);
-    }90%{
-        transform: skew(-2deg,-8deg) translate(160px,-40px) rotate(320deg);
-    }100%{
-        transform: skew(-1deg,-0deg) translate(200px,450px) rotate(360deg);
-    }
-}
-
-@keyframes myparty10{
-     0%{ 
-        transform: skew(0deg,0deg) translate(0px,0px) rotate(0deg);
-    }10%{
-        transform: skew(-1deg,-4deg) translate(20px,-5px) rotate(40deg);
-    }30%{
-        transform: skew(-2deg,-8deg) translate(40px,-10px) rotate(80deg);
-    }40%{
-        transform: skew(-3deg,-12deg) translate(60px,-15px) rotate(120deg);
-    }50%{
-        transform: skew(-4deg,-16deg) translate(80px,-20px) rotate(160deg);
-    }60%{
-        transform: skew(-5deg,-20deg) translate(100px,-25px) rotate(200deg);
-    }70%{
-        transform: skew(-4deg,-16deg) translate(120px,-30px) rotate(240deg);
-    }80%{
-        transform: skew(-3deg,-12deg) translate(140px,-35px) rotate(280deg);
-    }90%{
-        transform: skew(-2deg,-8deg) translate(160px,-40px) rotate(320deg);
-    }100%{
-        transform: skew(-1deg,-0deg) translate(200px,450px) rotate(360deg);
-    }
-}
 
 
