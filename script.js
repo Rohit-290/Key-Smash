@@ -30,10 +30,7 @@ const playBtn = () =>{
     });  
     })
 }
-
-
-
-
+ 
 
 document.addEventListener("keydown",(e)=>{
     const gen = document.getElementById("b1");

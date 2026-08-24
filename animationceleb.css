@@ -6,7 +6,7 @@
     bottom: 0px;
 }
 .party1{
-    background-color: blue;
+    background-color:rgb(255, 20, 147);
     animation-name: "myparty1";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -14,7 +14,7 @@
 }
 
 .party2{
-    background-color: red;
+    background-color: rgb(255, 215, 0);
     animation-name: "myparty2";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -22,7 +22,7 @@
 }
 
 .party3{
-    background-color: rgb(106, 200, 43);
+    background-color: rgb(0, 191, 255);
     animation-name: "myparty3";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -30,7 +30,7 @@
 }
 
 .party4{
-    background-color: rgb(39, 2, 124);
+    background-color: rgb(50, 205, 50);
     animation-name: "myparty4";
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -38,7 +38,9 @@
 }
 
 .party5{
-    background-color: rgb(241, 39, 66);
+    height: 10px;
+    width: 6px;
+    background-color: rgb(255, 140, 0);
     animation-name: "myparty5";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -46,7 +48,7 @@
 }
 
 .party6{
-    background-color: rgb(0, 213, 255);
+    background-color:  rgb(153, 50, 204);
     animation-name: "myparty6";
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -54,7 +56,7 @@
 }
 
 .party7{
-    background-color: rgb(219, 212, 36);
+    background-color: rgb(255, 51, 51);
     animation-name: "myparty7";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -62,7 +64,7 @@
 }
 
 .party8{
-    background-color: rgb(238, 0, 255);
+    background-color: rgb(64, 224, 208);
     animation-name: "myparty8";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -70,7 +72,7 @@
 }
 
 .party9{
-    background-color: rgb(0, 3, 100);
+    background-color: rgb(255, 0, 255);
     animation-name: "myparty9";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -78,7 +80,7 @@
 }
 
 .party10{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 111, 97);
     animation-name: "myparty10";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -86,7 +88,7 @@
 }
 
 .party11{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 20, 147);
     animation-name: "myparty11";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -94,7 +96,7 @@
 }
 
 .party12{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 215, 0);
     animation-name: "myparty12";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -102,7 +104,7 @@
 }
 
 .party13{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(0, 191, 255);
     animation-name: "myparty13";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -110,7 +112,7 @@
 }
 
 .party14{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(50, 205, 50);
     animation-name: "myparty14";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -118,7 +120,7 @@
 }
 
 .party15{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 140, 0);
     animation-name: "myparty15";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -126,7 +128,7 @@
 }
 
 .party16{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(153, 50, 204);
     animation-name: "myparty16";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -134,7 +136,7 @@
 }
 
 .party17{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 51, 51);
     animation-name: "myparty17";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -142,7 +144,7 @@
 }
 
 .party18{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(64, 224, 208);
     animation-name: "myparty18";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -150,7 +152,7 @@
 }
 
 .party19{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 0, 255);
     animation-name: "myparty19";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -165,24 +167,33 @@
     animation-timing-function: linear;
 }
 
-.party22{
-    background-color: rgb(9, 255, 0);
+.party21{
+    background-color: rgb(255, 20, 147);
     animation-name: "myparty21";
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-.party23{
-    background-color: rgb(9, 255, 0);
+
+.party22{
+    background-color: rgb(255, 215, 0);
     animation-name: "myparty22";
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
+.party23{
+    background-color: rgb(0, 191, 255);
+    animation-name: "myparty23";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 .party24{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(50, 205, 50);
     animation-name: "myparty23";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -190,7 +201,7 @@
 }
 
 .party25{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 140, 0);
     animation-name: "myparty24";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -198,7 +209,7 @@
 }
 
 .party26{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(153, 50, 204);
     animation-name: "myparty25";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -206,7 +217,7 @@
 }
 
 .party27{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 51, 51);
     animation-name: "myparty26";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -214,7 +225,7 @@
 }
 
 .party28{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(64, 224, 208);
     animation-name: "myparty27";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -222,7 +233,7 @@
 }
 
 .party29{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 0, 255);
     animation-name: "myparty28";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -254,7 +265,7 @@
 }
 
 .party33{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 143, 171);
     animation-name: "myparty32";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -270,7 +281,7 @@
 }
 
 .party35{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 107, 107);
     animation-name: "myparty34";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -318,7 +329,7 @@
 }
 
 .party41{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 143, 171);
     animation-name: "myparty40";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -334,7 +345,7 @@
 }
 
 .party43{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 107, 107);
     animation-name: "myparty42";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -382,7 +393,7 @@
 }
 
 .party49{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 143, 171);
     animation-name: "myparty48";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -398,7 +409,7 @@
 }
 
 .party51{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 107, 107);
     animation-name: "myparty50";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -446,7 +457,7 @@
 }
 
 .party56{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 143, 171);
     animation-name: "myparty56";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -470,7 +481,7 @@
 }
 
 .party59{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 107, 107);
     animation-name: "myparty59";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -518,7 +529,7 @@
 }
 
 .party65{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 143, 171);
     animation-name: "myparty65";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -534,7 +545,7 @@
 }
 
 .party67{
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 107, 107);
     animation-name: "myparty67";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -570,96 +581,142 @@
 @keyframes myparty1{
      0%{ 
         transform:  translate(0px,0px) rotate(0deg);
-    }10%{
-        transform:  translate(0px,-200px) rotate(40deg);
-    }30%{
-        transform:  translate(0px,-400px) rotate(80deg);
-    }40%{
-        transform:  translate(0px,-800px) rotate(120deg);
+    }5%{ 
+        transform:  translate(0px,-6px) rotate(0deg);
+    }10%{ 
+        transform:  translate(0px,-12px) rotate(0deg);
+    }15%{ 
+        transform:  translate(0px,-18px) rotate(0deg);
+    }20%{ 
+        transform:  translate(0px,-24px) rotate(0deg);
+    }25%{ 
+        transform:  translate(0px,-30px) rotate(0deg);
+    }30%{ 
+        transform:  translate(0px,-36px) rotate(0deg);
+    }35%{ 
+        transform:  translate(0px,-42px) rotate(0deg);
+    }40%{ 
+        transform:  translate(0px,-48px) rotate(0deg);
+    }45%{ 
+        transform:  translate(0px,-54px) rotate(0deg);
     }50%{
-        transform:  translate(0px,-1000px) rotate(160deg);
+        transform:  translate(0px,-60px) rotate(40deg);
+    }55%{
+        transform:  translate(0px,-54px) rotate(80deg);
     }60%{
-        transform: translate(0px,-800px) rotate(200deg);
+        transform:  translate(0px,-48px) rotate(120deg);
+    }65%{
+        transform:  translate(0px,-42px) rotate(160deg);
     }70%{
-        transform: translate(0px,-600px) rotate(240deg);
+        transform: translate(0px,-36px) rotate(200deg);
+    }75%{
+        transform: translate(0px,-30px) rotate(240deg);
     }80%{
-        transform: translate(0px,-400px) rotate(280deg);
+        transform: translate(0px,-24px) rotate(280deg);
+    }85%{
+        transform: translate(0px,-18px) rotate(320deg);
     }90%{
-        transform: translate(0px,-200px) rotate(320deg);
+        transform: translate(0px,-12px) rotate(360deg);
+    }95%{
+        transform: translate(0px,-6px) rotate(360deg);
     }100%{
         transform: translate(0px,0px) rotate(360deg);
     }
 }
 
 @keyframes myparty2{
-     0%{ 
-        transform: translate(0px,0px) rotate(0deg);
-    }10%{
-        transform: translate(20px,-5px) rotate(40deg);
-    }30%{
-        transform: translate(40px,-10px) rotate(80deg);
-    }40%{
-        transform:  translate(60px,-15px) rotate(120deg);
+           0%{ 
+        transform:  translate(0px,0px) rotate(0deg);
+    }5%{ 
+        transform:  translate(5px,-6px) rotate(0deg);
+    }10%{ 
+        transform:  translate(10px,-12px) rotate(0deg);
+    }15%{ 
+        transform:  translate(15px,-18px) rotate(0deg);
+    }20%{ 
+        transform:  translate(20px,-24px) rotate(0deg);
+    }25%{ 
+        transform:  translate(25px,-30px) rotate(0deg);
+    }30%{ 
+        transform:  translate(30px,-36px) rotate(0deg);
+    }35%{ 
+        transform:  translate(35px,-42px) rotate(0deg);
+    }40%{ 
+        transform:  translate(40px,-48px) rotate(0deg);
+    }45%{ 
+        transform:  translate(50px,-54px) rotate(0deg);
     }50%{
-        transform:  translate(80px,-20px) rotate(160deg);
+        transform:  translate(60px,-60px) rotate(40deg);
+    }55%{
+        transform:  translate(60px,-54px) rotate(80deg);
     }60%{
-        transform:  translate(100px,-25px) rotate(200deg);
+        transform:  translate(61px,-48px) rotate(120deg);
+    }65%{
+        transform:  translate(62px,-42px) rotate(160deg);
     }70%{
-        transform:  translate(120px,-30px) rotate(240deg);
+        transform: translate(63px,-36px) rotate(200deg);
+    }75%{
+        transform: translate(64px,-30px) rotate(240deg);
     }80%{
-        transform:  translate(140px,-35px) rotate(280deg);
+        transform: translate(65px,-24px) rotate(280deg);
+    }85%{
+        transform: translate(66px,-18px) rotate(320deg);
     }90%{
-        transform:  translate(160px,-40px) rotate(320deg);
+        transform: translate(67px,-12px) rotate(360deg);
+    }95%{
+        transform: translate(68px,-6px) rotate(360deg);
     }100%{
-        transform:  translate(200px,450px) rotate(360deg);
+        transform: translate(70px,0px) rotate(360deg);
     }
 }
 
+
 @keyframes myparty3{
-     0%{ 
+                0%{ 
         transform:  translate(0px,0px) rotate(0deg);
-    }5%{
-        transform:  translate(20px,-30px) rotate(40deg);
-    }10%{
-        transform: translate(40px,-60px) rotate(80deg);
-    }15%{
-        transform:  translate(60px,-90px) rotate(120deg);
-    }20%{
-        transform:  translate(80px,-120px) rotate(160deg);
-    }25%{
-        transform:  translate(100px,-150px) rotate(200deg);
-    }30%{
-        transform:  translate(120px,-180px) rotate(240deg);
-    }35%{
-        transform: translate(140px,-210px) rotate(280deg);
-    }40%{
-        transform: translate(160px,-224px) rotate(320deg);
-    }45%{
-        transform:  translate(180px,-220px) rotate(360deg);
+    }5%{ 
+        transform:  translate(-5px,-6px) rotate(0deg);
+    }10%{ 
+        transform:  translate(-10px,-12px) rotate(0deg);
+    }15%{ 
+        transform:  translate(-15px,-18px) rotate(0deg);
+    }20%{ 
+        transform:  translate(-20px,-24px) rotate(0deg);
+    }25%{ 
+        transform:  translate(-25px,-30px) rotate(0deg);
+    }30%{ 
+        transform:  translate(-30px,-36px) rotate(0deg);
+    }35%{ 
+        transform:  translate(-35px,-42px) rotate(0deg);
+    }40%{ 
+        transform:  translate(-40px,-48px) rotate(0deg);
+    }45%{ 
+        transform:  translate(-50px,-54px) rotate(0deg);
     }50%{
-        transform:  translate(200px,-200px) rotate(400deg);
+        transform:  translate(-60px,-60px) rotate(40deg);
     }55%{
-        transform:  translate(220px,-195px) rotate(440deg);
+        transform:  translate(-60px,-54px) rotate(80deg);
     }60%{
-        transform:  translate(240px,-185px) rotate(480deg);
+        transform:  translate(-61px,-48px) rotate(120deg);
     }65%{
-        transform:  translate(260px,-165px) rotate(520deg);
+        transform:  translate(-62px,-42px) rotate(160deg);
     }70%{
-        transform:  translate(270px,-145px) rotate(560deg);
+        transform: translate(-63px,-36px) rotate(200deg);
     }75%{
-        transform: translate(280px,-125px) rotate(600deg);
+        transform: translate(-64px,-30px) rotate(240deg);
     }80%{
-        transform: translate(290px,-100px) rotate(640deg);
+        transform: translate(-65px,-24px) rotate(280deg);
     }85%{
-        transform: translate(295px,-80px) rotate(680deg);
+        transform: translate(-66px,-18px) rotate(320deg);
     }90%{
-        transform:  translate(300px,-60px) rotate(720deg);
+        transform: translate(-67px,-12px) rotate(360deg);
     }95%{
-        transform: translate(302px,-30px) rotate(760deg);
+        transform: translate(-68px,-6px) rotate(360deg);
     }100%{
-        transform: translate(308px,0px) rotate(780deg);
+        transform: translate(-70px,0px) rotate(360deg);
+    }
 }
-}
+
 
 
 @keyframes  myparty4{
@@ -667,190 +724,332 @@
         transform:  translate(0px,0px) rotateY(0deg)
        
     }5%{
-        transform:  translate(2px,-30px) rotateY(40deg);
+        transform:  translate(6px,-12px) rotateY(40deg);
     }10%{
-        transform: translate(4px,-60px) rotateY(80deg);
+        transform: translate(12px,-24px) rotateY(80deg);
     }15%{
-        transform:  translate(6px,-90px) rotateY(120deg);
+        transform:  translate(18px,-36px) rotateY(120deg);
     }20%{
-        transform:  translate(8px,-120px) rotateY(160deg);
+        transform:  translate(24px,-48px) rotateY(160deg);
     }25%{
-        transform:  translate(10px,-150px) rotateY(200deg);
+        transform:  translate(30px,-60px) rotateY(200deg);
     }30%{
-        transform:  translate(12px,-180px) rotateY(240deg);
+        transform:  translate(36px,-72px) rotateY(240deg);
     }35%{
-        transform:  translate(14px,-210px) rotateY(280deg);
+        transform:  translate(42px,-84px) rotateY(280deg);
     }40%{
-        transform: translate(16px,-224px) rotateY(320deg);
+        transform: translate(48px,-96px) rotateY(320deg);
     }45%{
-        transform: translate(18px,-220px) rotateY(360deg);
+        transform: translate(54px,-108px) rotateY(360deg);
     }50%{
-        transform: translate(20px,-200px) rotateX(400deg);
+        transform: translate(60px,-120px) rotateX(400deg);
     }55%{
-        transform:  translate(22px,-195px) rotateX(440deg);
+        transform:  translate(66px,-108px) rotateX(440deg);
     }60%{
-        transform:  translate(24px,-185px) rotateY(480deg);
+        transform:  translate(72px,-96px) rotateY(480deg);
     }65%{
-        transform:  translate(26px,-165px) rotateY(520deg);
+        transform:  translate(78px,-84px) rotateY(520deg);
     }70%{
-        transform:  translate(27px,-145px) rotateY(560deg);
+        transform:  translate(84px,-72px) rotateY(560deg);
     }75%{
-        transform:  translate(28px,-125px) rotateY(600deg);
+        transform:  translate(90px,-60px) rotateY(600deg);
     }80%{
-        transform:  translate(29px,-100px) rotateY(640deg);
+        transform:  translate(96px,-48px) rotateY(640deg);
         background-color: rgba(39,2,124,0.75);
     }85%{
-        transform:  translate(29px,-80px) rotateY(680deg);
+        transform:  translate(102px,-36px) rotateY(680deg);
         background-color: rgba(39,2,124,0.5);
     }90%{
-        transform:  translate(30px,-60px) rotateY(720deg);
+        transform:  translate(108px,-24px) rotateY(720deg);
         background-color: rgba(39,2,124,0.25);
     }95%{
-        transform: translate(30px,-30px) rotateY(760deg);
+        transform: translate(114px,-12px) rotateY(760deg);
         background-color: rgba(39,2,124,0.1);
     }100%{
-        transform:  translate(30px,0px) rotateY(780deg) ;
+        transform:  translate(120px,0px) rotateY(780deg) ;
         background-color:  rgba(39,2,124,0);
 }
 }
 
 @keyframes myparty5{
-     0%{ 
-        transform: translate(0px,0px) rotate(0deg);
+ 0%{ 
+        transform:  translate(0px,0px) rotateY(0deg)
+       
+    }5%{
+        transform:  translate(-6px,-12px) rotateY(40deg);
     }10%{
-        transform: translate(20px,-5px) rotate(40deg);
+        transform: translate(-12px,-24px) rotateY(80deg);
+    }15%{
+        transform:  translate(-18px,-36px) rotateY(120deg);
+    }20%{
+        transform:  translate(-24px,-48px) rotateY(160deg);
+    }25%{
+        transform:  translate(-30px,-60px) rotateY(200deg);
     }30%{
-        transform: translate(40px,-10px) rotate(80deg);
+        transform:  translate(-36px,-72px) rotateY(240deg);
+    }35%{
+        transform:  translate(-42px,-84px) rotateY(280deg);
     }40%{
-        transform:  translate(60px,-15px) rotate(120deg);
+        transform: translate(-48px,-96px) rotateY(320deg);
+    }45%{
+        transform: translate(-54px,-108px) rotateY(360deg);
     }50%{
-        transform: translate(80px,-20px) rotate(160deg);
+        transform: translate(-60px,-120px) rotateX(400deg);
+    }55%{
+        transform:  translate(-66px,-108px) rotateX(440deg);
     }60%{
-        transform:  translate(100px,-25px) rotate(200deg);
+        transform:  translate(-72px,-96px) rotateY(480deg);
+    }65%{
+        transform:  translate(-78px,-84px) rotateY(520deg);
     }70%{
-        transform:  translate(120px,-30px) rotate(240deg);
+        transform:  translate(-84px,-72px) rotateY(560deg);
+    }75%{
+        transform:  translate(-90px,-60px) rotateY(600deg);
     }80%{
-        transform:  translate(140px,-35px) rotate(280deg);
+        transform:  translate(-96px,-48px) rotateY(640deg);
+        background-color: rgba(39,2,124,0.75);
+    }85%{
+        transform:  translate(-102px,-36px) rotateY(680deg);
+        background-color: rgba(39,2,124,0.5);
     }90%{
-        transform:  translate(160px,-40px) rotate(320deg);
+        transform:  translate(-108px,-24px) rotateY(720deg);
+        background-color: rgba(39,2,124,0.25);
+    }95%{
+        transform: translate(114px,-12px) rotateY(760deg);
+        background-color: rgba(39,2,124,0.1);
     }100%{
-        transform:  translate(200px,450px) rotate(360deg);
-    }
+        transform:  translate(-120px,0px) rotateY(780deg) ;
+        background-color:  rgba(39,2,124,0);
+}
 }
 
+
+
 @keyframes myparty6{
-     0%{ 
-        transform: translate(0px,0px) rotate(0deg);
+   0%{ 
+        transform:  translate(0px,0px) rotateY(0deg)
+       
+    }5%{
+        transform:  translate(4.5px,-12px) rotateY(40deg);
     }10%{
-        transform:  translate(20px,-5px) rotate(40deg);
+        transform: translate(9px,-24px) rotateY(80deg);
+    }15%{
+        transform:  translate(13.5px,-36px) rotateY(120deg);
+    }20%{
+        transform:  translate(18px,-48px) rotateY(160deg);
+    }25%{
+        transform:  translate(22.5px,-60px) rotateY(200deg);
     }30%{
-        transform:  translate(40px,-10px) rotate(80deg);
+        transform:  translate(27px,-72px) rotateY(240deg);
+    }35%{
+        transform:  translate(31.5px,-84px) rotateY(280deg);
     }40%{
-        transform:  translate(60px,-15px) rotate(120deg);
+        transform: translate(36px,-96px) rotateY(320deg);
+    }45%{
+        transform: translate(40.5px,-108px) rotateY(360deg);
     }50%{
-        transform:  translate(80px,-20px) rotate(160deg);
+        transform: translate(45px,-120px) rotateX(400deg);
+    }55%{
+        transform:  translate(49.5px,-108px) rotateX(440deg);
     }60%{
-        transform:  translate(100px,-25px) rotate(200deg);
+        transform:  translate(54px,-96px) rotateY(480deg);
+    }65%{
+        transform:  translate(58.5px,-84px) rotateY(520deg);
     }70%{
-        transform:  translate(120px,-30px) rotate(240deg);
+        transform:  translate(63px,-72px) rotateY(560deg);
+    }75%{
+        transform:  translate(67.5px,-60px) rotateY(600deg);
     }80%{
-        transform:  translate(140px,-35px) rotate(280deg);
+        transform:  translate(72px,-48px) rotateY(640deg);
+        background-color: rgba(39,2,124,0.75);
+    }85%{
+        transform:  translate(76.5px,-36px) rotateY(680deg);
+        background-color: rgba(39,2,124,0.5);
     }90%{
-        transform: translate(160px,-40px) rotate(320deg);
+        transform:  translate(81px,-24px) rotateY(720deg);
+        background-color: rgba(39,2,124,0.25);
+    }95%{
+        transform: translate(85.5px,-12px) rotateY(760deg);
+        background-color: rgba(39,2,124,0.1);
     }100%{
-        transform:translate(200px,450px) rotate(360deg);
-    }
+        transform:  translate(90px,0px) rotateY(780deg) ;
+        background-color:  rgba(39,2,124,0);
+}
 }
 
 @keyframes myparty7{
-     0%{ 
-        transform:  translate(0px,0px) rotate(0deg);
+    0%{ 
+        transform:  translate(0px,0px) rotateY(0deg) ;
+       
+    }5%{
+        transform:  translate(2px,-18px) rotateX(20deg)   ;
     }10%{
-        transform:  translate(20px,-5px) rotate(40deg);
+        transform: translate(4px,-36px) rotateX(40deg)  ;
+    }15%{
+        transform:  translate(6px,-54px) rotateX(60deg);
+    }20%{
+        transform:  translate(8px,-72px) rotateX(80deg);
+    }25%{
+        transform:  translate(10px,-90px) rotateX(100deg) ;
     }30%{
-        transform:  translate(40px,-10px) rotate(80deg);
+        transform:  translate(12px,-108px) rotateX(120deg) ;
+    }35%{
+        transform:  translate(14px,-126px) rotateX(140deg) ;
     }40%{
-        transform:  translate(60px,-15px) rotate(120deg);
+        transform: translate(16px,-144px) rotateX(160deg) ;
+    }45%{
+        transform: translate(18px,-162px) rotateX(180deg) ;
     }50%{
-        transform:  translate(80px,-20px) rotate(160deg);
+        transform: translate(20px,-180px) rotateX(200deg);
+    }55%{
+        transform:  translate(22px,-162px) rotateX(230deg) ;
     }60%{
-        transform:  translate(100px,-25px) rotate(200deg);
+        transform:  translate(24px,-144px) rotateX(260deg) ;
+    }65%{
+        transform:  translate(26px,-126px) rotateX(290deg) ;
     }70%{
-        transform:  translate(120px,-30px) rotate(240deg);
+        transform:  translate(28px,-108px) rotateX(320deg) ;
+    }75%{
+        transform:  translate(30px,-90px) rotateX(330deg) ;
     }80%{
-        transform:  translate(140px,-35px) rotate(280deg);
+        transform:  translate(32px,-72px) rotateX(340deg) ;
+        background-color: rgba(149, 213, 178,0.90);
+    }85%{
+        transform:  translate(34px,-54px) rotateX(360deg) ;
+        background-color: rgba(149, 213, 178, 0.75);
     }90%{
-        transform:  translate(160px,-40px) rotate(320deg);
+        transform:  translate(36px,-36px) rotateX(360deg) ;
+        background-color: rgba(149, 213, 178, 0.5);
+    }95%{
+        transform: translate(38px,-18px) rotateX(36deg);
+        background-color: rgba(149, 213, 178, 0.25)
     }100%{
-        transform:  translate(200px,450px) rotate(360deg);
-    }
+        transform:  translate(40px,0px) rotateX(360deg)  ;
+        background-color: rgba(149, 213, 178, 0);
+}
 }
 
 @keyframes myparty8{
-     0%{ 
-        transform:  translate(0px,0px) rotate(0deg);
+   0%{ 
+        transform:  translate(0px,0px) rotateY(0deg) ;
+       
+    }5%{
+        transform:  translate(-2px,-18px) rotateX(20deg)   ;
     }10%{
-        transform:  translate(20px,-5px) rotate(40deg);
+        transform: translate(-4px,-36px) rotateX(40deg)  ;
+    }15%{
+        transform:  translate(-6px,-54px) rotateX(60deg);
+    }20%{
+        transform:  translate(-8px,-72px) rotateX(80deg);
+    }25%{
+        transform:  translate(-10px,-90px) rotateX(100deg) ;
     }30%{
-        transform:  translate(40px,-10px) rotate(80deg);
+        transform:  translate(-12px,-108px) rotateX(120deg) ;
+    }35%{
+        transform:  translate(-14px,-126px) rotateX(140deg) ;
     }40%{
-        transform:  translate(60px,-15px) rotate(120deg);
+        transform: translate(-16px,-144px) rotateX(160deg) ;
+    }45%{
+        transform: translate(-18px,-162px) rotateX(180deg) ;
     }50%{
-        transform:  translate(80px,-20px) rotate(160deg);
+        transform: translate(-20px,-180px) rotateX(200deg);
+    }55%{
+        transform:  translate(-22px,-162px) rotateX(230deg) ;
     }60%{
-        transform:  translate(100px,-25px) rotate(200deg);
+        transform:  translate(-24px,-144px) rotateX(260deg) ;
+    }65%{
+        transform:  translate(-26px,-126px) rotateX(290deg) ;
     }70%{
-        transform:  translate(120px,-30px) rotate(240deg);
+        transform:  translate(-28px,-108px) rotateX(320deg) ;
+    }75%{
+        transform:  translate(-30px,-90px) rotateX(330deg) ;
     }80%{
-        transform:  translate(140px,-35px) rotate(280deg);
+        transform:  translate(-32px,-72px) rotateX(340deg) ;
+        background-color: rgba(149, 213, 178,0.90);
+    }85%{
+        transform:  translate(-34px,-54px) rotateX(360deg) ;
+        background-color: rgba(149, 213, 178, 0.75);
     }90%{
-        transform:  translate(160px,-40px) rotate(320deg);
+        transform:  translate(-36px,-36px) rotateX(360deg) ;
+        background-color: rgba(149, 213, 178, 0.5);
+    }95%{
+        transform: translate(-38px,-18px) rotateX(36deg);
+        background-color: rgba(149, 213, 178, 0.25)
     }100%{
-        transform:  translate(200px,450px) rotate(360deg);
-    }
+        transform:  translate(-40px,0px) rotateX(360deg)  ;
+        background-color: rgba(149, 213, 178, 0);
+}
 }
 
 @keyframes myparty9{
-     0%{ 
-        transform: translate(0px,0px) rotate(0deg);
+    0%{ 
+        transform:  translate(0px,0px) rotateY(0deg) ;
+       
+    }5%{
+        transform:  translate(0px,-18px) rotateX(20deg)   ;
     }10%{
-        transform:  translate(20px,-5px) rotate(40deg);
+        transform: translate(0px,-36px) rotateX(40deg)  ;
+    }15%{
+        transform:  translate(5px,-54px) rotateX(60deg);
+    }20%{
+        transform:  translate(0px,-72px) rotateX(80deg);
+    }25%{
+        transform:  translate(0px,-90px) rotateX(100deg) ;
     }30%{
-        transform:  translate(40px,-10px) rotate(80deg);
+        transform:  translate(-1px,-108px) rotateX(120deg) ;
+    }35%{
+        transform:  translate(-2px,-126px) rotateX(140deg) ;
     }40%{
-        transform: translate(60px,-15px) rotate(120deg);
+        transform: translate(-3px,-144px) rotateX(160deg) ;
+    }45%{
+        transform: translate(-4px,-162px) rotateX(180deg) ;
     }50%{
-        transform:  translate(80px,-20px) rotate(160deg);
+        transform: translate(-5px,-180px) rotateX(200deg);
+    }55%{
+        transform:  translate(-6px,-162px) rotateX(230deg) ;
     }60%{
-        transform:  translate(100px,-25px) rotate(200deg);
+        transform:  translate(-7px,-144px) rotateX(260deg) ;
+    }65%{
+        transform:  translate(-8px,-126px) rotateX(290deg) ;
     }70%{
-        transform:  translate(120px,-30px) rotate(240deg);
+        transform:  translate(-9px,-108px) rotateX(320deg) ;
+    }75%{
+        transform:  translate(-10px,-90px) rotateX(330deg) ;
     }80%{
-        transform:  translate(140px,-35px) rotate(280deg);
+        transform:  translate(-10px,-72px) rotateX(340deg) ;
+        background-color: rgba(149, 213, 178,0.90);
+    }85%{
+        transform:  translate(-11px,-54px) rotateX(360deg) ;
+        background-color: rgba(149, 213, 178, 0.75);
     }90%{
-        transform:  translate(160px,-40px) rotate(320deg);
+        transform:  translate(-12px,-36px) rotateX(360deg) ;
+        background-color: rgba(149, 213, 178, 0.5);
+    }95%{
+        transform: translate(-12px,-18px) rotateX(36deg);
+        background-color: rgba(149, 213, 178, 0.25)
     }100%{
-        transform:  translate(200px,450px) rotate(360deg);
-    }
+        transform:  translate(-13px,0px) rotateX(360deg)  ;
+        background-color: rgba(149, 213, 178, 0);
+}
 }
 
 @keyframes myparty10{
      0%{ 
         transform: translate(0px,0px) rotate(0deg);
     }10%{
-        transform:  translate(20px,-5px) rotate(40deg);
+        transform:  translate(120px,-5px) rotate(40deg);
     }30%{
-        transform:  translate(40px,-10px) rotate(80deg);
+        transform:  translate(40px,-110px) rotate(80deg);
     }40%{
         transform:  translate(60px,-15px) rotate(120deg);
     }50%{
-        transform:  translate(80px,-20px) rotate(160deg);
+        transform:  translate(180px,-20px) rotate(160deg);
     }60%{
-        transform:  translate(100px,-25px) rotate(200deg);
+        transform:  translate(100px,-125px) rotate(200deg);
     }70%{
         transform: translate(120px,-30px) rotate(240deg);
     }80%{
-        transform:  translate(140px,-35px) rotate(280deg);
+        transform:  translate(140px,-135px) rotate(280deg);
     }90%{
         transform:  translate(160px,-40px) rotate(320deg);
     }100%{

@@ -1,0 +1,27 @@
+body{
+
+    display : flex;
+}
+div{
+    background-color: aqua;
+    height: 40px;
+    width : 40px;
+    transform: skew(80deg);
+    position: absolute;
+    left: 500px;
+    top: 400px;
+    animation-name: beta;
+    animation-duration: 1s;
+}
+
+@keyframes beta{
+    10%{
+        transform: rotateX(180deg ) skew(80deg);
+    }
+    50%{
+        transform: rotateX(360deg)  skew(80deg);
+    }
+    100%{
+        transform: rotateX(120deg) skew(80deg);
+    }
+}
