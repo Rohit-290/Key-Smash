@@ -1,59 +1,35 @@
-let lunches = [];
-
-
-function addLunchToEnd(arr,str){
-  arr.push(str);
-  console.log(`${str} added to the end of the lunch menu.`)
-  return arr;
+let man = { 
+   containerId: null, 
+   destination: "Santa Cruz",
+   weight: 304,
+   unit: "kg", 
+   hazmat:false
 }
 
-function addLunchToStart(arr, str){
-   arr.unshift();
-   console.log(`${str} added to the start of the lunch menu.`)
-   return arr;
+function normalizeUnits (manifest) {
+let copy = {...manifest} ;
+  if(manifest.unit!=kg){
+    manifest.weight = manifest.weight*0.45;
+    manifest.unit = "kg"
+  }
+  return copy ; 
 }
 
-function removeLastLunch(arr){
-   let b = arr.pop();
-   if(b!=""){
-   console.log(`${b} removed from the end of the lunch menu.`);
-   }
-   else if(arr.length > 0 ){
-    console.log("No lunches to remove")
-   }
-   return arr;
+function validateManifest (manifest) {
+let copy = {...manifest}
+if(copy.containerId>0 && copy.containerId.isInteger() && copy.destination != null && copy.weight>0 && copy.unit != null && copy.hazmat != null){
+  return new Object() ;
+}else if(copy=={}) {
+  copy.containerId = "Missing";
+  copy.destination = "Missing";
+  copy.weight = "Missing";
+  copy.unit = "Missing";
+  copy.hazmat = "Missing";
+  return copy ;
+}else if(copy.containerId==null && copy.destination != null && copy.weight>0 && copy.unit != null && copy.hazmat != null){
+  copy.containerId = "Invalid" ;
+  return copy.containerId ;
+} 
 }
 
-function removeFirstLunch(arr){
-   let a = arr.shift();
-   if (a!=""){
-   console.log(`${a} removed from the start of the lunch menu.`)}
-   else if (arr.length > 0){
-    console.log("No lunches to remove")
-   }
-   return arr;
-}
-
-function getRandomLunch(arr){
-   let c = arr[`${random(arr.length-1)}`]
-   if(c != ""){
-   console.log(`Randomly selected lunch: ${c}`);
-   }if (arr.length > 0){
-    console.log("No lunches available.")
-   }
-   return arr;
-}
-
-function showLunchMenu(arr){
-   if(arr.length>0){
-   console.log("Menu items:", arr.tostring());
-   }else{ 
-    console.log("The menu is empty.")
-   }
-}
-
-function random(number){
-  return Math.floor(Math.random()*number)+1;
-}
-
-console.log(removeLastLunch());
+console.log(validateManifest(man));

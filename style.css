@@ -101,6 +101,7 @@ body{
     animation-name: "myanime";
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    visibility: hidden;
 }
 
 .ball1{

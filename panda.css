@@ -1,3 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.panda{
+    background: linear-gradient(180deg, rgba(46, 42, 61,0) 0%, rgba(74, 51, 88,0) 100%, rgba(26, 23, 37,0) 79%);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    visibility: hidden;
+    padding-bottom: 170px;
+    padding-left: 50px;
+}
+
 #pan1{
     background-color: rgb(241, 239, 232);
     height: 120px;
@@ -9,6 +29,7 @@
     border-top-right-radius: 60%;
     border-bottom-left-radius: 70%;
     border-bottom-right-radius: 70%;
+    z-index: 999;
 }
 
 #pan2{
@@ -20,6 +41,7 @@
     right: 205px;
     border-radius: 50% ;
     box-shadow: 2px 2px 4px grey;
+    z-index: 999;
 }
 
 #pan3{
@@ -30,6 +52,7 @@
     top: 280px; 
     right: 260px;
     border-radius: 50% ;
+    z-index: 999;
 }
 
 #pan4{
@@ -40,6 +63,7 @@
     top: 280px; 
     right: 215px;
     border-radius: 50% ;  
+    z-index: 999;
 }
 
 #pan5{
@@ -50,6 +74,7 @@
     top: 225px; 
     right: 260px;
     border-radius: 50% ;
+    z-index: 999;
 }
 
 
@@ -61,6 +86,7 @@
     top: 225px; 
     right: 192px;
     border-radius: 50% ;
+    z-index: 999;
 }
 
 
@@ -73,6 +99,7 @@
     right: 240px;
     border-radius: 50% ;
     rotate: 180deg;
+    z-index: 999;
 }
 
 
@@ -85,7 +112,7 @@
     top: 320px; 
     right: 238px;
     border-radius: 50% ;
-    
+    z-index: 999;
 }
 
 #pan9{
@@ -97,6 +124,7 @@
     right: 260px;
     border-radius: 50% ;
     rotate: -35deg;
+    z-index: 999;
 }
 
 #pan10{
@@ -107,7 +135,8 @@
     top: 360px; 
     right: 195px;
     border-radius: 50% ; 
-    rotate: 35deg; 
+    rotate: 35deg;
+    z-index: 999; 
 }
 
 #pan11{
@@ -123,6 +152,7 @@
     animation-iteration-count: infinite;
     animation-duration: 3s;
     animation-timing-function: steps(2);
+    z-index: 998;
 }
 
 #pan12{
@@ -133,7 +163,8 @@
     top: 280px; 
     right: 170px;
     border-radius: 50% ; 
-    rotate: 70deg; 
+    rotate: 70deg;
+    z-index: 999; 
 }
 
 #pan13{
@@ -148,6 +179,7 @@
     animation-iteration-count: infinite;
     animation-duration: 3s;
     animation-timing-function: steps(2);
+    z-index: 999;
 }
 
 #pan14{
@@ -158,6 +190,7 @@
     top: 290px; 
     right: 120px;
     border-radius: 50% ;
+    z-index: 999;
 }
 
 #pan15{
@@ -168,6 +201,7 @@
     top: 290px; 
     right: 265px;
     border-radius: 50% ;
+    z-index: 999;
 }
 
 #pan16{
@@ -178,6 +212,7 @@
     top: 290px; 
     right: 220px;
     border-radius: 50% ;
+    z-index: 999;
 }
 
 @keyframes panda {
