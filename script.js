@@ -43,6 +43,7 @@ const playBtn = () =>{
 }
  
 
+
 document.addEventListener("keydown",(e)=>{
     const gen = document.getElementById("b1");
     let col = `rgb(${random(255)} ${random(255)} ${random(255)})` ;
@@ -56,8 +57,7 @@ document.addEventListener("keydown",(e)=>{
     setTimeout(() => {
         gen.innerText = "";
         }, 3000);
-   
-    playBgm(); 
+    playBgm();
     ballonceleb();
 });
 
