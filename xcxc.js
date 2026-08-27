@@ -101,3 +101,119 @@ const maskEmail = (email) => {
   return a+b ;
 }
 console.log(maskEmail("freecodecamp@example.com"));
+
+function getRandomLunch(arr){
+   let c = arr[random(arr.length)];
+   if (arr.length==0){
+    console.log("No lunches available.");
+   }
+   else{
+   console.log(`Randomly selected lunch: [${c}]`);
+   }
+}
+ 
+let ar = ["Sushi", "Pizza", "Burger"] ;
+console.log(getRandomLunch(ar));
+
+function showLunchMenu(arr){
+   if(arr.length==0){ 
+    console.log("The menu is empty.");
+   }
+   else{
+   console.log("Menu items:", arr.toString());
+   }
+}
+
+
+function random(number){
+  return Math.floor(Math.random()*number);
+}
+
+console.log(showLunchMenu(ar));
+
+
+
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+
+
+golfScore = (par , strokes)=>{
+if(par>=1&&strokes==1){
+  return "Hole-in-one" ;  
+}else if(strokes<=par-2){
+  return "Eagle" ;
+}else if(strokes==par-1){
+  return "Birdie" ;
+}else if(strokes==par&&strokes>1&&par>1){
+  return "Par" ;
+}else if(strokes==par+1){
+  return "Bogey" ;
+}else if(strokes==par+2){
+  return "Double Bogey" ;
+}else if(strokes>=par+3){
+  return "Go Home!";
+}
+}
+
+console.log(golfScore(4,8));
+
+const config1 = {
+  fault: false,
+  phases: [
+    { color: "green", duration: 5 },
+    { color: "yellow", duration: 2 },
+    { color: "red", duration: 4 }
+  ]
+};
+
+const config2 = {
+  fault: false,
+  phases: [
+    { color: "red", duration: 3 },
+    { color: "yellow", duration: -2 },
+    { color: "green", duration: 6 }
+  ]
+};
+
+const config3 = {
+  fault: true,
+  phases: [
+    { color: "green", duration: 5 },
+    { color: "yellow", duration: 2 },
+    { color: "red", duration: 6 }
+  ]
+};
+
+const config4 = {
+  fault: false,
+  phases: []
+};
+
+let runSequence = (config,cycles) => {
+    if(config.phases==""){
+      console.log("No phases found");
+    }else{ if(config.fault==true){
+      console.log("Faulted phase!");
+    }else if(config.phases.duration<=0){
+      console.log("Invalid phase detected");
+    }else{
+      for(let phase of config.phases){
+        for(let i=0;i<=cycles;i++){
+        console.log(`Switching to ${phase.color} for ${phase.duration} s`);
+      }
+     }
+    }
+  }
+}
+
+
+let generateTimeline = (config,cycles) => {
+for(let phase in config.phases){
+  // console.log(config.phases[phase]);
+ for(let nphase in config.phases[phase]){
+  console.log(`${duration}`);
+ }
+}
+}
+
+console.log(generateTimeline(config1, 1));

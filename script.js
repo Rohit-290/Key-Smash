@@ -15,7 +15,7 @@ let counter = 1;
 
 const playBgm = () => {
     return new Promise((res,rej) => { 
-    let p2 = aud1.play();
+    let p2 = aud1.play();    
     aud1.loop = true;
     p2.then((res)=>{
         panda.style.visibility = "visible" ;
@@ -43,7 +43,6 @@ const playBtn = () =>{
 }
  
 
-
 document.addEventListener("keydown",(e)=>{
     const gen = document.getElementById("b1");
     let col = `rgb(${random(255)} ${random(255)} ${random(255)})` ;
@@ -57,7 +56,9 @@ document.addEventListener("keydown",(e)=>{
     setTimeout(() => {
         gen.innerText = "";
         }, 3000);
-    playBgm();
+    if(counter==2){
+        playBgm();
+    }
     ballonceleb();
 });
 
