@@ -13,7 +13,7 @@ body{
     background: linear-gradient(180deg, rgba(46, 42, 61,1) 0%, rgba(74, 51, 88,1) 100%, rgba(26, 23, 37,1) 79%);
 }
 
-.icon{
+.icon{ 
     height:100px;
     width:100px;
     font-size: 2rem;
@@ -21,6 +21,7 @@ body{
     background-repeat: no-repeat;
     z-index: 1000;
 }
+
 .pbox{
     height: 100vh;
     width: 100vw;
@@ -30,7 +31,6 @@ body{
     align-items: flex-start;
     justify-content: center;
 }
-
 
 .box{
     height: 30vmin;
@@ -57,7 +57,7 @@ body{
 
 .coun1{
     height: 90px;
-    width: 120px;
+    width: 150px;
     display: flex;
     align-items: center;
     position: absolute;
@@ -75,7 +75,7 @@ body{
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .c2{
@@ -86,7 +86,7 @@ body{
     font-size: 1.5rem;
     align-items: center;
     font-family:"Rock Salt";
-    padding-right: 5px;
+    padding-right: 35px;
 }
 
 #b1{

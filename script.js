@@ -48,18 +48,20 @@ document.addEventListener("keydown",(e)=>{
     let col = `rgb(${random(255)} ${random(255)} ${random(255)})` ;
     if(gen.innerText = e.key.toUpperCase()){
         playBtn();  
+        
         const con = document.querySelector(".c2");
         con.innerText = counter ++ ;
-        gen.style.transform = `translate(${random(1200)}px , ${random(500)}px)`;
+        gen.style.transform = `translate(${random(1200)}px , ${random(400)}px)`;
     };
     gen.style.color = col ;
     setTimeout(() => {
-        gen.innerText = "";
+        gen.innerText = "" ;
         }, 3000);
+          ballonceleb();
     if(counter==2){
         playBgm();
     }
-    ballonceleb();
+  
 });
 
 

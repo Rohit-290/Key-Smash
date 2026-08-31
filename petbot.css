@@ -1,0 +1,401 @@
+.petbot1{
+    height: 30px;
+    width: 80px;
+    background-color: #7F77DD ;
+    position: absolute;
+    left: 20px;
+    bottom: 22px;
+    transform: skewX(-10deg);
+    border-radius: 20%;
+    animation-name: "mov1";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.petbot2{
+    height: 20px;
+    width: 5px;
+    background-color: #080620 ;
+    position: absolute;
+    left: 44px;
+    bottom: 0px;
+    transform: skewX(20deg);
+    animation-name: "mov2";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.petbot3{
+    height: 20px;
+    width: 5px;
+    background-color: #080620 ;
+    position: absolute;
+    left: 24px;
+    bottom: 0px;
+    transform: skewX(-20deg);
+    animation-name: "mov3";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.petbot4{
+    height: 20px;
+    width: 5px;
+    background-color: #080620 ;
+    position: absolute;
+    left: 90px;
+    bottom: 0px;
+    transform: skewX(20deg);
+    animation-name: "mov4";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.petbot5{
+    height: 20px;
+    width: 5px;
+    background-color: #080620 ;
+    position: absolute;
+    left: 74px;
+    bottom: 0px;
+    transform: skewX(-20deg);
+    animation-name: "mov5";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+}
+
+.petbot6{
+    height: 15px;
+    width: 30px;
+    background-color: #7F77DD ;
+    position: absolute;
+    left: 100px;
+    bottom: 35px;
+    transform: skewX(-10deg);
+    border-radius: 20%;
+    animation-name: "mov6";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.petbot7{
+    height: 8px;
+    width: 8px;
+    background-color: #b19e26 ;
+    position: absolute;
+    left: 110px;
+    bottom: 40px;
+    border-radius: 50%;
+    animation-name: "mov7";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.petbot8{
+    height: 20px;
+    width: 2px;
+    background-color: #080620 ;
+    position: absolute;
+    left: 105px;
+    bottom: 50px;
+    transform: skewX(20deg);
+    animation-name: "mov8";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.petbot9{
+    height: 24px;
+    width: 4px;
+    background-color: #080620 ;
+    position: absolute;
+    rotate: 90deg;
+    left: 144px;
+    bottom: 50px;
+    animation-name: "mov9";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.petbot10{
+    height: 14px;
+    width: 14px;
+    background-color: #000000 ;
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    border-radius: 50%;
+    animation-name: "mov10";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+.petbot11{
+    height: 14px;
+    width: 14px;
+    background-color: #080620 ;
+    position: absolute;
+    left: 39px;
+    bottom: 0px;
+    border-radius: 50%;
+    animation-name: "mov11";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+.petbot12{
+    height: 14px;
+    width: 14px;
+    background-color: #080620 ;
+    position: absolute;
+    left: 69px;
+    bottom: 0px;
+    border-radius: 50%;
+    animation-name: "mov12";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+.petbot13{
+    height: 14px;
+    width: 14px;
+    background-color: #080620 ;
+    position: absolute;
+    left: 85px;
+    bottom: 0px;
+    border-radius: 50%;
+    animation-name: "mov13";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.petbot14{
+    height: 6px;
+    width: 6px;
+    background-color: #ffffff ;
+    position: absolute;
+    left: 23px;
+    bottom: 4px;
+    border-radius: 50%;
+    animation-name: "mov14";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+.petbot15{
+    height: 6px;
+    width: 6px;
+    background-color: #ffffff ;
+    position: absolute;
+    left: 43px;
+    bottom: 4px;
+    border-radius: 50%;
+    animation-name: "mov15";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+.petbot16{
+    height: 6px;
+    width: 6px;
+    background-color: #ffffff ;
+    position: absolute;
+    left: 74px;
+    bottom: 4px;
+    border-radius: 50%;
+    animation-name: "mov16";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+.petbot17{
+    height: 6px;
+    width: 6px;
+    background-color: #ffffff ;
+    position: absolute;
+    left: 90px;
+    bottom: 4px;
+    border-radius: 50%;
+    animation-name: "mov17";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+/* ------------------------------------------------animations----------------------------------------------------------------------------------------------------------------------- */
+
+@keyframes mov1{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+
+@keyframes mov2{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+
+@keyframes mov3{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+
+@keyframes mov4{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+
+@keyframes mov5{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+
+@keyframes mov6{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+
+@keyframes mov7{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+
+@keyframes mov8{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+
+@keyframes mov9{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+
+
+@keyframes mov10{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+    
+
+
+@keyframes mov11{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+    
+
+
+@keyframes mov12{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+    
+
+
+@keyframes mov13{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+    
+
+
+@keyframes mov14{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+    
+
+
+@keyframes mov15{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+    
+
+
+@keyframes mov16{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+    
+
+
+@keyframes mov17{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(200px) ;
+    }
+}
+    
+    
+    

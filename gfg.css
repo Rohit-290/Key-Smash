@@ -1,8 +1,8 @@
-body{
+/* body{
 
     display : flex;
 }
-div{
+/* div{
     background-color: aqua;
     height: 40px;
     width : 40px;
@@ -24,4 +24,30 @@ div{
     100%{
         transform: rotateX(120deg) skew(80deg);
     }
+} */
+
+
+/* .icon{ 
+    height:100px;
+    width:100px;
+    font-size: 2rem;
+    background-image: url(sale.png);
+    background-repeat: no-repeat;
+    z-index: 1000;
+} */ 
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 1100px;
+    width: 2000px;
+}
+
+
+.two{
+    background-color: aqua;
+    height: 40px;
+    width : 40px;
 }
