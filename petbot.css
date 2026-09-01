@@ -1,10 +1,25 @@
+.petbot0{
+    height: 6px;
+    width: 6px;
+    background-color: #ffffff ;
+    position: absolute;
+    left: 90px;
+    bottom: 4px;
+    border-radius: 50%;
+    animation-name: "mov0";
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    z-index: 9999;
+}
+
+
 .petbot1{
     height: 30px;
     width: 80px;
     background-color: #7F77DD ;
     position: absolute;
     left: 20px;
-    bottom: 22px;
+    bottom: 19px;
     transform: skewX(-10deg);
     border-radius: 20%;
     animation-name: "mov1";
@@ -67,11 +82,11 @@
 
 .petbot6{
     height: 15px;
-    width: 30px;
+    width: 20px;
     background-color: #7F77DD ;
     position: absolute;
-    left: 100px;
-    bottom: 35px;
+    left: 114px;
+    bottom: 65px;
     transform: skewX(-10deg);
     border-radius: 20%;
     animation-name: "mov6";
@@ -81,24 +96,23 @@
 
 .petbot7{
     height: 8px;
-    width: 8px;
+    width: 4px;
     background-color: #b19e26 ;
     position: absolute;
-    left: 110px;
-    bottom: 40px;
-    border-radius: 50%;
+    left: 134px;
+    bottom: 70px;
     animation-name: "mov7";
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
 .petbot8{
-    height: 20px;
-    width: 2px;
+    height: 30px;
+    width: 4px;
     background-color: #080620 ;
     position: absolute;
-    left: 105px;
-    bottom: 50px;
+    left: 122px;
+    bottom: 35px;
     transform: skewX(20deg);
     animation-name: "mov8";
     animation-duration: 6s;
@@ -110,9 +124,9 @@
     width: 4px;
     background-color: #080620 ;
     position: absolute;
-    rotate: 90deg;
-    left: 144px;
-    bottom: 50px;
+    rotate: 0deg;
+    left: 110px;
+    bottom: 25px;
     animation-name: "mov9";
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -215,27 +229,28 @@
 }
 
 
-.petbot17{
-    height: 6px;
-    width: 6px;
-    background-color: #ffffff ;
-    position: absolute;
-    left: 90px;
-    bottom: 4px;
-    border-radius: 50%;
-    animation-name: "mov17";
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-}
+
 
 
 /* ------------------------------------------------animations----------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+@keyframes mov0{
+    0%{
+       transform: translate(0px) ;
+    }100%{
+       transform: translate(800px) ;
+    }
+}
+    
 
 @keyframes mov1{
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
 
@@ -243,7 +258,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -252,7 +267,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -261,7 +276,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -270,7 +285,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -279,7 +294,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -288,7 +303,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -297,16 +312,16 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
 
 @keyframes mov9{
     0%{
-       transform: translate(0px) ;
+       transform: translate(0px) rotate(90deg) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) rotate(90deg) ;
     }
 }
     
@@ -316,7 +331,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -327,7 +342,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -338,7 +353,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -349,7 +364,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -360,7 +375,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -371,7 +386,7 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
@@ -382,20 +397,12 @@
     0%{
        transform: translate(0px) ;
     }100%{
-       transform: translate(200px) ;
+       transform: translate(800px) ;
     }
 }
     
     
 
 
-@keyframes mov17{
-    0%{
-       transform: translate(0px) ;
-    }100%{
-       transform: translate(200px) ;
-    }
-}
-    
     
     

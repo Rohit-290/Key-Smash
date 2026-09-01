@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-body{
+.top{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,8 +14,8 @@ body{
 }
 
 .icon{ 
-    height:100px;
-    width:100px;
+    height: 100px;
+    width: 100px;
     font-size: 2rem;
     background-image: url(sale.png);
     background-repeat: no-repeat;
@@ -56,12 +56,12 @@ body{
 }
 
 .coun1{
-    height: 90px;
-    width: 150px;
+    height: 80px;
+    width: 350px;
     display: flex;
     align-items: center;
     position: absolute;
-    right: 110px;
+    right: 90px;
     top: 40px;
     justify-content: space-between;
     background: linear-gradient(180deg, rgba(46, 42, 61, 0.251) 0%, rgba(74, 51, 88,0.25) 100%, rgba(26, 23, 37,0.25) 79%);;
@@ -80,7 +80,7 @@ body{
 
 .c2{
     height: 40px;
-    width: 30px;
+    width: 200px;
     display: flex;
     color:#8B7D93;
     font-size: 1.5rem;
@@ -109,50 +109,51 @@ body{
     animation-name: "myanime";
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    visibility: hidden;
+}
+
+
+.ball0{
+ position: relative;
+ top: 600px;
+ right: 400px;
+ background-color: rgb(210, 230, 60);
 }
 
 .ball1{
  position: relative;
- top: 600px;
- Right: 500px;
- background-color: #E8C468;
+ top: 700px;
+ Right: 900px;
+ background-color: rgb(220, 30, 40);
 }
 
 .ball2{
  position: relative;
  top: 200px;
  right: 300px;
- background-color: #E8A0BF;
+ background-color: rgb(124, 200, 60);
 }
 
 .ball3{
  position: relative;
  top: 400px;
  Right: 350px;
- background-color: #B39DDB;
+ background-color: rgb(255, 105, 180);
 }
 
 .ball4{
  position: relative;
  top: 300px;
  right: 650px;
- background-color: #5FA8A0;
+ background-color: rgb(48, 210, 200);
 }
 
 .ball5{
  position: relative;
  top: 700px;
  left: 300px;
- background-color: #E88A6E;
+ background-color: rgb(180, 140, 220);
 }
 
-.ball6{
- position: relative;
- top: 600px;
- right: 400px;
- background-color: #8C9EDE;
-}
 
 @keyframes myanime{
     0%{ 

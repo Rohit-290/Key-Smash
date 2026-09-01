@@ -57,7 +57,7 @@ document.addEventListener("keydown",(e)=>{
     setTimeout(() => {
         gen.innerText = "" ;
         }, 3000);
-          ballonceleb();
+        ballonceleb();
     if(counter==2){
         playBgm();
     }
@@ -74,23 +74,24 @@ const cleandiv = () => {
  }                      
  
 const ballonceleb = () => {
-    if(counter==51 || counter==101 || counter == 201){ 
-     ball1.style.visibility = "visible";
-     ball2.style.visibility = "visible";
-     ball3.style.visibility = "visible";
-     ball4.style.visibility = "visible";
-     ball5.style.visibility = "visible";
-     ball6.style.visibility = "visible";
+   
+     ball1.style.color = "#45678f"
+     ball2.style.visibility = visible;
+     ball3.style.visibility = hidden;
+     ball4.style.visibility = hidden;
+     ball5.style.visibility = hidden;
+     ball6.style.visibility = visible;
     
-     setTimeout(()=>{
+//      setTimeout(()=>{
+//      anime.style.visibility = "hidden";
+//      ball1.style.visibility = "hidden";
+//      ball2.style.visibility = "hidden";
+//      ball3.style.visibility = "hidden";
+//      ball4.style.visibility = "hidden";
+//      ball5.style.visibility = "hidden";
+//      ball6.style.visibility = "hidden";
+    
+//     },9000);
+// }
 
-    ball1.style.visibility = "hidden";
-    ball2.style.visibility = "hidden";
-    ball3.style.visibility = "hidden";
-    ball4.style.visibility = "hidden";
-    ball5.style.visibility = "hidden";
-    ball6.style.visibility = "hidden";
-    
-    },9000);
-}
 }
