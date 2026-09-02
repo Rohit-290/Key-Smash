@@ -1,83 +1,39 @@
-function findLongestWordLength (str) {
-  let val2 = str.split(" ");
-    for(let i=0; i<val2.length-1; i++){
-      
-    if(val2[i]==val2[val2.length-2]){ ; 
-       return val2[i].length > val2[i+1].length ? val2[i].length : val2[i+1].length ;
-      }
-    }
+function fearNotLetter (str) {
+  let met = str.split("");
+  let alphabets = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+  let h = alphabets.indexOf(met[0]);
+  for(let i=0; i<met.length; i++){
+  
+  console.log(met[i]!=alphabets[h]);
+     
+  for(char in met){
+    return char;
   }
 
-
-console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));
-
-
-let arr = [];
-let num;
-function chunkArrayInGroups (arr,num){
-   
-
-for(let i=0; i<arr.length; i+num){
-   let arr2 = [] ;
-   let arr1 = arr.splice([i],num);
-   arr2.push(arr1);
-   
-   return arr2 ;
-   }
+  }
 }
 
-console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2));
 
-let contacts = [
-  {
-    firstName: "Akira",
-    lastName: "Laine",
-    number: "0543236543",
-    likes: ["Pizza", "Coding", "Brownie Points"],
-  },
-  {
-    firstName: "Harry",
-    lastName: "Potter",
-    number: "0994372684",
-    likes: ["Hogwarts", "Magic", "Hagrid"],
-  },
-  {
-    firstName: "Sherlock",
-    lastName: "Holmes",
-    number: "0487345643",
-    likes: ["Intriguing Cases", "Violin"],
-  },
-  {
-    firstName: "Kristian",
-    lastName: "Vos",
-    number: "unknown",
-    likes: ["JavaScript", "Gaming", "Foxes"],
-  },
-];
 
-function lookUpProfile(name, property){
-    if(contacts[0].firstName==name)
-      {
-      {
-      if(property == "lastName"){
-        console.log(contacts[0].lastName) ;
-      }else{
-        console.log("No such contact") ;
-      }}
-      {if(property == "number"){
-        console.log(contacts[0].number) ;
-      }else{
-        console.log("No such contact") ;
-      }}
-      {if(property == "likes"){
-        console.log(contacts[0].likes) ;
-      }else{
-      console.log("No such property");
-      }}
+console.log(fearNotLetter("stvwx"));
+
+
+
+
+let arr = []
+let res = []
+
+function largestOfAll (arr) {
+  for(let i=0; i<arr.length; i++){
+    for(let j=0; j<arr[i].length; j++){
+
+let a = arr[i][j]>arr[i][j+1]?arr[i][j]:arr[i][j+1];
+
+ ;
+
+       } 
     }
   }
-      
-      
 
 
-console.log(lookUpProfile("Akira", "lastName"));
+console.log(largestOfAll([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]]));

@@ -18,6 +18,17 @@
     padding-left: 50px;
 }
 
+#pan0{
+    background-color: rgb(241, 239, 232);
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 290px; 
+    right: 220px;
+    border-radius: 50% ;
+    z-index: 999;
+}
+
 #pan1{
     background-color: rgb(241, 239, 232);
     height: 120px;
@@ -204,16 +215,7 @@
     z-index: 999;
 }
 
-#pan16{
-    background-color: rgb(241, 239, 232);
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    top: 290px; 
-    right: 220px;
-    border-radius: 50% ;
-    z-index: 999;
-}
+
 
 @keyframes panda {
     from{
