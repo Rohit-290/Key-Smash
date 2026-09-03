@@ -1,39 +1,49 @@
-function fearNotLetter (str) {
-  let met = str.split("");
-  let alphabets = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-  let h = alphabets.indexOf(met[0]);
-  for(let i=0; i<met.length; i++){
-  
-  console.log(met[i]!=alphabets[h]);
-     
-  for(char in met){
-    return char;
-  }
+let questions = [
+  obj1 = { 
+    category: "History" ,
+    question: "Archduke Franz Ferdinand was heir to which empire ?" ,
+    choices: ["Prussian","Ottoman","Austro-Hungarian"] ,
+    answer: "Austro-Hungarian" ,
+  },
+  obj2 = {
+    category: "Science" ,
+    question: "What is known as powerhouse of a cell?" ,
+    choices: ["Mitochondria","Ribosomes","Vacoules"],
+    answer: "Mitochondria" ,
+  },
+  obj3 = {
+    category: "Geography" ,
+    question: "Which mountain range borders Europe and Asia?" ,
+    choices: ["The Himalayan","The Alps","Ural"] ,
+    answer: "Ural" ,
+  },
+  obj4 = {
+    category: "Astronomy" ,
+    question: "How many moons does Mars has?" ,
+    choices: ["1","2","3"] ,
+    answer: "3" ,
+  },
+  obj5 = {
+    category: "Computer Science" ,
+    question: "Who is known as the father of World Wide Web?" ,
+    choices: ["Tim Berners Lee","Charles Babbage","Steve Jobs"] ,
+    answer: "Tim Berners Lee" ,
+  },
+];
 
-  }
+function getRandomQuestion ([]){
+   return questions[`${(random(5))}`].question
+} 
+
+function getRandomComputerChoice ([]){
+   return questions[`${(random(5))}`].choices[`${(random(3))}`]
+} 
+
+console.log(getRandomQuestion(questions))
+console.log(getRandomComputerChoice(questions))
+
+
+
+function random(number){
+  return Math.floor(Math.random()*number) ;
 }
-
-
-
-console.log(fearNotLetter("stvwx"));
-
-
-
-
-let arr = []
-let res = []
-
-function largestOfAll (arr) {
-  for(let i=0; i<arr.length; i++){
-    for(let j=0; j<arr[i].length; j++){
-
-let a = arr[i][j]>arr[i][j+1]?arr[i][j]:arr[i][j+1];
-
- ;
-
-       } 
-    }
-  }
-
-
-console.log(largestOfAll([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
