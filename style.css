@@ -112,7 +112,7 @@
     border-bottom-left-radius: 90%;
     border-bottom-right-radius: 20%;
     rotate: 45deg;
-    animation-name: "myanime";
+    animation-name: "myanimee";
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
@@ -161,7 +161,7 @@
 }
 
 
-@keyframes myanime{
+@keyframes myanimee{
     0%{ 
         transform: translate(0px,0px) ; 
        
