@@ -10,8 +10,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, rgba(46, 42, 61,1) 0%, rgba(74, 51, 88,1) 100%, rgba(26, 23, 37,1) 79%);
-}
+    background: linear-gradient(180deg, rgb(100, 181, 246), rgb(187, 222, 251), rgb(227, 242, 253));
+    /* background: linear-gradient(180deg, rgba(46, 42, 61,1) 0%, rgba(74, 51, 88,1) 100%, rgba(26, 23, 37,1) 79%);
+} */
 
 .icon{ 
     height: 100px;
@@ -97,6 +98,7 @@
     position: absolute;
     top: 100px;
     left: 0px;
+    z-index: 99999;
 }
 
 
@@ -113,7 +115,6 @@
     animation-name: "myanime";
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    visibility: hidden;
 }
 
 
@@ -196,6 +197,5 @@
         transform: translate(50px,-500px)skew(-6deg,-4deg); 
     }
 }
-
 
 

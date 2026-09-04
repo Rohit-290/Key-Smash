@@ -52,3 +52,35 @@ let insertPan = document.querySelector(".panda");
 insertPan.append(createPanda);
 createPanda.setAttribute("id",`pan${i}`);                                                                                                                                                                                                                                                                                                                        
 }
+
+/* landscape creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
+
+for(let i=0; i<2; i++){
+let createLand = document.createElement("div");    
+let insert = document.querySelector("body");  
+insert.append(createLand);
+createLand.classList.add("h");                                                                                                                                                                                                                                                                                                                          
+}
+
+
+for(let i=0; i<3; i++){
+let creationLand = document.getElementsByClassName("h")[i]; 
+creationLand.classList.add(`hill${i}`);                                                                                                                                                                                                                                                                                                                  
+}
+
+/* clouds creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
+
+
+for(let i=0; i<4; i++){
+let createClouds = document.createElement("div");    
+let insert = document.querySelector("body");  
+insert.append(createClouds);
+createClouds.classList.add("c");                                                                                                                                                                                                                                                                                                                          
+}
+
+
+
+for(let i=0; i<4; i++){
+let creationClouds = document.getElementsByClassName("c")[i]; 
+creationClouds.classList.add(`clouds${i}`);                                                                                                                                                                                                                                                                                                                  
+}

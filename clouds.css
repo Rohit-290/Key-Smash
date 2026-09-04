@@ -1,0 +1,65 @@
+.clouds0{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 150px;
+    left: 172px;
+    background-color: #F5F5FA;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 15%;
+    animation-name: "myclouds";
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+}
+
+.clouds1{
+    height: 40px;
+    width: 30px;
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    background-color: #F5F5FA;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 5%;
+    animation-name: "myclouds";
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+}
+
+.clouds2{
+    height: 45px;
+    width: 30px;
+    position: absolute;
+    top: 135px;
+    left: 229px;
+    background-color: #F5F5FA;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    animation-name: "myclouds";
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+}
+
+.clouds3{
+    height: 35px;
+    width: 30px;
+    position: absolute;
+    top: 145px;
+    left: 258px;
+    background-color: #F5F5FA;
+    border-top-right-radius: 80%;
+    animation-name: "myclouds";
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes myclouds {
+    from{
+        transform: translateX(-250px);
+    }
+    to{
+        transform: translateX(1600px);
+    }
+    
+}

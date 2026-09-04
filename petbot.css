@@ -10,7 +10,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    z-index: 9999;
+    z-index: 999999;
 }
 
 
@@ -27,7 +27,7 @@
     animation-duration: 16s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-   
+    z-index: 999999;
 }
 
 .petbot2{
@@ -42,6 +42,7 @@
     animation-duration: 16s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    z-index: 999999;
 }
 
 .petbot3{
@@ -56,6 +57,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 .petbot4{
@@ -70,6 +72,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 .petbot5{
@@ -84,7 +87,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    
+    z-index: 999999;
 }
 
 .petbot6{
@@ -100,7 +103,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    z-index: 9999;
+    z-index: 999999;
 }
 
 .petbot7{
@@ -114,7 +117,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    z-index: 9999;
+    z-index: 999999;
 }
 
 .petbot8{
@@ -129,6 +132,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 .petbot9{
@@ -143,6 +147,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 .petbot10{
@@ -157,6 +162,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 
@@ -172,6 +178,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 
@@ -187,6 +194,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 
@@ -202,6 +210,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 .petbot14{
@@ -216,6 +225,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 
@@ -231,6 +241,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 
@@ -246,6 +257,7 @@
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 999999;
 }
 
 

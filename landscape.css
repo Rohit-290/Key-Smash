@@ -1,0 +1,24 @@
+.hill1{
+    height: 12vh;
+    width: 54vw;
+    position: absolute;
+    bottom: 0px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 90%; 
+    border-bottom-right-radius: 4%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) ;
+    background-color: rgb(34, 139, 34);
+    z-index: 9999;
+}
+
+.hill2{
+    height: 16vh;
+    width: 50vw;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 0%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) ;
+    background-color: 	rgb(76, 175, 80);
+}

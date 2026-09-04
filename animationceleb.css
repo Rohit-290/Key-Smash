@@ -9,7 +9,7 @@
 
 .party0{
     background-color:rgb(255, 20, 147);
-    animation-name: "myparty1";
+    animation-name: "myparty0";
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -372,11 +372,13 @@
 }
 
 .party45{
-    background-color: rgb(9, 255, 0);
+   
     animation-name: "myparty44";
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    height: 100px;
+    width: 100px;
 }
 
 .party46{
@@ -2097,34 +2099,29 @@
     }40%{
         transform: translate(16px,-224px) rotateY(320deg);
     }45%{
-        transform: translate(18px,-220px) rotateY(360deg);
+        transform: translate(88px,-220px) rotateY(360deg);
     }50%{
-        transform: translate(20px,-200px) rotateX(400deg);
+        transform: translate(20px,-700px) rotateX(400deg);
     }55%{
-        transform:  translate(22px,-195px) rotateX(440deg);
+        transform:  translate(72px,-195px) rotateX(440deg);
     }60%{
         transform:  translate(24px,-185px) rotateY(480deg);
     }65%{
         transform:  translate(26px,-165px) rotateY(520deg);
     }70%{
-        transform:  translate(27px,-145px) rotateY(560deg);
+        transform:  translate(97px,-145px) rotateY(560deg);
     }75%{
-        transform:  translate(28px,-125px) rotateY(600deg);
+        transform:  translate(28px,-525px) rotateY(600deg);
     }80%{
         transform:  translate(29px,-100px) rotateY(640deg);
-        background-color: rgba(39,2,124,0.75);
     }85%{
         transform:  translate(29px,-80px) rotateY(680deg);
-        background-color: rgba(39,2,124,0.5);
     }90%{
         transform:  translate(30px,-60px) rotateY(720deg);
-        background-color: rgba(39,2,124,0.25);
     }95%{
         transform: translate(30px,-30px) rotateY(760deg);
-        background-color: rgba(39,2,124,0.1);
     }100%{
         transform:  translate(30px,0px) rotateY(780deg) ;
-        background-color:  rgba(39,2,124,0);
 }
 }
 

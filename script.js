@@ -11,13 +11,10 @@ const ball3 = document.querySelector(".ball3");
 const ball4 = document.querySelector(".ball4");
 const ball5 = document.querySelector(".ball5");
 const ball6 = document.querySelector(".ball6");
-const party42 = document.querySelector(".party42");
 
 /* setting values----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
 let counter = 1; 
- 
-party42.style.animationName = " " ;
 
 function random(number){
     return Math.floor(Math.random()*number)+1;
@@ -60,26 +57,26 @@ const cleandiv = () => {
     gen.innerText = "" ;
 }
 
-let ballonceleb = () => {
+// let ballonceleb = () => {
 
-     ball1.style.visibility = "visible";
-     ball2.style.visibility = "visible";
-     ball3.style.visibility = "visible";
-     ball4.style.visibility = "visible";
-     ball5.style.visibility = "visible";
-     ball6.style.visibility = "visible";
+//      ball1.style.visibility = "visible";
+//      ball2.style.visibility = "visible";
+//      ball3.style.visibility = "visible";
+//      ball4.style.visibility = "visible";
+//      ball5.style.visibility = "visible";
+//      ball6.style.visibility = "visible";
     
-     setTimeout(() => {
-     anime.style.visibility = "hidden";
-     ball1.style.visibility = "hidden";
-     ball2.style.visibility = "hidden";
-     ball3.style.visibility = "hidden";
-     ball4.style.visibility = "hidden";
-     ball5.style.visibility = "hidden";
-     ball6.style.visibility = "hidden";
+//      setTimeout(() => {
+//      anime.style.visibility = "hidden";
+//      ball1.style.visibility = "hidden";
+//      ball2.style.visibility = "hidden";
+//      ball3.style.visibility = "hidden";
+//      ball4.style.visibility = "hidden";
+//      ball5.style.visibility = "hidden";
+//      ball6.style.visibility = "hidden";
     
-    }, 9000);
-}
+//     }, 9000);
+// }
 
 /* event handling----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
@@ -99,12 +96,7 @@ document.addEventListener("keydown",(e)=>{
         if(counter == 2){
         playBgm();
     }
-        if(counter == 51){
-            ballonceleb();
-        }
-        if(counter == 201){
-            party42.style.animationName = "myparty42"
-        }
+        
 })
 
 
