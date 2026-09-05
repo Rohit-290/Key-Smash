@@ -8,7 +8,7 @@
     border-top-left-radius: 80%;
     border-bottom-left-radius: 15%;
     animation-name: "myclouds";
-    animation-duration: 100s;
+    animation-duration: 80s;
     animation-iteration-count: infinite;
 }
 
@@ -22,7 +22,7 @@
     border-top-left-radius: 40%;
     border-top-right-radius: 5%;
     animation-name: "myclouds";
-    animation-duration: 100s;
+    animation-duration: 80s;
     animation-iteration-count: infinite;
 }
 
@@ -36,7 +36,7 @@
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
     animation-name: "myclouds";
-    animation-duration: 100s;
+    animation-duration: 80s;
     animation-iteration-count: infinite;
 }
 
@@ -49,7 +49,7 @@
     background-color: #F5F5FA;
     border-top-right-radius: 80%;
     animation-name: "myclouds";
-    animation-duration: 100s;
+    animation-duration: 80s;
     animation-iteration-count: infinite;
 }
 

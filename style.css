@@ -105,97 +105,62 @@
 /* animations----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
 .anime{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     border-top-left-radius: 90%;
     border-top-right-radius: 80%;
     border-bottom-left-radius: 90%;
     border-bottom-right-radius: 20%;
     rotate: 45deg;
-    animation-name: "myanimee";
+    animation-name: "myanime";
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    visibility: hidden;
 }
 
 
 .ball0{
  position: relative;
  top: 600px;
- right: 400px;
+ right: 100px;
  background-color: rgb(210, 230, 60);
 }
 
 .ball1{
  position: relative;
  top: 700px;
- Right: 900px;
+ Right: 300px;
  background-color: rgb(220, 30, 40);
 }
 
 .ball2{
  position: relative;
  top: 200px;
- right: 300px;
+ right: 200px;
  background-color: rgb(124, 200, 60);
 }
 
 .ball3{
  position: relative;
  top: 400px;
- Right: 350px;
+ Right: 480px;
  background-color: rgb(255, 105, 180);
 }
 
 .ball4{
  position: relative;
  top: 300px;
- right: 650px;
+ right: 150px;
  background-color: rgb(48, 210, 200);
 }
 
 .ball5{
  position: relative;
  top: 700px;
- left: 300px;
+ left: 100px;
  background-color: rgb(180, 140, 220);
 }
 
 
-@keyframes myanimee{
-    0%{ 
-        transform: translate(0px,0px) ; 
-       
-    }10%{
-        transform: translate(-50px,-50px);
-       
-    }20%{
-        transform: translate(50px,-100px)skew(-6deg,-4deg);
-       
-    }30%{
-        transform: translate(-50px,-150px);
-       
-    }40%{
-        transform: translate(50px,-200px)skew(-6deg,-4deg);
-       
-    }50%{
-        transform: translate(-50px,-250px);
-       
-    }60%{
-        transform: translate(50px,-300px)skew(-6deg,-4deg);
-       
-    }70%{
-        transform: translate(-50px,-350px);
-       
-    }80%{
-        transform: translate(50px,-400px)skew(-6deg,-4deg);
-       
-    }90%{
-        transform: translate(-50px,-450px);
-       
-    }
-    100%{
-        transform: translate(50px,-500px)skew(-6deg,-4deg); 
-    }
-}
 
 
