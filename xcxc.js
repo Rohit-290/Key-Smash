@@ -164,81 +164,139 @@
 // }
 // }
 
-const config1 = {
-  fault: false,
-  phases: [
-    { color: "green", duration: 5 },
-    { color: "yellow", duration: 2 },
-    { color: "red", duration: 4 }
-  ]
-};
+// const config1 = {
+//   fault: false,
+//   phases: [
+//     { color: "green", duration: 5 },
+//     { color: "yellow", duration: 2 },
+//     { color: "red", duration: 4 }
+//   ]
+// };
 
-const config2 = {
-  fault: false,
-  phases: [
-    { color: "red", duration: 3 },
-    { color: "yellow", duration: -2 },
-    { color: "green", duration: 6 }
-  ]
-};
+// const config2 = {
+//   fault: false,
+//   phases: [
+//     { color: "red", duration: 3 },
+//     { color: "yellow", duration: -2 },
+//     { color: "green", duration: 6 }
+//   ]
+// };
 
-const config3 = {
-  fault: true,
-  phases: [
-    { color: "green", duration: 5 },
-    { color: "yellow", duration: 2 },
-    { color: "red", duration: 6 }
-  ]
-};
+// const config3 = {
+//   fault: true,
+//   phases: [
+//     { color: "green", duration: 5 },
+//     { color: "yellow", duration: 2 },
+//     { color: "red", duration: 6 }
+//   ]
+// };
 
-const config4 = {
-  fault: false,
-  phases: []
-};
-
-
-function runSequence (config,cycles) {
-for(let i=1; i<=cycles; i++) {
-   if(config.phases.length == 0){
-      return "No phases found";
-    }
-  for(let val in config.phases){
-   if(config.fault===true){
-      return "Faulted phase!";
-    }else if(config.phases[val].duration<=0){
-      return "Invalid phase detected"
-    }else{
-      console.log(`Switching to ${config.phases[val].color} for ${config.phases[val].duration} s`)
-    }
-  }
-}
-}
+// const config4 = {
+//   fault: false,
+//   phases: []
+// };
 
 
 // function runSequence (config,cycles) {
-//   for(let i=0; i<=cycles; i++){
-//     if(config.phases==null){
+// for(let i=1; i<=cycles; i++) {
+//    if(config.phases.length == 0){
 //       return "No phases found";
-//     }else if(config.fault===true){
+//     }
+//   for(let val in config.phases){
+//    if(config.fault===true){
 //       return "Faulted phase!";
-//     }else if(config.phases[i].duration<=0){
-//       return "Incalid phase detected"
+//     }else if(config.phases[val].duration<=0){
+//       return "Invalid phase detected"
 //     }else{
-//       console.log(`Switching to ${config.phases[i].color} for ${config.phases[i].durartion} s`)
+//       console.log(`Switching to ${config.phases[val].color} for ${config.phases[val].duration} s`)
 //     }
 //   }
 // }
+// }
 
 
-console.log(runSequence(config2,1));
+// // function runSequence (config,cycles) {
+// //   for(let i=0; i<=cycles; i++){
+// //     if(config.phases==null){
+// //       return "No phases found";
+// //     }else if(config.fault===true){
+// //       return "Faulted phase!";
+// //     }else if(config.phases[i].duration<=0){
+// //       return "Incalid phase detected"
+// //     }else{
+// //       console.log(`Switching to ${config.phases[i].color} for ${config.phases[i].durartion} s`)
+// //     }
+// //   }
+// // }
+
+
+// console.log(runSequence(config2,1));
 
 
 
 
-let arr = [5,2,4];
-let arr1 = [];
+// let arr = [5,2,4];
+// let arr1 = [];
 
-for(let i=0; i<arr.length; i++){
-  arr1.push(arr[i]+arr[i+1]);
-  console.log(arr1);
+// for(let i=0; i<arr.length; i++){
+//   arr1.push(arr[i]+arr[i+1]);
+//   console.log(arr1);
+// }
+
+
+
+const storyContainer = document.querySelector(".story-container");
+
+const scaryStoryBtn = document.getElementById("scary-btn");
+const funnyStoryBtn = document.getElementById("funny-btn");
+const adventureStoryBtn = document.getElementById("adventure-btn");
+
+const resultParagraph = document.getElementById("result");
+
+const storyObj = {
+  scary: {
+    story: `In the dark woods, a group of friends stumbled upon an old, abandoned cabin. They enter the cabin and awaken something malevolent that had been dormant for centuries.`,
+    borderColor: "#ee4b2b"
+  },
+  funny: {
+    story: `During a camping trip, Mark decided to show off his culinary skills by cooking dinner over an open fire. However, his attempt caused him to burn the dinner as well as his eyebrows off.`,
+    borderColor: "#f1be32"
+  },
+  adventure: {
+    story: `Lost in the heart of the Amazon rain forest, Sarah and Jake stumbled upon an ancient temple. They braved deadly traps and encountered strange wildlife, all while deciphering cryptic clues left behind by a mysterious civilization.`,
+    borderColor: "#acd157"
+  }
 }
+
+
+
+
+
+function displayStory(genre) {
+  for(let stor in storyObj){
+    for(let i=0; i<storyObj[stor].length; i++){
+        console.log("hello");
+       }
+    }
+ }  
+
+
+
+
+
+
+// function displayStory(genre) {
+//   for(let stories in storyObj){
+// if(genre==storyObj[stories]){
+//    resultParagraph.innerText = stories.story;
+//    storyContainer.style.borderColor = stories.borderColor;
+// }  
+// }
+// }
+
+
+console.log(displayStory("scary"));
+
+
+
+
