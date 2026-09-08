@@ -4,13 +4,13 @@
     background-color: #ffffff ;
     position: absolute;
     left: 90px;
-    bottom: 4px;
+    bottom: 85px;
     border-radius: 50%;
     animation-name: "mov0";
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    z-index: 999999;
+    z-index: 9999999;
 }
 
 
@@ -20,14 +20,14 @@
     background-color: #7F77DD ;
     position: absolute;
     left: 20px;
-    bottom: 19px;
+    bottom: 110px;
     transform: skewX(-10deg);
     border-radius: 20%;
     animation-name: "mov1";
     animation-duration: 16s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    z-index: 999999;
+    z-index: 9999999;
 }
 
 .petbot2{
@@ -36,7 +36,7 @@
     background-color: #080620 ;
     position: absolute;
     left: 44px;
-    bottom: 0px;
+    bottom: 95px;
     transform: skewX(20deg);
     animation-name: "mov2";
     animation-duration: 16s;
@@ -51,7 +51,7 @@
     background-color: #080620 ;
     position: absolute;
     left: 24px;
-    bottom: 0px;
+    bottom: 95px;
     transform: skewX(-20deg);
     animation-name: "mov3";
     animation-duration: 16s;
@@ -66,7 +66,7 @@
     background-color: #080620 ;
     position: absolute;
     left: 90px;
-    bottom: 0px;
+    bottom: 95px;
     transform: skewX(20deg);
     animation-name: "mov4";
     animation-duration: 16s;
@@ -81,7 +81,7 @@
     background-color: #080620 ;
     position: absolute;
     left: 74px;
-    bottom: 0px;
+    bottom: 95px;
     transform: skewX(-20deg);
     animation-name: "mov5";
     animation-duration: 16s;
@@ -96,7 +96,7 @@
     background-color: #7F77DD ;
     position: absolute;
     left: 114px;
-    bottom: 65px;
+    bottom: 152px;
     transform: skewX(-10deg);
     border-radius: 20%;
     animation-name: "mov6";
@@ -112,7 +112,7 @@
     background-color: #b19e26 ;
     position: absolute;
     left: 134px;
-    bottom: 70px;
+    bottom: 152px;
     animation-name: "mov7";
     animation-duration: 16s;
     animation-iteration-count: infinite;
@@ -126,13 +126,13 @@
     background-color: #080620 ;
     position: absolute;
     left: 122px;
-    bottom: 35px;
+    bottom: 125px;
     transform: skewX(20deg);
     animation-name: "mov8";
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    z-index: 999999;
+    z-index: 99999;
 }
 
 .petbot9{
@@ -142,7 +142,7 @@
     position: absolute;
     rotate: 90deg;
     left: 110px;
-    bottom: 25px;
+    bottom: 115px;
     animation-name: "mov9";
     animation-duration: 16s;
     animation-iteration-count: infinite;
@@ -156,7 +156,7 @@
     background-color: #000000 ;
     position: absolute;
     left: 20px;
-    bottom: 0px;
+    bottom: 85px;
     border-radius: 50%;
     animation-name: "mov10";
     animation-duration: 16s;
@@ -172,7 +172,7 @@
     background-color: #080620 ;
     position: absolute;
     left: 39px;
-    bottom: 0px;
+    bottom: 85px;
     border-radius: 50%;
     animation-name: "mov11";
     animation-duration: 16s;
@@ -188,7 +188,7 @@
     background-color: #080620 ;
     position: absolute;
     left: 69px;
-    bottom: 0px;
+    bottom: 85px;
     border-radius: 50%;
     animation-name: "mov12";
     animation-duration: 16s;
@@ -204,7 +204,7 @@
     background-color: #080620 ;
     position: absolute;
     left: 85px;
-    bottom: 0px;
+    bottom: 85px;
     border-radius: 50%;
     animation-name: "mov13";
     animation-duration: 16s;
@@ -219,7 +219,7 @@
     background-color: #ffffff ;
     position: absolute;
     left: 23px;
-    bottom: 4px;
+    bottom: 85px;
     border-radius: 50%;
     animation-name: "mov14";
     animation-duration: 16s;
@@ -235,7 +235,7 @@
     background-color: #ffffff ;
     position: absolute;
     left: 43px;
-    bottom: 4px;
+    bottom: 85px;
     border-radius: 50%;
     animation-name: "mov15";
     animation-duration: 16s;
@@ -251,7 +251,7 @@
     background-color: #ffffff ;
     position: absolute;
     left: 74px;
-    bottom: 4px;
+    bottom: 85px;
     border-radius: 50%;
     animation-name: "mov16";
     animation-duration: 16s;
@@ -270,7 +270,7 @@
 
 
 @keyframes mov0{
-       0%{
+     0%{
        transform: translate(0px);
     }5%{
        transform: translate(50px);
@@ -279,27 +279,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(9px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(15px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(17px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(22px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(28px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(34px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(38px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -317,7 +317,7 @@
     
 
 @keyframes mov1{
-      0%{
+    0%{
        transform: translate(0px);
     }5%{
        transform: translate(50px);
@@ -326,27 +326,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px) rotate(5deg);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(8px) rotate(6deg);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(10px) rotate(7deg);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(12px) rotate(8deg);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(17px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(23px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(29px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(33px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -372,27 +372,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(8px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(10px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(12px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(17px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(23px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(29px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(33px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -419,27 +419,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(8px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(10px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(14px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(19px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(25px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(31px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(35px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -457,7 +457,7 @@
     
 
 @keyframes mov4{
-      0%{
+     0%{
        transform: translate(0px);
     }5%{
        transform: translate(50px);
@@ -466,27 +466,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(9px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(15px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(17px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(22px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(28px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(34px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(38px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -504,7 +504,7 @@
     
 
 @keyframes mov5{
-      0%{
+   0%{
        transform: translate(0px);
     }5%{
        transform: translate(50px);
@@ -513,27 +513,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(8px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(11px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(15px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(19px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(25px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(30px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(35px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(40px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -747,27 +747,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(8px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(10px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(12px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(17px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(23px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(29px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(33px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -784,7 +784,7 @@
 }
 
 @keyframes mov11{
-    0%{
+   0%{
        transform: translate(0px);
     }5%{
        transform: translate(50px);
@@ -793,27 +793,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(8px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(10px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(14px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(19px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(25px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(31px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(35px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -832,7 +832,7 @@
 
 
 @keyframes mov12{
-      0%{
+    0%{
        transform: translate(0px);
     }5%{
        transform: translate(50px);
@@ -841,27 +841,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(9px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(15px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(17px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(22px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(28px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(34px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(38px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -880,7 +880,7 @@
 
 
 @keyframes mov13{
-     0%{
+    0%{
        transform: translate(0px);
     }5%{
        transform: translate(50px);
@@ -889,27 +889,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(8px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(11px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(15px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(19px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(25px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(30px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(35px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(40px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -927,7 +927,7 @@
 
 
 @keyframes mov14{
-  0%{
+     0%{
        transform: translate(0px);
     }5%{
        transform: translate(50px);
@@ -936,27 +936,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(8px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(10px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(12px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(17px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(23px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(29px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(33px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -975,7 +975,7 @@
 
 
 @keyframes mov15{
-   0%{
+    0%{
        transform: translate(0px);
     }5%{
        transform: translate(50px);
@@ -984,27 +984,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(8px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(10px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(14px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(19px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(25px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(31px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(35px);
     }75%{
        transform: translate(750px);
     }80%{
@@ -1023,7 +1023,7 @@
 
 
 @keyframes mov16{
-    0%{
+   0%{
        transform: translate(0px);
     }5%{
        transform: translate(50px);
@@ -1032,27 +1032,27 @@
     }15%{
        transform: translate(150px);
     }20%{
-       transform: translate(200px);
+       transform: translateX(200px) ;
     }25%{
-       transform: translate(250px);
+       transform: translate(250px) translateY(4px);
     }30%{
-       transform: translate(300px);
+       transform: translate(300px) translateY(5px);
     }35%{
-       transform: translate(350px);
+       transform: translate(350px) translateY(6px);
     }40%{
-       transform: translate(400px);
+       transform: translate(400px) translateY(9px);
     }45%{
-       transform: translate(450px);
+       transform: translate(450px) translateY(15px);
     }50%{
-       transform: translate(500px);
+       transform: translate(500px)translateY(17px);
     }55%{
-       transform: translate(550px);
+       transform: translate(550px)translateY(22px);
     }60%{
-       transform: translate(600px);
+       transform: translate(600px)translateY(28px);
     }65%{
-       transform: translate(650px);
+       transform: translate(650px)translateY(34px);
     }70%{
-       transform: translate(700px);
+       transform: translate(700px)translateY(38px);
     }75%{
        transform: translate(750px);
     }80%{
