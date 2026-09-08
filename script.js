@@ -11,6 +11,23 @@ const ball2 = document.querySelector(".ball2");
 const ball3 = document.querySelector(".ball3");
 const ball4 = document.querySelector(".ball4");
 const ball5 = document.querySelector(".ball5");
+const petbot0 = document.querySelector("petbot0");
+const petbot1 = document.querySelector("petbot1");
+const petbot2 = document.querySelector("petbot2");
+const petbot3 = document.querySelector("petbot3");
+const petbot4 = document.querySelector("petbot4");
+const petbot5 = document.querySelector("petbot5");
+const petbot6 = document.querySelector("petbot6");
+const petbot7 = document.querySelector("petbot7");
+const petbot8 = document.querySelector("petbot8");
+const petbot9 = document.querySelector("petbot9");
+const petbot10 = document.querySelector("petbot10");
+const petbot11 = document.querySelector("petbot11");
+const petbot12 = document.querySelector("petbot12");
+const petbot13 = document.querySelector("petbot13");
+const petbot14 = document.querySelector("petbot14");
+const petbot15 = document.querySelector("petbot15");
+const petbot16 = document.querySelector("petbot16");
 
 /* setting values----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
