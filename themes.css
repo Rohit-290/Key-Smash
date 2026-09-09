@@ -1,0 +1,517 @@
+.t{
+    height: 50px;
+    width: 100px;
+    background: linear-gradient(180deg, rgb(100, 181, 246, 0), rgb(187, 222, 251, 0), rgb(227, 242, 253, 0));
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 10%;
+}
+
+.night-Mode{
+    height: 30px;
+    width: 30px;
+    background-color: azure;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+}
+
+.rev0{
+    height: 10px;
+    width: 5px;
+    background-color: white;
+    animation-name: "star0";
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+}
+
+.rev1{
+    height: 12px;
+    width: 6px;
+    background-color: white;
+    animation-name: "star1";
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left: 0px;
+    top: 480px;
+}
+
+.rev2{
+    height: 14px;
+    width: 7px;
+    background-color: white;
+    animation-name: "star2";
+    animation-duration: 10s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left: 0px;
+    top: 680px;
+}
+
+.rev3{
+    height: 16px;
+    width: 8px;
+    background-color: white;
+    animation-name: "star3";
+    animation-delay: 1s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left: 450px;
+    bottom: 0px;
+}
+
+.rev4{
+    height: 18px;
+    width: 9px;
+    background-color: white;
+    animation-name: "star4";
+    animation-duration: 10s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left: 150px;
+    bottom: 0px;
+}
+
+.rev5{
+    height: 16px;
+    width: 8px;
+    background-color: white;
+    animation-name: "star5";
+    animation-duration: 10s;
+    animation-delay: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left: 750px;
+    bottom: 20px;
+}
+
+.rev6{
+    height: 14px;
+    width: 7px;
+    background-color: white;
+    animation-name: "star6";
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    right: 0px;
+    top: 150px;
+}
+
+.rev7{
+    height: 12px;
+    width: 6px;
+    background-color: white;
+    animation-name: "star7";
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    right: 0px;
+    top: 350px;
+}
+
+.rev8{
+    height: 14px;
+    width: 7px;
+    background-color: white;
+    animation-name: "star8";
+    animation-duration: 10s;
+    animation-delay: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    right: 0px;
+    top: 650px;
+}
+
+.rev9{
+    height: 16px;
+    width: 8px;
+    background-color: white;
+    animation-name: "star9";
+    animation-duration: 10s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    right: 0px;
+    top: 750px;
+}
+
+@keyframes star0 {
+   0% {
+       transform: translateX(0px) translateY(0px) 
+     }
+     10% {
+       transform: translateX(120px) translateY(-90px) 
+     }
+     20% {
+       transform: translateX(240px) translateY(-180px) 
+     }
+     30% {
+       transform: translateX(360px) translateY(-270px) 
+     }
+     40% {
+       transform: translateX(480px) translateY(-360px) 
+     }
+     50% {
+       transform: translateX(600px) translateY(-450px) 
+     }
+     60% {
+       transform: translateX(720px) translateY(-540px) 
+     }
+     70% {
+       transform: translateX(840px) translateY(-630px) 
+     }
+     80% {
+       transform: translateX(960px) translateY(-720px) 
+     }
+     90% {
+       transform: translateX(1080px) translateY(-810px) 
+     }
+     100% {
+       transform: translateX(1200px) translateY(-900px) 
+     }
+}
+
+@keyframes star1 {
+   0% {
+       transform: translateX(0px) translateY(0px) 
+     }
+     10% {
+       transform: translateX(120px) translateY(-90px) 
+     }
+     20% {
+       transform: translateX(240px) translateY(-180px) 
+     }
+     30% {
+       transform: translateX(360px) translateY(-270px) 
+     }
+     40% {
+       transform: translateX(480px) translateY(-360px) 
+     }
+     50% {
+       transform: translateX(600px) translateY(-450px) 
+     }
+     60% {
+       transform: translateX(720px) translateY(-540px) 
+     }
+     70% {
+       transform: translateX(840px) translateY(-630px) 
+     }
+     80% {
+       transform: translateX(960px) translateY(-720px) 
+     }
+     90% {
+       transform: translateX(1080px) translateY(-810px) 
+     }
+     100% {
+       transform: translateX(1200px) translateY(-900px) 
+     }
+}
+
+@keyframes star2 {
+   0% {
+       transform: translateX(0px) translateY(0px) 
+     }
+     10% {
+       transform: translateX(120px) translateY(-90px) 
+     }
+     20% {
+       transform: translateX(240px) translateY(-180px) 
+     }
+     30% {
+       transform: translateX(360px) translateY(-270px) 
+     }
+     40% {
+       transform: translateX(480px) translateY(-360px) 
+     }
+     50% {
+       transform: translateX(600px) translateY(-450px) 
+     }
+     60% {
+       transform: translateX(720px) translateY(-540px) 
+     }
+     70% {
+       transform: translateX(840px) translateY(-630px) 
+     }
+     80% {
+       transform: translateX(960px) translateY(-720px) 
+     }
+     90% {
+       transform: translateX(1080px) translateY(-810px) 
+     }
+     100% {
+       transform: translateX(1200px) translateY(-900px) 
+     }
+}
+
+@keyframes star3 {
+   0% {
+       transform: translateX(0px) translateY(0px) 
+     }
+     10% {
+       transform: translateX(120px) translateY(-90px) 
+     }
+     20% {
+       transform: translateX(240px) translateY(-180px) 
+     }
+     30% {
+       transform: translateX(360px) translateY(-270px) 
+     }
+     40% {
+       transform: translateX(480px) translateY(-360px) 
+     }
+     50% {
+       transform: translateX(600px) translateY(-450px) 
+     }
+     60% {
+       transform: translateX(720px) translateY(-540px) 
+     }
+     70% {
+       transform: translateX(840px) translateY(-630px) 
+     }
+     80% {
+       transform: translateX(960px) translateY(-720px) 
+     }
+     90% {
+       transform: translateX(1080px) translateY(-810px) 
+     }
+     100% {
+       transform: translateX(1200px) translateY(-900px) 
+     }
+}
+
+@keyframes star4 {
+   0% {
+       transform: translateX(0px) translateY(0px) 
+     }
+     10% {
+       transform: translateX(120px) translateY(-90px) 
+     }
+     20% {
+       transform: translateX(240px) translateY(-180px) 
+     }
+     30% {
+       transform: translateX(360px) translateY(-270px) 
+     }
+     40% {
+       transform: translateX(480px) translateY(-360px) 
+     }
+     50% {
+       transform: translateX(600px) translateY(-450px) 
+     }
+     60% {
+       transform: translateX(720px) translateY(-540px) 
+     }
+     70% {
+       transform: translateX(840px) translateY(-630px) 
+     }
+     80% {
+       transform: translateX(960px) translateY(-720px) 
+     }
+     90% {
+       transform: translateX(1080px) translateY(-810px) 
+     }
+     100% {
+       transform: translateX(1200px) translateY(-900px) 
+     }
+}
+
+@keyframes star5 {
+   0% {
+       transform: translateX(0px) translateY(0px) 
+     }
+     10% {
+       transform: translateX(120px) translateY(-90px) 
+     }
+     20% {
+       transform: translateX(240px) translateY(-180px) 
+     }
+     30% {
+       transform: translateX(360px) translateY(-270px) 
+     }
+     40% {
+       transform: translateX(480px) translateY(-360px) 
+     }
+     50% {
+       transform: translateX(600px) translateY(-450px) 
+     }
+     60% {
+       transform: translateX(720px) translateY(-540px) 
+     }
+     70% {
+       transform: translateX(840px) translateY(-630px) 
+     }
+     80% {
+       transform: translateX(960px) translateY(-720px) 
+     }
+     90% {
+       transform: translateX(1080px) translateY(-810px) 
+     }
+     100% {
+       transform: translateX(1200px) translateY(-900px) 
+     }
+}
+
+@keyframes star6 {
+   0% {
+       transform: translateX(0px) translateY(0px) 
+     }
+     10% {
+       transform: translateX(120px) translateY(-90px) 
+     }
+     20% {
+       transform: translateX(240px) translateY(-180px) 
+     }
+     30% {
+       transform: translateX(360px) translateY(-270px) 
+     }
+     40% {
+       transform: translateX(480px) translateY(-360px) 
+     }
+     50% {
+       transform: translateX(600px) translateY(-450px) 
+     }
+     60% {
+       transform: translateX(720px) translateY(-540px) 
+     }
+     70% {
+       transform: translateX(840px) translateY(-630px) 
+     }
+     80% {
+       transform: translateX(960px) translateY(-720px) 
+     }
+     90% {
+       transform: translateX(1080px) translateY(-810px) 
+     }
+     100% {
+       transform: translateX(1200px) translateY(-900px) 
+     }
+}
+
+@keyframes star7 {
+   0% {
+       transform: translateX(0px) translateY(0px) 
+     }
+     10% {
+       transform: translateX(120px) translateY(-90px) 
+     }
+     20% {
+       transform: translateX(240px) translateY(-180px) 
+     }
+     30% {
+       transform: translateX(360px) translateY(-270px) 
+     }
+     40% {
+       transform: translateX(480px) translateY(-360px) 
+     }
+     50% {
+       transform: translateX(600px) translateY(-450px) 
+     }
+     60% {
+       transform: translateX(720px) translateY(-540px) 
+     }
+     70% {
+       transform: translateX(840px) translateY(-630px) 
+     }
+     80% {
+       transform: translateX(960px) translateY(-720px) 
+     }
+     90% {
+       transform: translateX(1080px) translateY(-810px) 
+     }
+     100% {
+       transform: translateX(1200px) translateY(-900px) 
+     }
+}
+
+@keyframes star8 {
+   0% {
+       transform: translateX(0px) translateY(0px) 
+     }
+     10% {
+       transform: translateX(120px) translateY(-90px) 
+     }
+     20% {
+       transform: translateX(240px) translateY(-180px) 
+     }
+     30% {
+       transform: translateX(360px) translateY(-270px) 
+     }
+     40% {
+       transform: translateX(480px) translateY(-360px) 
+     }
+     50% {
+       transform: translateX(600px) translateY(-450px) 
+     }
+     60% {
+       transform: translateX(720px) translateY(-540px) 
+     }
+     70% {
+       transform: translateX(840px) translateY(-630px) 
+     }
+     80% {
+       transform: translateX(960px) translateY(-720px) 
+     }
+     90% {
+       transform: translateX(1080px) translateY(-810px) 
+     }
+     100% {
+       transform: translateX(1200px) translateY(-900px) 
+     }
+}
+
+@keyframes star9 {
+   0% {
+       transform: translateX(0px) translateY(0px) 
+     }
+     10% {
+       transform: translateX(120px) translateY(-90px) 
+     }
+     20% {
+       transform: translateX(240px) translateY(-180px) 
+     }
+     30% {
+       transform: translateX(360px) translateY(-270px) 
+     }
+     40% {
+       transform: translateX(480px) translateY(-360px) 
+     }
+     50% {
+       transform: translateX(600px) translateY(-450px) 
+     }
+     60% {
+       transform: translateX(720px) translateY(-540px) 
+     }
+     70% {
+       transform: translateX(840px) translateY(-630px) 
+     }
+     80% {
+       transform: translateX(960px) translateY(-720px) 
+     }
+     90% {
+       transform: translateX(1080px) translateY(-810px) 
+     }
+     100% {
+       transform: translateX(1200px) translateY(-900px) 
+     }
+}

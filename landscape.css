@@ -1,4 +1,4 @@
-.hill1{
+.hill0{
     height: 12vh;
     width: 54vw;
     position: absolute;
@@ -11,7 +11,7 @@
     z-index: 9999;
 }
 
-.hill2{
+.hill1{
     height: 16vh;
     width: 50vw;
     position: absolute;

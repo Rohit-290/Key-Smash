@@ -10,21 +10,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, rgb(100, 181, 246), rgb(187, 222, 251), rgb(227, 242, 253));
-    /* background: linear-gradient(180deg, rgba(46, 42, 61,1) 0%, rgba(74, 51, 88,1) 100%, rgba(26, 23, 37,1) 79%);
-} */
+   }
 
-.icon{ 
-    height: 100px;
-    width: 100px;
+.brand-name{
     font-size: 2rem;
-    background-image: url(sale.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 1000;
+    font-family:"Rock Salt";
+    color: #FDF6EC;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    left: 5px;
+    top: 0px;
 }
 
 .pbox{
@@ -43,11 +37,9 @@
     font-size: 300px;
     font-family: "Bangers";
     outline: none;
-    /* background: #d18a66;
-    background: linear-gradient(90deg, rgba(209, 138, 102, 0) 19%, rgba(214, 41, 67, 0) 100%, rgba(252, 176, 69, 0) 79%); */
 }
 
-.h{
+.hf{
     display: flex;
     font-family:"Rock Salt";
     color: #FDF6EC;
@@ -66,10 +58,10 @@
     display: flex;
     align-items: center;
     position: absolute;
-    right: 90px;
-    top: 40px;
+    left: 5px;
+    top: 55px;
     justify-content: space-between;
-    background: linear-gradient(180deg, rgba(46, 42, 61, 0.251) 0%, rgba(74, 51, 88,0.25) 100%, rgba(26, 23, 37,0.25) 79%);;
+    background: linear-gradient(180deg, rgba(46, 42, 61, 0) 0%, rgba(74, 51, 88,0) 100%, rgba(26, 23, 37,0) 79%);;
     border-radius: 8px;
 }
 

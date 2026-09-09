@@ -1,86 +1,103 @@
 /* popper creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
-for(let i=0; i<70; i++){
-let createParty = document.createElement("div");    
-let insert = document.querySelector(".pbox");  
-insert.prepend(createParty);
-createParty.classList.add("hurray");                                                                                                                                                                                                                                                                                                                          
+for (let i = 0; i < 70; i++) {
+  let createParty = document.createElement("div");
+  let insert = document.querySelector(".pbox");
+  insert.prepend(createParty);
+  createParty.classList.add("hurray");
 }
 
-for(let i=0; i<70; i++){
-let creationParty = document.getElementsByClassName("hurray")[i]; 
-creationParty.classList.add(`party${i}`);                                                                                                                                                                                                                                                                                                                  
+for (let i = 0; i < 70; i++) {
+  let creationParty = document.getElementsByClassName("hurray")[i];
+  creationParty.classList.add(`party${i}`);
 }
-  
-
 
 /* petbot creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
-
-for(let i=0; i<17; i++){
-let createPet = document.createElement("div");   
-let inserting = document.querySelector(".top");    
-inserting.append(createPet);      
-createPet.classList.add("p");    
-                                                                                                                                                                                                                                                                                                    
+for (let i = 0; i < 17; i++) {
+  let createPet = document.createElement("div");
+  let inserting = document.querySelector(".top");
+  inserting.append(createPet);
+  createPet.classList.add("p");
 }
 
-for(let i=0; i<17; i++){
-let creatingPet = document.getElementsByClassName("p")[i]; 
-creatingPet.classList.add(`petbot${i}`);                                                                                                                                                                                                                                                                                                                  
+for (let i = 0; i < 17; i++) {
+  let creatingPet = document.getElementsByClassName("p")[i];
+  creatingPet.classList.add(`petbot${i}`);
 }
 
 /* balloon creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
-for(let i=0; i<6; i++){
-let createBall = document.createElement("div");   
-let insert = document.querySelector(".pbox");  
-insert.append(createBall);
-createBall.classList.add("anime");                                                                                                                                                                                                                                                                                                                          
+for (let i = 0; i < 6; i++) {
+  let createBall = document.createElement("div");
+  let insert = document.querySelector(".pbox");
+  insert.append(createBall);
+  createBall.classList.add("anime");
 }
 
-for(let i=0; i<6; i++){
-let creationBall = document.getElementsByClassName("anime")[i]; 
-creationBall.classList.add(`ball${i}`);                                                                                                                                                                                                                                                                                                                  
+for (let i = 0; i < 6; i++) {
+  let creationBall = document.getElementsByClassName("anime")[i];
+  creationBall.classList.add(`ball${i}`);
 }
 
 /* panda creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
-for(let i=0; i<16; i++){
-let createPanda = document.createElement("div");   
-let insertPan = document.querySelector(".panda");  
-insertPan.append(createPanda);
-createPanda.setAttribute("id",`pan${i}`);                                                                                                                                                                                                                                                                                                                        
+for (let i = 0; i < 16; i++) {
+  let createPanda = document.createElement("div");
+  let insertPan = document.querySelector(".panda");
+  insertPan.append(createPanda);
+  createPanda.setAttribute("id", `pan${i}`);
 }
 
 /* landscape creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
-for(let i=0; i<2; i++){
-let createLand = document.createElement("div");    
-let insert = document.querySelector("body");  
-insert.append(createLand);
-createLand.classList.add("h");                                                                                                                                                                                                                                                                                                                          
+for (let i = 0; i < 2; i++) {
+  let createLand = document.createElement("div");
+  let insert = document.querySelector("body");
+  insert.append(createLand);
+  createLand.classList.add("h");
 }
 
-
-for(let i=0; i<3; i++){
-let creationLand = document.getElementsByClassName("h")[i]; 
-creationLand.classList.add(`hill${i}`);                                                                                                                                                                                                                                                                                                                  
+for (let i = 0; i < 2; i++) {
+  let creationLand = document.getElementsByClassName("h")[i];
+  creationLand.classList.add(`hill${i}`);
 }
 
 /* clouds creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
-
-for(let i=0; i<4; i++){
-let createClouds = document.createElement("div");    
-let insert = document.querySelector("body");  
-insert.append(createClouds);
-createClouds.classList.add("c");                                                                                                                                                                                                                                                                                                                          
+for (let i = 0; i < 4; i++) {
+  let createClouds = document.createElement("div");
+  let insert = document.querySelector("body");
+  insert.append(createClouds);
+  createClouds.classList.add("c");
 }
 
+for (let i = 0; i < 4; i++) {
+  let creationClouds = document.getElementsByClassName("c")[i];
+  creationClouds.classList.add(`clouds${i}`);
+}
+
+/* themes creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
+
+let createThemes = document.createElement("div");
+let insert = document.querySelector("body");
+insert.append(createThemes);
+createThemes.classList.add("t");
+
+let createThemesBtn = document.createElement("button");
+let insertBtn = document.querySelector(".t");
+insertBtn.append(createThemesBtn);
+createThemesBtn.classList.add("night-Mode");
 
 
-for(let i=0; i<4; i++){
-let creationClouds = document.getElementsByClassName("c")[i]; 
-creationClouds.classList.add(`clouds${i}`);                                                                                                                                                                                                                                                                                                                  
+for (let i = 0; i<10; i++) {
+  let createThemesStars = document.createElement("div");
+  let insertStars = document.querySelector(".top");
+  insertStars.append(createThemesStars);
+  createThemesStars.classList.add("s");
+}
+
+for (let i = 0; i < 10; i++) {
+  let creationStars = document.getElementsByClassName("s")[i];
+  creationStars.classList.add(`rev${i}`);
 }

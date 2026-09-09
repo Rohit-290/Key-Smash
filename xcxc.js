@@ -279,7 +279,9 @@ function displayStory(genre) {
        }
     }
  }  
-
+ 
+ const nb = document.querySelector("body");
+ nb.style.backgroundColor = "#000000"
 
 
 
