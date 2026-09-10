@@ -40,6 +40,9 @@ const rev6 = document.querySelector(".rev6");
 const rev7 = document.querySelector(".rev7");
 const rev8 = document.querySelector(".rev8");
 const rev9 = document.querySelector(".rev9");
+const onBoard = document.querySelector(".Onboard");
+const heading = document.querySelector(".hf");
+
 
 /* setting values----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
@@ -64,6 +67,8 @@ rev7.style.visibility = "hidden";
 rev8.style.visibility = "hidden";
 rev9.style.visibility = "hidden";
 
+heading.innerText = "Fun Starts Here!"
+
 
 /* building functions----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
@@ -72,10 +77,7 @@ const playBgm = () => {
     let p2 = aud1.play();
     aud1.loop = true;
     p2.then((res) => {
-      panda.style.visibility = "visible";
-      setTimeout(() => {
-        panda.style.visibility = "hidden";
-      }, 10000);
+      console.log("Fetched BGM");
     });
     p2.catch((rej) => {
       console.log("Unable to fetch BGM");
@@ -250,10 +252,6 @@ document.addEventListener("keydown", (e) => {
   nightMode.addEventListener("click",(e)=>{
   topp.style.background = "linear-gradient(180deg, #000000 0%, #0a0e27 40%, #1a1a3e 70%, #2d1b4e 100%)";
   th++;
-  console.log(th);
-  if(th%2==0){
-    topp.style.background = "linear-gradient(180deg, rgb(100, 181, 246), rgb(187, 222, 251), rgb(227, 242, 253))";
-  }
   rev0.style.visibility = "visible";
   rev1.style.visibility = "visible";
   rev2.style.visibility = "visible";
@@ -264,4 +262,29 @@ document.addEventListener("keydown", (e) => {
   rev7.style.visibility = "visible";
   rev8.style.visibility = "visible";
   rev9.style.visibility = "visible";
+  if(th%2==0){
+    topp.style.background = "linear-gradient(180deg, rgb(100, 181, 246), rgb(187, 222, 251), rgb(227, 242, 253))";
+    rev0.style.visibility = "hidden";
+    rev1.style.visibility = "hidden";
+    rev2.style.visibility = "hidden";
+    rev3.style.visibility = "hidden";
+    rev4.style.visibility = "hidden";
+    rev5.style.visibility = "hidden";
+    rev6.style.visibility = "hidden";
+    rev7.style.visibility = "hidden";
+    rev8.style.visibility = "hidden";
+    rev9.style.visibility = "hidden";
+  }
 })
+
+
+ window.addEventListener("load", ()=>{
+    onBoard.style.visibility = "visible";
+    onBoard.style.zIndex = "9999999";
+    panda.style.visibility = "visible";
+    panda.style.zIndex = "99999999";
+   setTimeout(()=>{
+    onBoard.style.visibility = "hidden";
+    panda.style.visibility = "hidden";
+   },10000)
+ })

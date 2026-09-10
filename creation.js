@@ -101,3 +101,16 @@ for (let i = 0; i < 10; i++) {
   let creationStars = document.getElementsByClassName("s")[i];
   creationStars.classList.add(`rev${i}`);
 }
+
+/* onboarding creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
+
+let createOnboard = document.createElement("div");
+let insertOnboard = document.querySelector(".top");
+insertOnboard.append(createOnboard);
+createOnboard.classList.add("Onboard");
+
+
+let createBoard = document.createElement("div");
+let insertBoard = document.querySelector(".Onboard");
+insertBoard.append(createBoard);
+createBoard.classList.add("hf");

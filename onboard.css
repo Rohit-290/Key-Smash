@@ -1,0 +1,24 @@
+.Onboard{
+    height: 60vh;
+    width:50vw;
+    background-color: #241d3e;
+    position: absolute;
+    left: 390px;
+    top: 160px;
+    border-radius: 5%;
+    border: 5px solid #f8f6f0;
+}
+
+.hf{
+    display: flex;
+    font-family:"Rock Salt";
+    color: #FDF6EC;
+    width: 30vw;
+    height: 10vw;
+    position: absolute;
+    left: 220px;
+    top: 0px;
+    font-weight: 900;
+    font-size: 2rem;
+    z-index: 99999;
+}

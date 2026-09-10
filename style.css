@@ -39,27 +39,14 @@
     outline: none;
 }
 
-.hf{
-    display: flex;
-    font-family:"Rock Salt";
-    color: #FDF6EC;
-    width: 800px;
-    height: 100px;
-    position: fixed;
-    left: 540px;
-    top: 0px;
-    font-weight: 900;
-    font-size: 40px;
-}
-
 .coun1{
-    height: 80px;
+    height: 40px;
     width: 350px;
     display: flex;
     align-items: center;
     position: absolute;
-    left: 5px;
-    top: 55px;
+    left: 505px;
+    top: 15px;
     justify-content: space-between;
     background: linear-gradient(180deg, rgba(46, 42, 61, 0) 0%, rgba(74, 51, 88,0) 100%, rgba(26, 23, 37,0) 79%);;
     border-radius: 8px;
@@ -69,7 +56,7 @@
 .c1{
     height: 40px;
     width: 30px;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -80,9 +67,12 @@
     width: 200px;
     display: flex;
     color:#8B7D93;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    position: absolute;
+    left: 15px;
+    top: 70px;
     align-items: center;
-    font-family:"Rock Salt";
+    font-family:"Press Start 2P";
     padding-right: 35px;
 }
 

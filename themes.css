@@ -1,21 +1,23 @@
 .t{
-    height: 50px;
+    height: 40px;
     width: 100px;
-    background: linear-gradient(180deg, rgb(100, 181, 246, 0), rgb(187, 222, 251, 0), rgb(227, 242, 253, 0));
+    background-color: #5a6f7a;
     position: absolute;
     top: 5px;
-    right: 5px;
-    border-radius: 10%;
+    right: 15px;
+    border-radius: 12%;
 }
 
 .night-Mode{
-    height: 30px;
-    width: 30px;
-    background-color: azure;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    border-radius: 50%;
+    height: 40px;
+    width: 100px;
+    background-color: #5a6f7a;
+    border-radius: 12%;
+    color: white;
+}
+
+.night-Mode:hover{
+   background-color: rgb(12, 49, 80);
 }
 
 .rev0{
@@ -32,8 +34,8 @@
 }
 
 .rev1{
-    height: 12px;
-    width: 6px;
+    height: 9px;
+    width: 4.5px;
     background-color: white;
     animation-name: "star1";
     animation-duration: 10s;
@@ -46,8 +48,8 @@
 }
 
 .rev2{
-    height: 14px;
-    width: 7px;
+    height: 8px;
+    width: 4px;
     background-color: white;
     animation-name: "star2";
     animation-duration: 10s;
@@ -60,8 +62,8 @@
 }
 
 .rev3{
-    height: 16px;
-    width: 8px;
+    height: 7px;
+    width: 3.5px;
     background-color: white;
     animation-name: "star3";
     animation-delay: 1s;
@@ -74,8 +76,8 @@
 }
 
 .rev4{
-    height: 18px;
-    width: 9px;
+    height: 6px;
+    width: 3px;
     background-color: white;
     animation-name: "star4";
     animation-duration: 10s;
@@ -88,8 +90,8 @@
 }
 
 .rev5{
-    height: 16px;
-    width: 8px;
+    height: 5px;
+    width: 2.5px;
     background-color: white;
     animation-name: "star5";
     animation-duration: 10s;
@@ -102,8 +104,8 @@
 }
 
 .rev6{
-    height: 14px;
-    width: 7px;
+    height: 4px;
+    width: 2px;
     background-color: white;
     animation-name: "star6";
     animation-duration: 10s;
@@ -115,8 +117,8 @@
 }
 
 .rev7{
-    height: 12px;
-    width: 6px;
+    height: 2px;
+    width: 1px;
     background-color: white;
     animation-name: "star7";
     animation-duration: 10s;
@@ -129,8 +131,8 @@
 }
 
 .rev8{
-    height: 14px;
-    width: 7px;
+    height: 4px;
+    width: 2px;
     background-color: white;
     animation-name: "star8";
     animation-duration: 10s;
@@ -143,8 +145,8 @@
 }
 
 .rev9{
-    height: 16px;
-    width: 8px;
+    height: 6px;
+    width: 3px;
     background-color: white;
     animation-name: "star9";
     animation-duration: 10s;
