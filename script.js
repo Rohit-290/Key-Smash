@@ -481,7 +481,6 @@ document.addEventListener("keydown", (e) => {
   let col = `rgb(${random(255)} ${random(255)} ${random(255)})`;
   if ((gen.innerText = e.key.toUpperCase())) {
     playBtn();
-
     if (counter == 50) {
       ball0.style.visibility = "visible";
       ball1.style.visibility = "visible";
@@ -496,12 +495,12 @@ document.addEventListener("keydown", (e) => {
       animation4.play();
       animation5.play();
     }
-
+ 
     const con = document.querySelector(".c2");
     con.innerText = counter++;
     gen.style.transform = `translate(${random(1200)}px , ${random(400)}px)`;
   }
-
+  
   gen.style.color = col;
   setTimeout(() => {
     gen.innerText = "";
