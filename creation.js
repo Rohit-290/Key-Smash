@@ -114,3 +114,17 @@ let createBoard = document.createElement("div");
 let insertBoard = document.querySelector(".Onboard");
 insertBoard.append(createBoard);
 createBoard.classList.add("hf");
+
+/* missing value creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
+
+let createSpacebar = document.createElement("div");
+let insertSpacebar = document.querySelector(".top");
+insertSpacebar.prepend(createSpacebar);
+createSpacebar.classList.add("Spacebar");
+
+/* Trophy count creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
+
+let createTrophy = document.createElement("div");
+let insertTrophy = document.querySelector(".coun1");
+insertTrophy.prepend(createTrophy);
+createTrophy.classList.add("trophy");

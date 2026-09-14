@@ -1,18 +1,18 @@
 .t{
-    height: 40px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     background-color: #5a6f7a;
     position: absolute;
     top: 5px;
     right: 15px;
-    border-radius: 12%;
+    border-radius: 50%;
 }
 
 .night-Mode{
-    height: 40px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     background-color: #5a6f7a;
-    border-radius: 12%;
+    border-radius: 50%;
     color: white;
 }
 

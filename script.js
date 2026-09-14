@@ -42,6 +42,8 @@ const rev8 = document.querySelector(".rev8");
 const rev9 = document.querySelector(".rev9");
 const onBoard = document.querySelector(".Onboard");
 const heading = document.querySelector(".hf");
+const spacebar = document.querySelector(".Spacebar");
+const trophy = document.querySelector(".trophy");
 
 
 /* setting values----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
@@ -53,6 +55,9 @@ function random(number) {
 }
 
 let th = 0;
+
+let medal = 1;
+trophy.innerText = 0 ;
 
 topp.style.background = "linear-gradient(180deg, rgb(100, 181, 246), rgb(187, 222, 251), rgb(227, 242, 253))";
 
@@ -100,6 +105,18 @@ const playBtn = () => {
 const cleandiv = () => {
   gen.innerText = "";
 };
+
+function lightingNightMOde () {
+  setTimeout(()=>{
+    nightMode.style.border = "4px solid white" ;
+    setTimeout(()=>{
+    nightMode.style.border = "4px solid green" ;
+  },1000);
+  setTimeout(()=>{
+    nightMode.style.border = "4px solid white" ;
+  },2000);
+  },1000);
+}
 
 const animation0 = ball0.animate(
   [
@@ -203,140 +220,220 @@ const animation5 = ball5.animate(
   { duration: 10000, iterations: "Infinity" },
 );
 
-// const botimation1 = ball5.animate(
+// const botimation1 = petbot0.animate(
 //   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+//     { transform: "translate(0px)" },
+//     { transform: "translate(50px)" },
+//     { transform: "translate(100px)" },
+//     { transform: "translate(150px)" },
+//     { transform: "translate(200px)" },
+//     { transform: "translate(250px,4px)" },
+//     { transform: "translate(300px,5px)" },
+//     { transform: "translate(350px,8px)" },
+//     { transform: "translate(400px,11px)" },
+//     { transform: "translate(450px,15px)" },
+//     { transform: "translate(500px,19px)" },
+//     { transform: "translate(550px,25px)" },
+//     { transform: "translate(600px,30px)" },
+//     { transform: "translate(650px,38px)" },
+//     { transform: "translate(700px,44px)" },
+//     { transform: "translate(750px,24px)" },
+//     { transform: "translate(800px,16px)" },
+//     { transform: "translate(850px,8px)"},
+//     { transform: "translate(900px,-4px)"},
+//     { transform: "translate(950px,-10px)"},
+//     { transform: "translate(1000px,-12px)"}
 //   ],
-//   { duration: 10000, iterations: "Infinity" },
+//   { duration: 16000, iterations: "Infinity", easing: "Linear" },
 // );
 
-// const botimation2 = ball5.animate(
+// const botimation2 = petbot1.animate(
 //   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+//     { transform: "translate(0px)" },
+//     { transform: "translate(50px)" },
+//     { transform: "translate(100px)" },
+//     { transform: "translate(150px)" },
+//     { transform: "translate(200px)" },
+//     { transform: "translate(250px,4px)" },
+//     { transform: "translate(300px,5px)" },
+//     { transform: "translate(350px,6px)rotate(5deg)" },
+//     { transform: "translate(400px,8px)rotate(6deg)" },
+//     { transform: "translate(450px,12px)rotate(7deg)" },
+//     { transform: "translate(500px,14px)rotate(8deg)" },
+//     { transform: "translate(550px)" }rotate(8deg),
+//     { transform: "translate(600px)" }rotate(8deg),
+//     { transform: "translate(650px)" }rotate(8deg),
+//     { transform: "translate(700px)" }rotate(8deg),
+//     { transform: "translate(750px,4px)rotate(-7deg)" },
+//     { transform: "translate(800px,5px)rotate(-6deg)" },
+//     { transform: "translate(850px,6px)rotate(-5deg)" },
+//     { transform: "translate(900px,8px)rotate(-7deg)" },
+//     { transform: "translate(950px,12px)rotate(-6deg)" },
+//     { transform: "translate(1000px,14px)rotate(-4deg)" },
 //   ],
-//   { duration: 10000, iterations: "Infinity" },
+//   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
 // );
 
-// const botimation3 = ball5.animate(
+// const botimation3 = petbot2.animate(
 //   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+//     { transform: "translate(0px,)" },
+//     { transform: "translate(50px)" },
+//     { transform: "translate(100px)" },
+//     { transform: "translate(150px)" },
+//     { transform: "translate(200px)" },
+//     { transform: "translate(250px,4px)" },
+//     { transform: "translate(300px,5px)" },
+//     { transform: "translate(350px,6px)" },
+//     { transform: "translate(400px,8px)" },
+//     { transform: "translate(450px,10px)" },
+//     { transform: "translate(500px,14px)" },
+//     { transform: "translate(550px,19px)" },
+//     { transform: "translate(600px,25px)" },
+//     { transform: "translate(650px,31px)" },
+//     { transform: "translate(700px,35px)" },
+//     { transform: "translate(750px,38px)" },
+//     { transform: "translate(800px,24px)" },
+//     { transform: "translate(850px,12px)" },
+//     { transform: "translate(900px,5px)" },
+//     { transform: "translate(950px,-5px)" },
+//     { transform: "translate(1000px,10px)" },
 //   ],
-//   { duration: 10000, iterations: "Infinity" },
+//   { duration: 16000, iterations: "Infinity", easing: "Linear" },
 // );
 
-// const botimation4 = ball5.animate(
+// const botimation4 = petbot3.animate(
 //   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+//     { transform: "translate(0px)" },
+//     { transform: "translate(50px)" },
+//     { transform: "translate(100px)" },
+//     { transform: "translate(150px)" },
+//     { transform: "translate(200px)" },
+//     { transform: "translate(250px,5px)" },
+//     { transform: "translate(300px,6px)" },
+//     { transform: "translate(350px,6px)" },
+//     { transform: "translate(400px,8px)" },
+//     { transform: "translate(450px,10px)" },
+//     { transform: "translate(500px,12px)" },
+//     { transform: "translate(550px,17px)" },
+//     { transform: "translate(600px,23px)" },
+//     { transform: "translate(650px,29px)" },
+//     { transform: "translate(700px,33px)" },
+//     { transform: "translate(750px,38px)" },
+//     { transform: "translate(800px,28px)" },
+//     { transform: "translate(850px,16px)" },
+//     { transform: "translate(900px,5px)" },
+//     { transform: "translate(950px,-5px)" },
+//     { transform: "translate(1000px,-8px)" },
 //   ],
-//   { duration: 10000, iterations: "Infinity" },
+//   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
 // );
 
-// const botimation5 = ball5.animate(
+// const botimation5 = petbot4.animate(
 //   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+//      { transform: "translate(0px)" },
+//     { transform: "translate(50px)" },
+//     { transform: "translate(100px)" },
+//     { transform: "translate(150px)" },
+//     { transform: "translate(200px)" },
+//     { transform: "translate(250px,4px)" },
+//     { transform: "translate(300px,5px)" },
+//     { transform: "translate(350px,8px)" },
+//     { transform: "translate(400px,11px)" },
+//     { transform: "translate(450px,15px)" },
+//     { transform: "translate(500px,19px)" },
+//     { transform: "translate(550px,25px)" },
+//     { transform: "translate(600px,30px)" },
+//     { transform: "translate(650px,38px)" },
+//     { transform: "translate(700px,44px)" },
+//     { transform: "translate(750px,24px)" },
+//     { transform: "translate(800px,16px)" },
+//     { transform: "translate(850px,8px)" },
+//     { transform: "translate(900px,-4px)" },
+//     { transform: "translate(950px,-10px)" },
+//     { transform: "translate(1000px,-12px)" },,
 //   ],
-//   { duration: 10000, iterations: "Infinity" },
+//   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
 // );
 
-// const botimation6 = ball5.animate(
+// const botimation6 = petbot5.animate(
 //   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+//     { transform: "translate(0px)" },
+//     { transform: "translate(50px)" },
+//     { transform: "translate(100px)" },
+//     { transform: "translate(150px)" },
+//     { transform: "translate(200px)" },
+//     { transform: "translate(250px,4px)" },
+//     { transform: "translate(300px,5px)" },
+//     { transform: "translate(350px,6px)" },
+//     { transform: "translate(400px,9px)" },
+//     { transform: "translate(450px,15px)" },
+//     { transform: "translate(500px,17px)" },
+//     { transform: "translate(550px,22px)" },
+//     { transform: "translate(600px,28px)" },
+//     { transform: "translate(650px,34px)" },
+//     { transform: "translate(700px,38px)" },
+//     { transform: "translate(750px,28px)" },
+//     { transform: "translate(800px,18px)" },
+//     { transform: "translate(850px,8px)" },
+//     { transform: "translate(900px,1px)" },
+//     { transform: "translate(950px,-6px)" },
+//     { transform: "translate(1000px,-12px)" },,
 //   ],
-//   { duration: 10000, iterations: "Infinity" },
+//   { duration: 16000, iterations: "Infinity" ,easing: "Linear" },
 // );
 
-// const botimation7 = ball5.animate(
+// const botimation7 = petbot6.animate(
 //   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+//    { transform: "translate(0px)rotate(0deg)" },
+//     { transform: "translate(50px,8px)rotate(45deg)" },
+//     { transform: "translate(92px,12px)rotate(70deg)" },
+//     { transform: "translate(146px,8px)rotate(45deg)" },
+//     { transform: "translate(200px)rotate(0deg)" },
+//     { transform: "translate(246px,8px)rotate(45deg)" },
+//     { transform: "translate(292px,12px)rotate(70deg)" },
+//     { transform: "translate(349px,8px)rotate(45deg)" },
+//     { transform: "translate(398px)rotate(0deg)" },
+//     { transform: "translate(448px,8px)rotate(45deg)" },
+//     { transform: "translate(491px,12px)rotate(70deg)" },
+//     { transform: "translate(548px,8px)rotate(45deg)" },
+//     { transform: "translate(600px)rotate(0deg)" },
+//     { transform: "translate(646px,8px)rotate(45deg)" },
+//     { transform: "translate(692px,12px)rotate(70deg)" },
+//     { transform: "translate(750px,8px)rotate(45deg)" },
+//     { transform: "translate(798px,0px)rotate(0deg)" },
+//     { transform: "translate(842px,8px)rotate(45deg)" },
+//     { transform: "translate(892px,12px)rotate(70deg)" },
+//     { transform: "translate(946px,9px)rotate(45deg)" },
+//     { transform: "translate(1000px,0px)rotate(0deg)" }
 //   ],
-//   { duration: 10000, iterations: "Infinity" },
+//   { duration: 16000, iterations: "Infinity" ,easing: "Linear" },
 // );
 
-// const botimation8 = ball5.animate(
+// const botimation8 = petbot7.animate(
 //   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+//    { transform: "translate(0px)rotate(0deg)" },
+//     { transform: "translate(50px)rotate(45deg)" },
+//     { transform: "translate(100px)rotate(70deg)" },
+//     { transform: "translate(150px)rotate(45deg)" },
+//     { transform: "translate(200px)rotate(0deg)" },
+//     { transform: "translate(250px,4px)" },
+//     { transform: "translate(300px,7px)" },
+//     { transform: "translate(350px,9px)rotate(5deg)" },
+//     { transform: "translate(400px,11px)rotate(6deg)" },
+//     { transform: "translate(450px,16px)rotate(7deg)" },
+//     { transform: "translate(500px,24px)rotate(8deg)" },
+//     { transform: "translate(550px,25px)rotate(8deg)" },
+//     { transform: "translate(600px,26px)rotate(8deg)" },
+//     { transform: "translate(650px,35px)rotate(8deg)" },
+//     { transform: "translate(700px,39px)" },
+//     { transform: "translate(750px,18px)" },
+//     { transform: "translate(800px,16px)" },
+//     { transform: "translate(850 px,0px)" },
+//     { transform: "translate(900px,-4px)" },
+//     { transform: "translate(950px,-10px)" },
+//     { transform: "translate(1000px,-12px)" }
 //   ],
-//   { duration: 10000, iterations: "Infinity" },
+//   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
 // );
 
 // const botimation9 = ball5.animate(
@@ -479,6 +576,11 @@ const animation5 = ball5.animate(
 document.addEventListener("keydown", (e) => {
   const gen = document.getElementById("b1");
   let col = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+  if(e.code === "Space"){
+    spacebar.innerText = "Spacebar";
+    spacebar.style.color = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+    spacebar.style.transform = `translate(${random(850)}px , ${random(400)}px)`;
+  }
   if ((gen.innerText = e.key.toUpperCase())) {
     playBtn();
     if (counter == 50) {
@@ -508,6 +610,11 @@ document.addEventListener("keydown", (e) => {
   if (counter == 2) {
     playBgm();
   }
+  
+  if(counter%50===0){
+    trophy.innerText = medal++;
+  }
+
   setTimeout(() => {
     ball0.style.visibility = "hidden";
     ball1.style.visibility = "hidden";
@@ -557,4 +664,9 @@ document.addEventListener("keydown", (e) => {
     onBoard.style.visibility = "hidden";
     panda.style.visibility = "hidden";
    },10000)
+   
+    lightingNightMOde() ;
  })
+
+
+ 

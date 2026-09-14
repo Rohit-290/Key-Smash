@@ -1,10 +1,10 @@
 .Onboard{
-    height: 60vh;
-    width:50vw;
+    height: 90vh;
+    width: 40vw;
     background-color: #241d3e;
     position: absolute;
-    left: 390px;
-    top: 160px;
+    left: 450px;
+    top: 40px;
     border-radius: 5%;
     border: 5px solid #f8f6f0;
 }
@@ -16,7 +16,7 @@
     width: 30vw;
     height: 10vw;
     position: absolute;
-    left: 220px;
+    left: 160px;
     top: 0px;
     font-weight: 900;
     font-size: 2rem;

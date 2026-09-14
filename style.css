@@ -83,6 +83,27 @@
     z-index: 99999;
 }
 
+.Spacebar{
+    height: 100px;
+    width: 200px;
+    font-size: 17rem;
+    font-family: "Bangers";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.trophy{
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    left: 90px;
+    font-family:"Press Start 2P";
+    font-size: 2rem;
+    background: linear-gradient(180deg, rgba(46, 42, 61, 0) 0%, rgba(74, 51, 88,0) 100%, rgba(26, 23, 37,0) 79%);;
+    color:#8B7D93;
+}
 
 /* animations----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 

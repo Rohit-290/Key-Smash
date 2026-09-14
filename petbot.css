@@ -602,7 +602,7 @@
        0%{
        transform: translate(0px)rotate(0deg);
     }5%{
-       transform: translate(50px)translateY(8px)(45deg);
+       transform: translate(50px)translateY(8px)rotate(45deg);
     }10%{
        transform: translate(92px)translateY(12px)rotate(70deg);
     }15%{
@@ -731,9 +731,9 @@
     }90%{
       transform: translateY(-900px) translateX(-2px)rotate(-8deg);
     }95%{
-      transform: translateY(-950px) translateX(-8px);
+      transform: translateY(-950px) translateX(-8px)rotate(-9deg);
     }100%{
-      transform: translateY(-1000px) translateX(-12px);
+      transform: translateY(-1000px) translateX(-10px)rotate(-9deg);
     }
 }
 
