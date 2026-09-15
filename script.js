@@ -44,7 +44,8 @@ const onBoard = document.querySelector(".Onboard");
 const heading = document.querySelector(".hf");
 const spacebar = document.querySelector(".Spacebar");
 const trophy = document.querySelector(".trophy");
-
+const load = document.querySelector(".loa");
+const screen = document.querySelector(".scr");
 
 /* setting values----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
@@ -107,16 +108,67 @@ const cleandiv = () => {
 };
 
 function lightingNightMOde () {
-  setTimeout(()=>{
-    nightMode.style.border = "4px solid white" ;
-    setTimeout(()=>{
-    nightMode.style.border = "4px solid green" ;
-  },1000);
-  setTimeout(()=>{
-    nightMode.style.border = "4px solid white" ;
-  },2000);
-  },1000);
-}
+  setInterval(()=>{
+    nightMode.style.borderTop = "4px solid white";
+    nightMode.style.borderBottom = "0px" ;
+    nightMode.style.borderRight = "0px";
+    nightMode.style.borderBottom = "0px";
+  },1000)
+  setInterval(()=>{
+    nightMode.style.borderRight = "4px solid white";
+    nightMode.style.borderTop = "0px";
+    nightMode.style.borderBottom = "0px"
+  },3000)
+  setInterval(()=>{
+    nightMode.style.borderBottom = "4px solid white" ;
+    nightMode.style.borderRight = "0px";
+    nightMode.style.borderTop = "0px";
+  },4000)
+  setInterval(()=>{
+    nightMode.style.borderLeft = "4px solid white" ;
+    nightMode.style.borderBottom = "0px" ;
+    nightMode.style.borderRight = "0px";
+    nightMode.style.borderTop = "0px";
+  },6000)
+  //  setInterval(()=>{
+  //   nightMode.style.borderTop = "8px solid white" ;
+  // },1000);
+  // setInterval(()=>{
+  //   nightMode.style.borderRight = "4px solid white" ;
+  // },2000)
+  // setInterval(()=>{
+  //   nightMode.style.borderBottom = "8px solid white" ;
+  // },1000)
+  // setInterval(()=>{
+  //   nightMode.style.Left = "4px solid white" ;
+  // },2000)
+ }
+const loadation = load.animate(
+  [
+    {width: "0 vw"},
+    {width: "0.7vw"},
+    {width: "1.4vw"},
+    {width: "2.1vw"},
+    {width: "2.8vw"},
+    {width: "3.5vw"},
+    {width: "4.2vw"},
+    {width: "4.9vw"},
+    {width: "5.6vw"},
+    {width: "6.3vw"},
+    {width: "7vw"},
+    {width: "7.7vw"},
+    {width: "8.4vw"},
+    {width: "9.1vw"},
+    {width: "9.8vw"},
+    {width: "10.5vw"},
+    {width: "11.2vw"},
+    {width: "11.9vw"},
+    {width: "12.6vw"},
+    {width: "13.3vw"},
+    {width: "14vw"}
+  ],
+  {duration: 10000, easing: "linear"}
+)
 
 const animation0 = ball0.animate(
   [
@@ -580,6 +632,9 @@ document.addEventListener("keydown", (e) => {
     spacebar.innerText = "Spacebar";
     spacebar.style.color = `rgb(${random(255)} ${random(255)} ${random(255)})`;
     spacebar.style.transform = `translate(${random(850)}px , ${random(400)}px)`;
+    setTimeout(() => {
+    spacebar.innerText = "";
+  }, 3000);
   }
   if ((gen.innerText = e.key.toUpperCase())) {
     playBtn();
@@ -597,12 +652,13 @@ document.addEventListener("keydown", (e) => {
       animation4.play();
       animation5.play();
     }
- 
+    console.log(e);
     const con = document.querySelector(".c2");
     con.innerText = counter++;
     gen.style.transform = `translate(${random(1200)}px , ${random(400)}px)`;
   }
-  
+
+   lightingNightMOde() ;
   gen.style.color = col;
   setTimeout(() => {
     gen.innerText = "";
@@ -664,8 +720,14 @@ document.addEventListener("keydown", (e) => {
     onBoard.style.visibility = "hidden";
     panda.style.visibility = "hidden";
    },10000)
-   
-    lightingNightMOde() ;
+    loadation.play();
+    setTimeout(()=>{
+      screen.innerText = "Ready for some fun?"
+    },0);
+     setTimeout(()=>{
+      screen.innerText = "Every tap is an adventure!"
+      screen.style.fontSize = "0.9rem";
+    },5000);
  })
 
 

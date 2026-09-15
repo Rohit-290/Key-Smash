@@ -115,6 +115,21 @@ let insertBoard = document.querySelector(".Onboard");
 insertBoard.append(createBoard);
 createBoard.classList.add("hf");
 
+let createLoading = document.createElement("div");
+let insertLoading = document.querySelector(".Onboard");
+insertLoading.append(createLoading);
+createLoading.classList.add("lo");
+
+let createLoad = document.createElement("div");
+let insertLoad = document.querySelector(".Onboard");
+insertLoad.append(createLoad);
+createLoad.classList.add("loa");
+
+let createScreen = document.createElement("div");
+let insertScreen = document.querySelector(".Onboard");
+insertScreen.append(createScreen);
+createScreen.classList.add("scr");
+
 /* missing value creation----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
 let createSpacebar = document.createElement("div");
