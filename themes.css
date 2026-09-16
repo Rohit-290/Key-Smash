@@ -11,13 +11,19 @@
 .night-Mode{
     height: 70px;
     width: 70px;
-    background-color: #5a6f7a;
+    background-color: #f6ef6a;
     border-radius: 50%;
     color: white;
 }
 
 .night-Mode:hover{
-   background-color: rgb(12, 49, 80);
+    height: 90px;
+    width: 90px;
+    background-color: #f6ef6a;
+    border-radius: 50%;
+    position: absolute;
+    left: -15px;
+    top: -2px
 }
 
 .rev0{

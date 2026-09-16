@@ -107,41 +107,33 @@ const cleandiv = () => {
   gen.innerText = "";
 };
 
-function lightingNightMOde () {
+function lightingNightMode () {
   setInterval(()=>{
     nightMode.style.borderTop = "4px solid white";
     nightMode.style.borderBottom = "0px" ;
     nightMode.style.borderRight = "0px";
-    nightMode.style.borderBottom = "0px";
-  },1000)
-  setInterval(()=>{
-    nightMode.style.borderRight = "4px solid white";
+    nightMode.style.borderLeft= "0px";
+      setTimeout(()=>{
+    nightMode.style.borderRight = "8px solid white";
     nightMode.style.borderTop = "0px";
-    nightMode.style.borderBottom = "0px"
-  },3000)
-  setInterval(()=>{
+    nightMode.style.borderBottom = "0px";
+    nightMode.style.borderLeft= "0px";
+  },100);
+     setTimeout(()=>{
     nightMode.style.borderBottom = "4px solid white" ;
     nightMode.style.borderRight = "0px";
     nightMode.style.borderTop = "0px";
-  },4000)
-  setInterval(()=>{
-    nightMode.style.borderLeft = "4px solid white" ;
+  },200);
+     setTimeout(()=>{
+    nightMode.style.borderLeft = "8px solid white" ;
     nightMode.style.borderBottom = "0px" ;
     nightMode.style.borderRight = "0px";
     nightMode.style.borderTop = "0px";
-  },6000)
-  //  setInterval(()=>{
-  //   nightMode.style.borderTop = "8px solid white" ;
-  // },1000);
-  // setInterval(()=>{
-  //   nightMode.style.borderRight = "4px solid white" ;
-  // },2000)
-  // setInterval(()=>{
-  //   nightMode.style.borderBottom = "8px solid white" ;
-  // },1000)
-  // setInterval(()=>{
-  //   nightMode.style.Left = "4px solid white" ;
-  // },2000)
+  },300)
+  },400)
+  
+  
+ 
  }
 const loadation = load.animate(
   [
@@ -272,356 +264,436 @@ const animation5 = ball5.animate(
   { duration: 10000, iterations: "Infinity" },
 );
 
-// const botimation1 = petbot0.animate(
-//   [
-//     { transform: "translate(0px)" },
-//     { transform: "translate(50px)" },
-//     { transform: "translate(100px)" },
-//     { transform: "translate(150px)" },
-//     { transform: "translate(200px)" },
-//     { transform: "translate(250px,4px)" },
-//     { transform: "translate(300px,5px)" },
-//     { transform: "translate(350px,8px)" },
-//     { transform: "translate(400px,11px)" },
-//     { transform: "translate(450px,15px)" },
-//     { transform: "translate(500px,19px)" },
-//     { transform: "translate(550px,25px)" },
-//     { transform: "translate(600px,30px)" },
-//     { transform: "translate(650px,38px)" },
-//     { transform: "translate(700px,44px)" },
-//     { transform: "translate(750px,24px)" },
-//     { transform: "translate(800px,16px)" },
-//     { transform: "translate(850px,8px)"},
-//     { transform: "translate(900px,-4px)"},
-//     { transform: "translate(950px,-10px)"},
-//     { transform: "translate(1000px,-12px)"}
-//   ],
-//   { duration: 16000, iterations: "Infinity", easing: "Linear" },
-// );
+// // const botimation1 = petbot0.animate(
+// //   [
+// //     { transform: "translate(0px)" },
+// //     { transform: "translate(50px)" },
+// //     { transform: "translate(100px)" },
+// //     { transform: "translate(150px)" },
+// //     { transform: "translate(200px)" },
+// //     { transform: "translate(250px,4px)" },
+// //     { transform: "translate(300px,5px)" },
+// //     { transform: "translate(350px,8px)" },
+// //     { transform: "translate(400px,11px)" },
+// //     { transform: "translate(450px,15px)" },
+// //     { transform: "translate(500px,19px)" },
+// //     { transform: "translate(550px,25px)" },
+// //     { transform: "translate(600px,30px)" },
+// //     { transform: "translate(650px,38px)" },
+// //     { transform: "translate(700px,44px)" },
+// //     { transform: "translate(750px,24px)" },
+// //     { transform: "translate(800px,16px)" },
+// //     { transform: "translate(850px,8px)"},
+// //     { transform: "translate(900px,-4px)"},
+// //     { transform: "translate(950px,-10px)"},
+// //     { transform: "translate(1000px,-12px)"}
+// //   ],
+// //   { duration: 16000, iterations: "Infinity", easing: "Linear" },
+// // );
 
-// const botimation2 = petbot1.animate(
-//   [
-//     { transform: "translate(0px)" },
-//     { transform: "translate(50px)" },
-//     { transform: "translate(100px)" },
-//     { transform: "translate(150px)" },
-//     { transform: "translate(200px)" },
-//     { transform: "translate(250px,4px)" },
-//     { transform: "translate(300px,5px)" },
-//     { transform: "translate(350px,6px)rotate(5deg)" },
-//     { transform: "translate(400px,8px)rotate(6deg)" },
-//     { transform: "translate(450px,12px)rotate(7deg)" },
-//     { transform: "translate(500px,14px)rotate(8deg)" },
-//     { transform: "translate(550px)" }rotate(8deg),
-//     { transform: "translate(600px)" }rotate(8deg),
-//     { transform: "translate(650px)" }rotate(8deg),
-//     { transform: "translate(700px)" }rotate(8deg),
-//     { transform: "translate(750px,4px)rotate(-7deg)" },
-//     { transform: "translate(800px,5px)rotate(-6deg)" },
-//     { transform: "translate(850px,6px)rotate(-5deg)" },
-//     { transform: "translate(900px,8px)rotate(-7deg)" },
-//     { transform: "translate(950px,12px)rotate(-6deg)" },
-//     { transform: "translate(1000px,14px)rotate(-4deg)" },
-//   ],
-//   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
-// );
+// // const botimation2 = petbot1.animate(
+// //   [
+// //     { transform: "translate(0px)" },
+// //     { transform: "translate(50px)" },
+// //     { transform: "translate(100px)" },
+// //     { transform: "translate(150px)" },
+// //     { transform: "translate(200px)" },
+// //     { transform: "translate(250px,4px)" },
+// //     { transform: "translate(300px,5px)" },
+// //     { transform: "translate(350px,6px)rotate(5deg)" },
+// //     { transform: "translate(400px,8px)rotate(6deg)" },
+// //     { transform: "translate(450px,12px)rotate(7deg)" },
+// //     { transform: "translate(500px,14px)rotate(8deg)" },
+// //     { transform: "translate(550px)rotate(8deg)"},
+// //     { transform: "translate(600px)rotate(8deg)"},
+// //     { transform: "translate(650px)rotate(8deg)"},
+// //     { transform: "translate(700px)rotate(8deg)"},
+// //     { transform: "translate(750px,4px)rotate(-7deg)" },
+// //     { transform: "translate(800px,5px)rotate(-6deg)" },
+// //     { transform: "translate(850px,6px)rotate(-5deg)" },
+// //     { transform: "translate(900px,8px)rotate(-7deg)" },
+// //     { transform: "translate(950px,12px)rotate(-6deg)" },
+// //     { transform: "translate(1000px,14px)rotate(-4deg)" },
+// //   ],
+// //   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
+// // );
 
-// const botimation3 = petbot2.animate(
-//   [
-//     { transform: "translate(0px,)" },
-//     { transform: "translate(50px)" },
-//     { transform: "translate(100px)" },
-//     { transform: "translate(150px)" },
-//     { transform: "translate(200px)" },
-//     { transform: "translate(250px,4px)" },
-//     { transform: "translate(300px,5px)" },
-//     { transform: "translate(350px,6px)" },
-//     { transform: "translate(400px,8px)" },
-//     { transform: "translate(450px,10px)" },
-//     { transform: "translate(500px,14px)" },
-//     { transform: "translate(550px,19px)" },
-//     { transform: "translate(600px,25px)" },
-//     { transform: "translate(650px,31px)" },
-//     { transform: "translate(700px,35px)" },
-//     { transform: "translate(750px,38px)" },
-//     { transform: "translate(800px,24px)" },
-//     { transform: "translate(850px,12px)" },
-//     { transform: "translate(900px,5px)" },
-//     { transform: "translate(950px,-5px)" },
-//     { transform: "translate(1000px,10px)" },
-//   ],
-//   { duration: 16000, iterations: "Infinity", easing: "Linear" },
-// );
+// // const botimation3 = petbot2.animate(
+// //   [
+// //     { transform: "translate(0px,)" },
+// //     { transform: "translate(50px)" },
+// //     { transform: "translate(100px)" },
+// //     { transform: "translate(150px)" },
+// //     { transform: "translate(200px)" },
+// //     { transform: "translate(250px,4px)" },
+// //     { transform: "translate(300px,5px)" },
+// //     { transform: "translate(350px,6px)" },
+// //     { transform: "translate(400px,8px)" },
+// //     { transform: "translate(450px,10px)" },
+// //     { transform: "translate(500px,14px)" },
+// //     { transform: "translate(550px,19px)" },
+// //     { transform: "translate(600px,25px)" },
+// //     { transform: "translate(650px,31px)" },
+// //     { transform: "translate(700px,35px)" },
+// //     { transform: "translate(750px,38px)" },
+// //     { transform: "translate(800px,24px)" },
+// //     { transform: "translate(850px,12px)" },
+// //     { transform: "translate(900px,5px)" },
+// //     { transform: "translate(950px,-5px)" },
+// //     { transform: "translate(1000px,10px)" },
+// //   ],
+// //   { duration: 16000, iterations: "Infinity", easing: "Linear" },
+// // );
 
-// const botimation4 = petbot3.animate(
-//   [
-//     { transform: "translate(0px)" },
-//     { transform: "translate(50px)" },
-//     { transform: "translate(100px)" },
-//     { transform: "translate(150px)" },
-//     { transform: "translate(200px)" },
-//     { transform: "translate(250px,5px)" },
-//     { transform: "translate(300px,6px)" },
-//     { transform: "translate(350px,6px)" },
-//     { transform: "translate(400px,8px)" },
-//     { transform: "translate(450px,10px)" },
-//     { transform: "translate(500px,12px)" },
-//     { transform: "translate(550px,17px)" },
-//     { transform: "translate(600px,23px)" },
-//     { transform: "translate(650px,29px)" },
-//     { transform: "translate(700px,33px)" },
-//     { transform: "translate(750px,38px)" },
-//     { transform: "translate(800px,28px)" },
-//     { transform: "translate(850px,16px)" },
-//     { transform: "translate(900px,5px)" },
-//     { transform: "translate(950px,-5px)" },
-//     { transform: "translate(1000px,-8px)" },
-//   ],
-//   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
-// );
+// // const botimation4 = petbot3.animate(
+// //   [
+// //     { transform: "translate(0px)" },
+// //     { transform: "translate(50px)" },
+// //     { transform: "translate(100px)" },
+// //     { transform: "translate(150px)" },
+// //     { transform: "translate(200px)" },
+// //     { transform: "translate(250px,5px)" },
+// //     { transform: "translate(300px,6px)" },
+// //     { transform: "translate(350px,6px)" },
+// //     { transform: "translate(400px,8px)" },
+// //     { transform: "translate(450px,10px)" },
+// //     { transform: "translate(500px,12px)" },
+// //     { transform: "translate(550px,17px)" },
+// //     { transform: "translate(600px,23px)" },
+// //     { transform: "translate(650px,29px)" },
+// //     { transform: "translate(700px,33px)" },
+// //     { transform: "translate(750px,38px)" },
+// //     { transform: "translate(800px,28px)" },
+// //     { transform: "translate(850px,16px)" },
+// //     { transform: "translate(900px,5px)" },
+// //     { transform: "translate(950px,-5px)" },
+// //     { transform: "translate(1000px,-8px)" },
+// //   ],
+// //   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
+// // );
 
-// const botimation5 = petbot4.animate(
-//   [
-//      { transform: "translate(0px)" },
-//     { transform: "translate(50px)" },
-//     { transform: "translate(100px)" },
-//     { transform: "translate(150px)" },
-//     { transform: "translate(200px)" },
-//     { transform: "translate(250px,4px)" },
-//     { transform: "translate(300px,5px)" },
-//     { transform: "translate(350px,8px)" },
-//     { transform: "translate(400px,11px)" },
-//     { transform: "translate(450px,15px)" },
-//     { transform: "translate(500px,19px)" },
-//     { transform: "translate(550px,25px)" },
-//     { transform: "translate(600px,30px)" },
-//     { transform: "translate(650px,38px)" },
-//     { transform: "translate(700px,44px)" },
-//     { transform: "translate(750px,24px)" },
-//     { transform: "translate(800px,16px)" },
-//     { transform: "translate(850px,8px)" },
-//     { transform: "translate(900px,-4px)" },
-//     { transform: "translate(950px,-10px)" },
-//     { transform: "translate(1000px,-12px)" },,
-//   ],
-//   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
-// );
+// // const botimation5 = petbot4.animate(
+// //   [
+// //      { transform: "translate(0px)" },
+// //     { transform: "translate(50px)" },
+// //     { transform: "translate(100px)" },
+// //     { transform: "translate(150px)" },
+// //     { transform: "translate(200px)" },
+// //     { transform: "translate(250px,4px)" },
+// //     { transform: "translate(300px,5px)" },
+// //     { transform: "translate(350px,8px)" },
+// //     { transform: "translate(400px,11px)" },
+// //     { transform: "translate(450px,15px)" },
+// //     { transform: "translate(500px,19px)" },
+// //     { transform: "translate(550px,25px)" },
+// //     { transform: "translate(600px,30px)" },
+// //     { transform: "translate(650px,38px)" },
+// //     { transform: "translate(700px,44px)" },
+// //     { transform: "translate(750px,24px)" },
+// //     { transform: "translate(800px,16px)" },
+// //     { transform: "translate(850px,8px)" },
+// //     { transform: "translate(900px,-4px)" },
+// //     { transform: "translate(950px,-10px)" },
+// //     { transform: "translate(1000px,-12px)" },,
+// //   ],
+// //   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
+// // );
 
-// const botimation6 = petbot5.animate(
-//   [
-//     { transform: "translate(0px)" },
-//     { transform: "translate(50px)" },
-//     { transform: "translate(100px)" },
-//     { transform: "translate(150px)" },
-//     { transform: "translate(200px)" },
-//     { transform: "translate(250px,4px)" },
-//     { transform: "translate(300px,5px)" },
-//     { transform: "translate(350px,6px)" },
-//     { transform: "translate(400px,9px)" },
-//     { transform: "translate(450px,15px)" },
-//     { transform: "translate(500px,17px)" },
-//     { transform: "translate(550px,22px)" },
-//     { transform: "translate(600px,28px)" },
-//     { transform: "translate(650px,34px)" },
-//     { transform: "translate(700px,38px)" },
-//     { transform: "translate(750px,28px)" },
-//     { transform: "translate(800px,18px)" },
-//     { transform: "translate(850px,8px)" },
-//     { transform: "translate(900px,1px)" },
-//     { transform: "translate(950px,-6px)" },
-//     { transform: "translate(1000px,-12px)" },,
-//   ],
-//   { duration: 16000, iterations: "Infinity" ,easing: "Linear" },
-// );
+// // const botimation6 = petbot5.animate(
+// //   [
+// //     { transform: "translate(0px)" },
+// //     { transform: "translate(50px)" },
+// //     { transform: "translate(100px)" },
+// //     { transform: "translate(150px)" },
+// //     { transform: "translate(200px)" },
+// //     { transform: "translate(250px,4px)" },
+// //     { transform: "translate(300px,5px)" },
+// //     { transform: "translate(350px,6px)" },
+// //     { transform: "translate(400px,9px)" },
+// //     { transform: "translate(450px,15px)" },
+// //     { transform: "translate(500px,17px)" },
+// //     { transform: "translate(550px,22px)" },
+// //     { transform: "translate(600px,28px)" },
+// //     { transform: "translate(650px,34px)" },
+// //     { transform: "translate(700px,38px)" },
+// //     { transform: "translate(750px,28px)" },
+// //     { transform: "translate(800px,18px)" },
+// //     { transform: "translate(850px,8px)" },
+// //     { transform: "translate(900px,1px)" },
+// //     { transform: "translate(950px,-6px)" },
+// //     { transform: "translate(1000px,-12px)" },,
+// //   ],
+// //   { duration: 16000, iterations: "Infinity" ,easing: "Linear" },
+// // );
 
-// const botimation7 = petbot6.animate(
-//   [
-//    { transform: "translate(0px)rotate(0deg)" },
-//     { transform: "translate(50px,8px)rotate(45deg)" },
-//     { transform: "translate(92px,12px)rotate(70deg)" },
-//     { transform: "translate(146px,8px)rotate(45deg)" },
-//     { transform: "translate(200px)rotate(0deg)" },
-//     { transform: "translate(246px,8px)rotate(45deg)" },
-//     { transform: "translate(292px,12px)rotate(70deg)" },
-//     { transform: "translate(349px,8px)rotate(45deg)" },
-//     { transform: "translate(398px)rotate(0deg)" },
-//     { transform: "translate(448px,8px)rotate(45deg)" },
-//     { transform: "translate(491px,12px)rotate(70deg)" },
-//     { transform: "translate(548px,8px)rotate(45deg)" },
-//     { transform: "translate(600px)rotate(0deg)" },
-//     { transform: "translate(646px,8px)rotate(45deg)" },
-//     { transform: "translate(692px,12px)rotate(70deg)" },
-//     { transform: "translate(750px,8px)rotate(45deg)" },
-//     { transform: "translate(798px,0px)rotate(0deg)" },
-//     { transform: "translate(842px,8px)rotate(45deg)" },
-//     { transform: "translate(892px,12px)rotate(70deg)" },
-//     { transform: "translate(946px,9px)rotate(45deg)" },
-//     { transform: "translate(1000px,0px)rotate(0deg)" }
-//   ],
-//   { duration: 16000, iterations: "Infinity" ,easing: "Linear" },
-// );
+// // const botimation7 = petbot6.animate(
+// //   [
+// //    { transform: "translate(0px)rotate(0deg)" },
+// //     { transform: "translate(50px,8px)rotate(45deg)" },
+// //     { transform: "translate(92px,12px)rotate(70deg)" },
+// //     { transform: "translate(146px,8px)rotate(45deg)" },
+// //     { transform: "translate(200px)rotate(0deg)" },
+// //     { transform: "translate(246px,8px)rotate(45deg)" },
+// //     { transform: "translate(292px,12px)rotate(70deg)" },
+// //     { transform: "translate(349px,8px)rotate(45deg)" },
+// //     { transform: "translate(398px)rotate(0deg)" },
+// //     { transform: "translate(448px,8px)rotate(45deg)" },
+// //     { transform: "translate(491px,12px)rotate(70deg)" },
+// //     { transform: "translate(548px,8px)rotate(45deg)" },
+// //     { transform: "translate(600px)rotate(0deg)" },
+// //     { transform: "translate(646px,8px)rotate(45deg)" },
+// //     { transform: "translate(692px,12px)rotate(70deg)" },
+// //     { transform: "translate(750px,8px)rotate(45deg)" },
+// //     { transform: "translate(798px,0px)rotate(0deg)" },
+// //     { transform: "translate(842px,8px)rotate(45deg)" },
+// //     { transform: "translate(892px,12px)rotate(70deg)" },
+// //     { transform: "translate(946px,9px)rotate(45deg)" },
+// //     { transform: "translate(1000px,0px)rotate(0deg)" }
+// //   ],
+// //   { duration: 16000, iterations: "Infinity" ,easing: "Linear" },
+// // );
 
-// const botimation8 = petbot7.animate(
-//   [
-//    { transform: "translate(0px)rotate(0deg)" },
-//     { transform: "translate(50px)rotate(45deg)" },
-//     { transform: "translate(100px)rotate(70deg)" },
-//     { transform: "translate(150px)rotate(45deg)" },
-//     { transform: "translate(200px)rotate(0deg)" },
-//     { transform: "translate(250px,4px)" },
-//     { transform: "translate(300px,7px)" },
-//     { transform: "translate(350px,9px)rotate(5deg)" },
-//     { transform: "translate(400px,11px)rotate(6deg)" },
-//     { transform: "translate(450px,16px)rotate(7deg)" },
-//     { transform: "translate(500px,24px)rotate(8deg)" },
-//     { transform: "translate(550px,25px)rotate(8deg)" },
-//     { transform: "translate(600px,26px)rotate(8deg)" },
-//     { transform: "translate(650px,35px)rotate(8deg)" },
-//     { transform: "translate(700px,39px)" },
-//     { transform: "translate(750px,18px)" },
-//     { transform: "translate(800px,16px)" },
-//     { transform: "translate(850 px,0px)" },
-//     { transform: "translate(900px,-4px)" },
-//     { transform: "translate(950px,-10px)" },
-//     { transform: "translate(1000px,-12px)" }
-//   ],
-//   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
-// );
+// // const botimation8 = petbot7.animate(
+// //   [
+// //   { transform: "translate(0px)" },
+// //     { transform: "translate(50px)" },
+// //     { transform: "translate(100px)" },
+// //     { transform: "translate(150px)" },
+// //     { transform: "translate(200px)" },
+// //     { transform: "translate(250px,4px)" },
+// //     { transform: "translate(300px,7px)" },
+// //     { transform: "translate(350px,9px)rotate(5deg)" },
+// //     { transform: "translate(400px,11px)rotate(6deg)" },
+// //     { transform: "translate(450px,16px)rotate(7deg)" },
+// //     { transform: "translate(500px,24px)rotate(8deg)" },
+// //     { transform: "translate(550px,25px)rotate(8deg)" },
+// //     { transform: "translate(600px,26px)rotate(8deg)" },
+// //     { transform: "translate(650px,35px)rotate(8deg)" },
+// //     { transform: "translate(700px,39px)" },
+// //     { transform: "translate(750px,18px)" },
+// //     { transform: "translate(800px,16px)" },
+// //     { transform: "translate(850px,0px)" },
+// //     { transform: "translate(900px,-4px)" },
+// //     { transform: "translate(950px,-10px)" },
+// //     { transform: "translate(1000px,0px)" }
+// //   ],
+// //   { duration: 16000, iterations: "Infinity" ,easing: "Linear"},
+// // );
 
-// const botimation9 = ball5.animate(
-//   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
-//   ],
-//   { duration: 10000, iterations: "Infinity" },
-// );
+// // const botimation9 = petbot8.animate(
+// //   [
+// //  { transform: "translateY(0px)" },
+// //     { transform: "translateY(-50px)" },
+// //     { transform: "translateY(-100px)" },
+// //     { transform: "translateY(-150px)" },
+// //     { transform: "translateY(-200px)" },
+// //     { transform: "translate(4px,-250px)" },
+// //     { transform: "translate(7px,-300px)" },
+// //     { transform: "translate(9px,-350px)rotate(5deg)" },
+// //     { transform: "translate(11px,-400px)rotate(6deg)" },
+// //     { transform: "translate(16px,-450px)rotate(7deg)" },
+// //     { transform: "translate(24px,-500px)rotate(8deg)" },
+// //     { transform: "translate(25px,-550px)rotate(8deg)" },
+// //     { transform: "translate(26px,-600px,rotate(8deg)" },
+// //     { transform: "translate(35px,-650px)rotate(8deg)" },
+// //     { transform: "translate(39px,-700px)" },
+// //     { transform: "translate(18px,-750px)" },
+// //     { transform: "translate(16px,-800px)" },
+// //     { transform: "translate(5px,-850px)rotate(-9deg)" },
+// //     { transform: "translate(-2px,-900px)rotate(-8deg)" },
+// //     { transform: "translate(-8px,-950px)rotate(-9deg)" },
+// //     { transform: "translate(-10px,1000px)rotate(-9deg)" }
+// //   ],
+// //   { duration: 16000, iterations: "Infinity" ,easing: "Linear" },
+// // );
 
-// const botimation10 = ball5.animate(
-//   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
-//   ],
-//   { duration: 10000, iterations: "Infinity" },
-// );
+// // const botimation10 = petbot9.animate(
+// //   [
+// //     { transform: "translateY(0px)" },
+// //     { transform: "translateY(50px)" },
+// //     { transform: "translateY(100px)" },
+// //     { transform: "translateY(150px)" },
+// //     { transform: "translateY(200px)" },
+// //     { transform: "translate(250px,5px)" },
+// //     { transform: "translate(300px,6px)" },
+// //     { transform: "translate(350px,6px)" },
+// //     { transform: "translate(400px,8px)" },
+// //     { transform: "translate(450px,10px)" },
+// //     { transform: "translate(500px,12px)" },
+// //     { transform: "translate(550px,17px)" },
+// //     { transform: "translate(600px,23px)" },
+// //     { transform: "translate(650px,29px)" },
+// //     { transform: "translate(700px,33px)" },
+// //     { transform: "translate(750px,38px)" },
+// //     { transform: "translate(800px,28px)" },
+// //     { transform: "translate(850px,16px)" },
+// //     { transform: "translate(900px,5px)" },
+// //     { transform: "translate(950px,-5px)" },
+// //     { transform: "translate(1000px,-8px)" }
+// //   ],
+// //   { duration: 16000, iterations: "Infinity" ,easing:"Linear"},
+// // );
 
-// const botimation11 = ball5.animate(
-//   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
-//   ],
-//   { duration: 10000, iterations: "Infinity" },
-// );
+// // const botimation11 = petbot10.animate(
+// //   [
+// //      { transform: "translateY(0px)" },
+// //     { transform: "translateY(50px)" },
+// //     { transform: "translateY(100px)" },
+// //     { transform: "translateY(150px)" },
+// //     { transform: "translateY(200px)" },
+// //     { transform: "translate(250px,4px)" },
+// //     { transform: "translate(300px,5px)" },
+// //     { transform: "translate(350px,6px)" },
+// //     { transform: "translate(400px,8px)" },
+// //     { transform: "translate(450px,10px)" },
+// //     { transform: "translate(500px,14px)" },
+// //     { transform: "translate(550px,19px)" },
+// //     { transform: "translate(600px,25px)" },
+// //     { transform: "translate(650px,31px)" },
+// //     { transform: "translate(700px,35px)" },
+// //     { transform: "translate(750px,38px)" },
+// //     { transform: "translate(800px,24px)" },
+// //     { transform: "translate(850px,12px)" },
+// //     { transform: "translate(900px,5px)" },
+// //     { transform: "translate(950px,-5px)" },
+// //     { transform: "translate(1000px,-10px)" }
+// //   ],
+// //   { duration: 10000, iterations: "Infinity" ,easing:"Linear"},
+// // );
 
-// const botimation12 = ball5.animate(
-//   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
-//   ],
-//   { duration: 10000, iterations: "Infinity" },
-// );
+// // const botimation12 = petbot11.animate(
+// //   [
+// //     { transform: "translateY(0px)" },
+// //     { transform: "translateY(50px)" },
+// //     { transform: "translateY(100px)" },
+// //     { transform: "translateY(150px)" },
+// //     { transform: "translateY(200px)" },
+// //     { transform: "translate(250px)" },
+// //     { transform: "translate(300px)" },
+// //     { transform: "translate(350px)" },
+// //     { transform: "translate(400px)" },
+// //     { transform: "translate(450px)" },
+// //     { transform: "translate(500px)" },
+// //     { transform: "translate(550px)" },
+// //     { transform: "translate(600px)" },
+// //     { transform: "translate(650px)" },
+// //     { transform: "translate(700px)" },
+// //     { transform: "translate(750px)" },
+// //     { transform: "translate(800px)" },
+// //     { transform: "translate(850px)" },
+// //     { transform: "translate(900px)" },
+// //     { transform: "translate(950px)" },
+// //     { transform: "translate(1000px)" }
+// //   ],
+// //   { duration: 10000, iterations: "Infinity" ,easing:"Linear"},
+// // );
 
-// const botimation13 = ball5.animate(
-//   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
-//   ],
-//   { duration: 10000, iterations: "Infinity" },
-// );
+// // const botimation13 = petbot12.animate(
+// //   [
+// //      { transform: "translateY(0px)" },
+// //     { transform: "translateY(50px)" },
+// //     { transform: "translateY(100px)" },
+// //     { transform: "translateY(150px)" },
+// //     { transform: "translateY(200px)" },
+// //     { transform: "translate(250px,4px)" },
+// //     { transform: "translate(300px,5px)" },
+// //     { transform: "translate(350px,8px)" },
+// //     { transform: "translate(400px,11px)" },
+// //     { transform: "translate(450px,15px)" },
+// //     { transform: "translate(500px,19px)" },
+// //     { transform: "translate(550px,25px)" },
+// //     { transform: "translate(600px,30px)" },
+// //     { transform: "translate(650px,38px)" },
+// //     { transform: "translate(700px,44px)" },
+// //     { transform: "translate(750px,24px)" },
+// //     { transform: "translate(800px,16px)" },
+// //     { transform: "translate(850px,8px)" },
+// //     { transform: "translate(900px,-4px)" },
+// //     { transform: "translate(950px,-10px)" },
+// //     { transform: "translate(1000px,-12px)" }
+// //   ],
+// //   { duration: 10000, iterations: "Infinity" ,easing:"Linear"},
+// // );
 
-// const botimation14 = ball5.animate(
-//   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
-//   ],
-//   { duration: 10000, iterations: "Infinity" },
-// );
+// // const botimation14 = petbot13.animate(
+// //   [
+// //     { transform: "translateY(0px)" },
+// //     { transform: "translateY(50px)" },
+// //     { transform: "translateY(100px)" },
+// //     { transform: "translateY(150px)" },
+// //     { transform: "translateY(200px)" },
+// //     { transform: "translate(250px,5px)" },
+// //     { transform: "translate(300px,6px)" },
+// //     { transform: "translate(350px,6px)" },
+// //     { transform: "translate(400px,8px)" },
+// //     { transform: "translate(450px,10px)" },
+// //     { transform: "translate(500px,12px)" },
+// //     { transform: "translate(550px,17px)" },
+// //     { transform: "translate(600px,23px)" },
+// //     { transform: "translate(650px,29px)" },
+// //     { transform: "translate(700px,33px)" },
+// //     { transform: "translate(750px,38px)" },
+// //     { transform: "translate(800px,28px)" },
+// //     { transform: "translate(850px,16px)" },
+// //     { transform: "translate(900px,5px)" },
+// //     { transform: "translate(950px,-5px)" },
+// //     { transform: "translate(1000px,-8px)" }
+// //   ],
+// //   { duration: 10000, iterations: "Infinity" ,easing:"Linear"},
+// // );
 
-// const botimation15 = ball5.animate(
-//   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
-//   ],
-//   { duration: 10000, iterations: "Infinity" },
-// );
+// // const botimation15 = petbot14.animate(
+// //   [
+// //       { transform: "translateY(0px)" },
+// //     { transform: "translateY(50px)" },
+// //     { transform: "translateY(100px)" },
+// //     { transform: "translateY(150px)" },
+// //     { transform: "translateY(200px)" },
+// //     { transform: "translate(250px,4px)" },
+// //     { transform: "translate(300px,5px)" },
+// //     { transform: "translate(350px,6px)" },
+// //     { transform: "translate(400px,8px)" },
+// //     { transform: "translate(450px,10px)" },
+// //     { transform: "translate(500px,14px)" },
+// //     { transform: "translate(550px,19px)" },
+// //     { transform: "translate(600px,25px)" },
+// //     { transform: "translate(650px,31px)" },
+// //     { transform: "translate(700px,35px)" },
+// //     { transform: "translate(750px,38px)" },
+// //     { transform: "translate(800px,24px)" },
+// //     { transform: "translate(850px,12px)" },
+// //     { transform: "translate(900px,5px)" },
+// //     { transform: "translate(950px,-5px)" },
+// //     { transform: "translate(1000px,-10px)" }
+// //   ],
+// //   { duration: 10000, iterations: "Infinity" ,easing:"Linear"},
+// // );
 
-// const botimation16 = ball5.animate(
-//   [
-//     { transform: "translate(0px,0px)" },
-//     { transform: "translate(-50px,-50px)" },
-//     { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-150px)" },
-//     { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-250px)" },
-//     { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-350px)" },
-//     { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-//     { transform: "translate(-50px,-450px)" },
-//     { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
-//   ],
-//   { duration: 10000, iterations: "Infinity" },
+// // const botimation16 = petbot15.animate(
+// //   [
+// //      { transform: "translateY(0px)" },
+// //     { transform: "translateY(50px)" },
+// //     { transform: "translateY(100px)" },
+// //     { transform: "translateY(150px)" },
+// //     { transform: "translateY(200px)" },
+// //     { transform: "translate(250px,4px)" },
+// //     { transform: "translate(300px,5px)" },
+// //     { transform: "translate(350px,6px)" },
+// //     { transform: "translate(400px,9px)" },
+// //     { transform: "translate(450px,15px)" },
+// //     { transform: "translate(500px,17px)" },
+// //     { transform: "translate(550px,22px)" },
+// //     { transform: "translate(600px,28px)" },
+// //     { transform: "translate(650px,34px)" },
+// //     { transform: "translate(700px,38px)" },
+// //     { transform: "translate(750px,28px)" },
+// //     { transform: "translate(800px,18px)" },
+// //     { transform: "translate(850px,8px)" },
+// //     { transform: "translate(900px,1px)" },
+// //     { transform: "translate(950px,-6px)" },
+// //     { transform: "translate(1000px,-12px)" },
+// //   ],
+// //   { duration: 10000, iterations: "Infinity" ,easing:"Linear"},
 // );
 /* event handling----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
@@ -658,7 +730,7 @@ document.addEventListener("keydown", (e) => {
     gen.style.transform = `translate(${random(1200)}px , ${random(400)}px)`;
   }
 
-   lightingNightMOde() ;
+  
   gen.style.color = col;
   setTimeout(() => {
     gen.innerText = "";
@@ -667,9 +739,13 @@ document.addEventListener("keydown", (e) => {
     playBgm();
   }
   
-  if(counter%50===0){
+  
+  
+    
+    if(counter===51){
     trophy.innerText = medal++;
-  }
+    }
+  
 
   setTimeout(() => {
     ball0.style.visibility = "hidden";
@@ -721,6 +797,7 @@ document.addEventListener("keydown", (e) => {
     panda.style.visibility = "hidden";
    },10000)
     loadation.play();
+    lightingNightMode() ;
     setTimeout(()=>{
       screen.innerText = "Ready for some fun?"
     },0);
