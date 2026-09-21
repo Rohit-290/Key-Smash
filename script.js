@@ -3,6 +3,7 @@
 const btn = document.querySelector(".btn");
 const aud = document.querySelector(".aud");
 const aud1 = document.querySelector(".aud1");
+const con = document.querySelector(".c2");
 const anime = document.getElementsByClassName(".anime");
 const panda = document.querySelector(".panda");
 const ball0 = document.querySelector(".ball0");
@@ -74,7 +75,6 @@ rev8.style.visibility = "hidden";
 rev9.style.visibility = "hidden";
 
 heading.innerText = "Fun Starts Here!"
-
 
 /* building functions----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
@@ -699,11 +699,14 @@ const animation5 = ball5.animate(
 
 document.addEventListener("keydown", (e) => {
   const gen = document.getElementById("b1");
+  con.innerText = counter++;
+  e.preventDefault();
   let col = `rgb(${random(255)} ${random(255)} ${random(255)})`;
   if(e.code === "Space"){
     spacebar.innerText = "Spacebar";
     spacebar.style.color = `rgb(${random(255)} ${random(255)} ${random(255)})`;
     spacebar.style.transform = `translate(${random(850)}px , ${random(400)}px)`;
+    e.preventDefault();
     setTimeout(() => {
     spacebar.innerText = "";
   }, 3000);
@@ -725,24 +728,19 @@ document.addEventListener("keydown", (e) => {
       animation5.play();
     }
     console.log(e);
-    const con = document.querySelector(".c2");
-    con.innerText = counter++;
     gen.style.transform = `translate(${random(1200)}px , ${random(400)}px)`;
   }
 
   
-  gen.style.color = col;
-  setTimeout(() => {
+    gen.style.color = col;
+    setTimeout(() => {
     gen.innerText = "";
-  }, 3000);
-  if (counter == 2) {
+    }, 3000);
+    if (counter == 2) {
     playBgm();
-  }
+    }
   
-  
-  
-    
-    if(counter===51){
+    if(con.innerText%50===0){
     trophy.innerText = medal++;
     }
   
