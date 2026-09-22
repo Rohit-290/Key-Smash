@@ -6,7 +6,7 @@
     border-bottom-left-radius: 90%;
     border-bottom-right-radius: 20%;
     rotate: 45deg;
-    animation-name: "myanime";
+    animation-name: "myanime1";
     animation-duration: 10s;
     animation-iteration-count: infinite;
     position: relative;
@@ -76,14 +76,50 @@
        
     }
     90%{
-        transform: translate(50px,-740px)scaleX(0.5)scaleY(0.5);
+        transform: translate(50px,-740px)scaleX(0.5)scaleY(0.6);
        
     }
     95%{
-        transform: translate(-50px,-750px)scaleX(0.4)scaleY(0.4);
+        transform: translate(-50px,-750px)scaleX(0.4)scaleY(0.6);
        
     }
     100%{
-        transform: translate(50px,-760px)scaleX(0)scaleY(0); 
+        transform: translate(50px,-760px)scaleX(0)scaleY(0.6); 
     }
 }
+
+@keyframes myanime1{
+    0%{
+        transform: translate(50px,-760px)scaleX(0)scaleY(0.6); 
+    }
+    10%{
+       transform: translate(35px,-790px)scaleX(0)scaleY(0.6); 
+    }
+    20%{
+        transform: translate(50px,-770px)scaleX(0)scaleY(0.55); 
+    }
+    30%{
+      transform: translate(70px,-800px)scaleX(0)scaleY(0.50); 
+    }
+    40%{
+      transform: translate(50px,-760px)scaleX(0)scaleY(0.45); 
+    }
+    50%{
+      transform: translate(80px,-830px)scaleX(0)scaleY(0.4); 
+    }
+    60%{
+      transform: translate(50px,-760px)scaleX(0)scaleY(0.35); 
+    }
+    70%{
+       transform: translate(50px,-760px)scaleX(0)scaleY(0.3); 
+    }
+    80%{
+      transform: translate(50px,-760px)scaleX(0)scaleY(0.25); 
+    }
+    90%{
+         transform: translate(50px,-760px)scaleX(0)scaleY(0.2); 
+    }
+    100%{
+        transform: translate(50px,-760px)scaleX(0)scaleY(0.1); 
+    }
+} 
