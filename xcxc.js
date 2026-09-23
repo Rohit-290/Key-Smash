@@ -350,3 +350,4 @@ function check (para){
 
 
 console.log(check(c1));
+console.log("Duck");
