@@ -599,48 +599,48 @@
     
 
 @keyframes mov7{
-       0%{
+ 0%{
        transform: translate(0px)rotate(0deg);
     }5%{
-       transform: translate(50px)translateY(3px)rotate(45deg);
+       transform: translate(50px)rotate(45deg);
     }10%{
-       transform: translate(90px)translateY(4px)rotate(70deg);
+       transform: translate(96px)translateY(4px)rotate(70deg);
     }15%{
-       transform: translate(144px)translateY(8px)rotate(45deg);
+       transform: translate(150px)rotate(45deg);
     }20%{
        transform: translate(200px)rotate(0deg);
     }25%{
-       transform: translate(246px)translateY(8px)rotate(45deg);
+       transform: translate(250px) translateY(4px) rotate(45deg);
     }30%{
-       transform: translate(295px)translateY(5px)rotate(70deg);
+       transform: translate(293px) translateY(12px) rotate(70deg);
     }35%{
-       transform: translate(353px)translateY(4px)rotate(45deg);
+       transform: translate(350px) translateY(9px) rotate(45deg);
     }40%{
-       transform: translate(408px)rotate(0deg);
+       transform: translate(400px) translateY(11px) rotate(0deg);
     }45%{
-       transform: translate(456px)translateY(6px)rotate(45deg);
+       transform: translate(450px) translateY(16px) rotate(45deg);
     }50%{
-       transform: translate(498px)translateY(8px)rotate(70deg);
+       transform: translate(493px) translateY(25px) rotate(70deg);
     }55%{
-       transform: translate(548px)translateY(10px)rotate(45deg);
+       transform: translate(550px) translateY(23px) rotate(45deg);
     }60%{
-       transform: translate(600px)rotate(0deg);
+       transform: translate(600px) translateY(29px) rotate(0deg);
     }65%{
-       transform: translate(646px)translateY(10px)rotate(45deg);
+       transform: translate(650px) translateY(35px) rotate(45deg);
     }70%{
-       transform: translate(692px)translateY(8px)rotate(70deg);
+       transform: translate(693px) translateY(44px) rotate(70deg);
     }75%{
-       transform: translate(750px)translateY(6px)rotate(45deg);
+       transform: translate(750px)translateY(28px)rotate(45deg);
     }80%{
-       transform: translate(798px)rotate(0deg);
+       transform: translate(802px)translateY(26px)rotate(0deg);
     }85%{
-      transform: translate(842px)translateY(-5px)rotate(45deg);
+      transform: translate(850px)translateY(7px)rotate(45deg);
     }90%{
-      transform: translate(892px)translateY(-4px)rotate(70deg);
+      transform: translate(893px)translateY(7px)rotate(70deg);
     }95%{
-      transform: translate(946px)translateY(-8px)rotate(45deg);
+      transform: translate(950px)translateY(-8px)rotate(45deg);
     }100%{
-      transform: translate(1000px)rotate(0deg);
+      transform: translate(1000px)translateY(-12px)rotate(0deg);
     }
 }
     

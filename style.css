@@ -116,10 +116,7 @@
     border-bottom-left-radius: 90%;
     border-bottom-right-radius: 20%;
     rotate: 45deg;
-    animation-name: "myanime";
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    visibility: hidden;
+    visibility: visible;
 }
 
 
@@ -133,27 +130,27 @@
 .ball1{
  position: relative;
  top: 700px;
- Right: 300px;
+ right: 450px;
  background-color: rgb(220, 30, 40);
 }
 
 .ball2{
  position: relative;
- top: 200px;
+ top: 700px;
  right: 200px;
  background-color: rgb(124, 200, 60);
 }
 
 .ball3{
  position: relative;
- top: 400px;
- Right: 480px;
+ top: 700px;
+ Right: 780px;
  background-color: rgb(255, 105, 180);
 }
 
 .ball4{
  position: relative;
- top: 300px;
+ top: 700px;
  right: 150px;
  background-color: rgb(48, 210, 200);
 }

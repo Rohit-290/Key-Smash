@@ -165,103 +165,103 @@ const loadation = load.animate(
 const animation0 = ball0.animate(
   [
     { transform: "translate(0px,0px)" },
-    { transform: "translate(-50px,-50px)" },
-    { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-150px)" },
-    { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-250px)" },
-    { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-350px)" },
-    { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-450px)" },
-    { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-100px)" },
+    { transform: "translate(50px,-200px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-300px)" },
+    { transform: "translate(50px,-400px) skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-500px)" },
+    { transform: "translate(50px,-600px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-700px)" },
+    { transform: "translate(50px,-800px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-900px)" },
+    { transform: "translate(50px,-1000px)skew(-6deg,-4deg)" },
   ],
-  { duration: 10000, iteration: "Infinity" },
+  { duration: 20000, iterations: "Infinity" ,delay: 5000},
 );
 
 const animation1 = ball1.animate(
   [
     { transform: "translate(0px,0px)" },
-    { transform: "translate(-50px,-50px)" },
-    { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-150px)" },
-    { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-250px)" },
-    { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-350px)" },
-    { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-450px)" },
-    { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-100px)" },
+    { transform: "translate(50px,-200px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-300px)" },
+    { transform: "translate(50px,-400px) skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-500px)" },
+    { transform: "translate(50px,-600px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-700px)" },
+    { transform: "translate(50px,-800px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-900px)" },
+    { transform: "translate(50px,-1200px)skew(-6deg,-4deg)" },
   ],
-  { duration: 10000, iteration: "Infinity" },
+  { duration: 21000, iterations: "Infinity" ,delay: 6000},
 );
 
 const animation2 = ball2.animate(
   [
     { transform: "translate(0px,0px)" },
-    { transform: "translate(-50px,-50px)" },
-    { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-150px)" },
-    { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-250px)" },
-    { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-350px)" },
-    { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-450px)" },
-    { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-100px)" },
+    { transform: "translate(50px,-200px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-300px)" },
+    { transform: "translate(50px,-400px) skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-500px)" },
+    { transform: "translate(50px,-600px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-700px)" },
+    { transform: "translate(50px,-800px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-900px)" },
+    { transform: "translate(50px,-1200px)skew(-6deg,-4deg)" },
   ],
-  { duration: 10000, iteration: "Infinity" },
+  { duration: 21000, iterations: "Infinity" ,delay: 7000},
 );
 
 const animation3 = ball3.animate(
   [
     { transform: "translate(0px,0px)" },
-    { transform: "translate(-50px,-50px)" },
-    { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-150px)" },
-    { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-250px)" },
-    { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-350px)" },
-    { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-450px)" },
-    { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-100px)" },
+    { transform: "translate(50px,-200px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-300px)" },
+    { transform: "translate(50px,-400px) skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-500px)" },
+    { transform: "translate(50px,-600px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-700px)" },
+    { transform: "translate(50px,-800px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-900px)" },
+    { transform: "translate(50px,-1200px)skew(-6deg,-4deg)" },
   ],
-  { duration: 10000, iteration: "Infinity" },
+  { duration: 21000, iterations: "Infinity" ,delay: 8000},
 );
 
 const animation4 = ball4.animate(
   [
     { transform: "translate(0px,0px)" },
-    { transform: "translate(-50px,-50px)" },
-    { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-150px)" },
-    { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-250px)" },
-    { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-350px)" },
-    { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-450px)" },
-    { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-100px)" },
+    { transform: "translate(50px,-200px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-300px)" },
+    { transform: "translate(50px,-400px) skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-500px)" },
+    { transform: "translate(50px,-600px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-700px)" },
+    { transform: "translate(50px,-800px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-900px)" },
+    { transform: "translate(50px,-1000px)skew(-6deg,-4deg)" },
   ],
-  { duration: 10000, iteration: "Infinity" },
+  { duration: 20000, iterations: "Infinity" ,delay: 13000},
 );
 
 const animation5 = ball5.animate(
   [
     { transform: "translate(0px,0px)" },
-    { transform: "translate(-50px,-50px)" },
-    { transform: "translate(50px,-100px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-150px)" },
-    { transform: "translate(50px,-200px) skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-250px)" },
-    { transform: "translate(50px,-300px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-350px)" },
-    { transform: "translate(50px,-400px)skew(-6deg,-4deg)" },
-    { transform: "translate(-50px,-450px)" },
-    { transform: "translate(50px,-500px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-100px)" },
+    { transform: "translate(50px,-200px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-300px)" },
+    { transform: "translate(50px,-400px) skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-500px)" },
+    { transform: "translate(50px,-600px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-700px)" },
+    { transform: "translate(50px,-800px)skew(-6deg,-4deg)" },
+    { transform: "translate(-50px,-900px)" },
+    { transform: "translate(50px,-1000px)skew(-6deg,-4deg)" },
   ],
-  { duration: 10000, iterations: "Infinity" },
+  { duration: 20000, iterations: "Infinity" ,delay: 10000},
 );
 
 // const botimation1 = petbot0.animate(
@@ -713,25 +713,11 @@ document.addEventListener("keydown", (e) => {
   }
   if ((gen.innerText = e.key.toUpperCase())) {
     playBtn();
-    if (counter == 50) {
-      ball0.style.visibility = "visible";
-      ball1.style.visibility = "visible";
-      ball2.style.visibility = "visible";
-      ball3.style.visibility = "visible";
-      ball4.style.visibility = "visible";
-      ball5.style.visibility = "visible";
-      animation0.play();
-      animation1.play();
-      animation2.play();
-      animation3.play();
-      animation4.play();
-      animation5.play();
-    }
     console.log(e);
     gen.style.transform = `translate(${random(1200)}px , ${random(400)}px)`;
   }
 
-  
+    
     gen.style.color = col;
     setTimeout(() => {
     gen.innerText = "";
@@ -743,16 +729,7 @@ document.addEventListener("keydown", (e) => {
     if(con.innerText%50===0){
     trophy.innerText = medal++;
     }
-  
-
-  setTimeout(() => {
-    ball0.style.visibility = "hidden";
-    ball1.style.visibility = "hidden";
-    ball2.style.visibility = "hidden";
-    ball3.style.visibility = "hidden";
-    ball4.style.visibility = "hidden";
-    ball5.style.visibility = "hidden";
-  }, 8000);
+    
 });
 
 
@@ -803,6 +780,13 @@ document.addEventListener("keydown", (e) => {
       screen.innerText = "Every tap is an adventure!"
       screen.style.fontSize = "0.9rem";
     },5000);
+
+    animation0.play();
+    animation1.play(); 
+    animation2.play();
+    animation3.play();
+    animation4.play();
+    animation5.play();
  })
 
 
