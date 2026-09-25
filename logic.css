@@ -6,7 +6,7 @@
     border-bottom-left-radius: 90%;
     border-bottom-right-radius: 20%;
     rotate: 45deg;
-    animation-name: "myanime1";
+    animation-name: "myanime";
     animation-duration: 10s;
     animation-iteration-count: infinite;
     position: relative;
@@ -14,6 +14,143 @@
     right: 100px;
     background-color: rgb(210, 230, 60);
 }
+
+.box1{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.box2{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+.box3{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+.box4{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.box5{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+.box6{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.one{
+   height: 4rem;
+   width: 4rem;
+   background-color: red;
+   position: relative;
+   rotate: -30deg;
+   top: 69.4px;
+   left: 57.29px;
+   border-start-end-radius: 80%;
+
+}
+
+.two{
+   height: 5rem;
+   width: 5rem;
+   background-color: red;
+   rotate: 40deg;
+   position: absolute;
+   top: 120px;
+   left: 205px;
+   border-start-end-radius: 80%;
+}
+
+ .three{
+   height: 4rem;
+   width: 4rem;
+   background-color: red;
+   position: absolute;
+   rotate: -200deg;
+   top: 80px;
+   left: 250px;
+   border-start-end-radius: 80%;
+}
+
+.four{
+   height: 3rem;
+   width: 3rem;
+   background-color: red;
+   position: absolute;
+   rotate: 90deg;
+   top: 80px;
+   left: 230px;
+   border-start-end-radius: 80%;
+}
+
+ .five{
+   height: 3rem;
+   width: 3rem;
+   background-color: red;
+   position: absolute;
+   rotate: -170deg;
+   top: 110px;
+   left: 290px;
+   border-start-end-radius: 80%;
+}
+
+.six{
+   height: 1rem;
+   width: 1rem;
+   background-color: red;
+   position: absolute;
+   rotate: 82deg;
+   top: 110px;
+   left: 218px;
+   border-start-end-radius: 80%;
+} 
+
+.seven{
+   height: 3rem;
+   width: 3rem;
+   background-color: red;
+   position: absolute;
+   rotate: -95deg;
+   top: 150px;
+   left: 280px;
+   border-start-end-radius: 80%;
+}
+
+.eight{
+   height: 2rem;
+   width: 2rem;
+   background-color: red;
+   position: absolute;
+   rotate: -122deg;
+   top: 140px;
+   left: 312px;
+   border-start-end-radius: 80%;
+}
+
+.nine{
+   height: 3rem;
+   width: 3rem;
+   background-color: red;
+   position: absolute;
+   top: 130px;
+   left: 262px;
+}
+
 
 
 @keyframes myanime{

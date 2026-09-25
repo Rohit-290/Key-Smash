@@ -108,59 +108,7 @@
 
 /* animations----------------------------------------------xxxxx-----------------------------------------------xxxxxxxxxxxxxxxxxxxx--------------------------------------------------------------------------*/
 
-.anime{
-    height: 60px;
-    width: 60px;
-    border-top-left-radius: 90%;
-    border-top-right-radius: 80%;
-    border-bottom-left-radius: 90%;
-    border-bottom-right-radius: 20%;
-    rotate: 45deg;
-    visibility: visible;
-}
 
-
-.ball0{
- position: relative;
- top: 600px;
- right: 100px;
- background-color: rgb(210, 230, 60);
-}
-
-.ball1{
- position: relative;
- top: 700px;
- right: 450px;
- background-color: rgb(220, 30, 40);
-}
-
-.ball2{
- position: relative;
- top: 700px;
- right: 200px;
- background-color: rgb(124, 200, 60);
-}
-
-.ball3{
- position: relative;
- top: 700px;
- Right: 780px;
- background-color: rgb(255, 105, 180);
-}
-
-.ball4{
- position: relative;
- top: 700px;
- right: 150px;
- background-color: rgb(48, 210, 200);
-}
-
-.ball5{
- position: relative;
- top: 700px;
- left: 100px;
- background-color: rgb(180, 140, 220);
-}
 
 
 
