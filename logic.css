@@ -21,36 +21,56 @@
     position: absolute;
     top: 200px;
     left: 400px;
+    scale: 0.6;
+    animation: "pop1";
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .box2{
+    height: 400px;
+    width: 400px;
     position: absolute;
-    top: 200px;
-    left: 800px;
+    top: 100px;
+    left: 500px;
+    scale: 0.5;
 }
 
 .box3{
+    height: 400px;
+    width: 400px;
     position: absolute;
     top: 200px;
     left: 600px;
+    scale: 0.4;
 }
 
 .box4{
+    height: 400px;
+    width: 400px;
     position: absolute;
     top: 300px;
-    left: 400px;
+    left: 600px;
+    scale: 0.3;
 }
 
 .box5{
+    height: 400px;
+    width: 400px;
     position: absolute;
-    top: 200px;
-    left: 800px;
+    top: 300px;
+    left: 500px;
+    scale: 0.2;
 }
 
 .box6{
+    height: 400px;
+    width: 400px;
     position: absolute;
-    top: 200px;
-    left: 400px;
+    top: 250px;
+    left: 450px;
+    scale: 0.1;
 }
 
 .one{
@@ -59,10 +79,9 @@
    background-color: red;
    position: relative;
    rotate: -30deg;
-   top: 69.4px;
-   left: 57.29px;
+   top: 120px;
+   left: 200px;
    border-start-end-radius: 80%;
-
 }
 
 .two{
@@ -70,9 +89,9 @@
    width: 5rem;
    background-color: red;
    rotate: 40deg;
-   position: absolute;
-   top: 120px;
-   left: 205px;
+   position: relative;
+   top: 20px;
+   left: 195px;
    border-start-end-radius: 80%;
 }
 
@@ -80,10 +99,10 @@
    height: 4rem;
    width: 4rem;
    background-color: red;
-   position: absolute;
-   rotate: -200deg;
-   top: 80px;
-   left: 250px;
+   position: relative;
+   rotate: -170deg;
+   top: -30px;
+   left: 270px;
    border-start-end-radius: 80%;
 }
 
@@ -91,9 +110,9 @@
    height: 3rem;
    width: 3rem;
    background-color: red;
-   position: absolute;
+   position: relative;
    rotate: 90deg;
-   top: 80px;
+   top: -120px;
    left: 230px;
    border-start-end-radius: 80%;
 }
@@ -102,10 +121,10 @@
    height: 3rem;
    width: 3rem;
    background-color: red;
-   position: absolute;
+   position: relative;
    rotate: -170deg;
-   top: 110px;
-   left: 290px;
+   top: -140px;
+   left: 260px;
    border-start-end-radius: 80%;
 }
 
@@ -113,10 +132,10 @@
    height: 1rem;
    width: 1rem;
    background-color: red;
-   position: absolute;
+   position: relative;
    rotate: 82deg;
-   top: 110px;
-   left: 218px;
+   top: -210px;
+   left: 198px;
    border-start-end-radius: 80%;
 } 
 
@@ -124,10 +143,10 @@
    height: 3rem;
    width: 3rem;
    background-color: red;
-   position: absolute;
+   position: relative;
    rotate: -95deg;
-   top: 150px;
-   left: 280px;
+   top: -180px;
+   left: 240px;
    border-start-end-radius: 80%;
 }
 
@@ -135,10 +154,10 @@
    height: 2rem;
    width: 2rem;
    background-color: red;
-   position: absolute;
+   position: relative;
    rotate: -122deg;
-   top: 140px;
-   left: 312px;
+   top: -210px;
+   left: 270px;
    border-start-end-radius: 80%;
 }
 
@@ -146,9 +165,9 @@
    height: 3rem;
    width: 3rem;
    background-color: red;
-   position: absolute;
-   top: 130px;
-   left: 262px;
+   position: relative;
+   bottom: 300px;
+   left: 250px;
 }
 
 
@@ -225,38 +244,39 @@
     }
 }
 
-@keyframes myanime1{
+
+@keyframes pop1{
     0%{
-        transform: translate(50px,-760px)scaleX(0)scaleY(0.6); 
+       transform: translate(0px,0px) ;
     }
     10%{
-       transform: translate(35px,-790px)scaleX(0)scaleY(0.6); 
+       transform: translate(0px,50px) ;
     }
     20%{
-        transform: translate(50px,-770px)scaleX(0)scaleY(0.55); 
+       transform: translate(0px,100px) ;
     }
     30%{
-      transform: translate(70px,-800px)scaleX(0)scaleY(0.50); 
+       transform: translate(0px,200px) ;
     }
-    40%{
-      transform: translate(50px,-760px)scaleX(0)scaleY(0.45); 
+    40%{  
+       transform: translate(0px,300px) ;
     }
     50%{
-      transform: translate(80px,-830px)scaleX(0)scaleY(0.4); 
+       transform: translate(0px,350px) ;
     }
     60%{
-      transform: translate(50px,-760px)scaleX(0)scaleY(0.35); 
+       transform: translate(0px,400px) ;
     }
     70%{
-       transform: translate(50px,-760px)scaleX(0)scaleY(0.3); 
+       transform: translate(0px,450px) ;
     }
     80%{
-      transform: translate(50px,-760px)scaleX(0)scaleY(0.25); 
+       transform: translate(0px,500px) ;
     }
     90%{
-         transform: translate(50px,-760px)scaleX(0)scaleY(0.2); 
+       transform: translate(0px,550px) ;
     }
     100%{
-        transform: translate(50px,-760px)scaleX(0)scaleY(0.1); 
+       transform: translate(0px,600px) ;
     }
-} 
+}

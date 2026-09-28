@@ -707,6 +707,7 @@ document.addEventListener("keydown", (e) => {
     spacebar.style.color = `rgb(${random(255)} ${random(255)} ${random(255)})`;
     spacebar.style.transform = `translate(${random(850)}px , ${random(400)}px)`;
     e.preventDefault();
+    console.log(animation5.timeStamp);
     setTimeout(() => {
     spacebar.innerText = "";
   }, 3000);
